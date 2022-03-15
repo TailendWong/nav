@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# 网址导航
+## 追剧
+[不开VIP影院](https://bukaivip1.com/)   
+[电影先生](http://www.dianyingim.com/)   
+[真不卡影院](http://zhenbuka.fun/)  
+[低端影视](https://ddrk.me/)  
+[星空影视](https://xkys.tv/)  
+[大师兄影视](https://dsxys.com/)  
+[555影视](https://555dy1.com/)    
+[追剧达人](https://vipmv.co/)  
 
-You can use the [editor on GitHub](https://github.com/TailendWong/nav.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 搜索引擎
+https://paulgo.io/  
+https://goobe.io/  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TailendWong/nav.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## 有趣的网站
+- [魔术橡皮擦](https://www.magiceraser.io/)  
+免费无需注册的图片魔术橡皮擦，快速删除图片中不想要的元素，也可作为去水印工具使用。  
