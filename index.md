@@ -10,8 +10,8 @@
 [追剧达人](https://vipmv.co/)  
 
 ## 搜索引擎
-[元搜索引擎](https://paulgo.io/)  
-[程序员搜索](https://goobe.io/) 
+[元搜索引擎](https://paulgo.io/)https://paulgo.io/  
+[程序员搜索](https://goobe.io/)https://goobe.io/  
 
 ## 有趣的网站
 - [魔术橡皮擦](https://www.magiceraser.io/)  
