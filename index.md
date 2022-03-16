@@ -1,12 +1,13 @@
 # 网址导航
 ## 追剧
-[不开VIP影院](https://bukaivip1.com/)   
+
 [电影先生](http://www.dianyingim.com/)   
 [真不卡影院](http://zhenbuka.fun/)  
-[低端影视](https://ddrk.me/)  
 [星空影视](https://xkys.tv/)  
 [大师兄影视](https://dsxys.com/)  
 [555影视](https://555dy1.com/)    
+[低端影视](https://ddrk.me/)  
+[不开VIP影院](https://bukaivip1.com/)   
 [追剧达人](https://vipmv.co/)  
 
 ## 搜索引擎
