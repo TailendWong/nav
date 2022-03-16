@@ -1,0 +1,19 @@
+<html>
+  <script>
+    var ua = navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i)=="micromessenger") {
+         var el=document.getElementById("url");
+         if(el) el.innerText=location.href
+    } else {
+         location.href="a.html"
+    }
+  </script>
+  <body>
+    <div align="center" style="font-size:2rem;margin-top: 20%">
+      <div>请用浏览器打开</div><br/>
+      <div style="color: grey">点击右上角“...”,选择在浏览器打开</div>
+      <div style="color: grey">或复制下面的地址在浏览器打开</div><br/>
+      <div id="url"></div>
+    </div>
+  </body>
+</html>
