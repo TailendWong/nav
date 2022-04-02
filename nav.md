@@ -29,8 +29,8 @@
 ## 有趣的网站
 - [魔术橡皮擦](https://www.magiceraser.io/)  
 免费无需注册的图片魔术橡皮擦，快速删除图片中不想要的元素，也可作为去水印工具使用。  
-- [国家中小学智慧教育平台](https://www.zxx.edu.cn/)
-教育部开放中小学教育平台，小学到高三全套教材和视频，全免费开放使用。
+- [国家中小学智慧教育平台](https://www.zxx.edu.cn/)  
+教育部开放中小学教育平台，小学到高三全套教材和视频，全免费开放使用。  
 网课：https://www.zxx.edu.cn/syncClassroom 
 教材：https://www.zxx.edu.cn/elecEdu
 
