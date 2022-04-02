@@ -11,7 +11,9 @@
 [追剧达人](https://vipmv.co/)  
 
 ## 电子书
-[ZLibrary](https://u1lib.org/) 
+[ZLibrary](https://u1lib.org/)  
+[熊猫搜书](https://www.sopandas.com/)  
+[鸠摩搜书](https://www.jiumodiary.com/)  
 
 ## 网盘资源
 [小纸条](https://u.gitcafe.net/)  
