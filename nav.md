@@ -28,6 +28,10 @@
 [元搜索引擎](https://paulgo.io/)https://paulgo.io/  
 [程序员搜索](https://goobe.io/)https://goobe.io/  
 
+
+## 短链接
+[D短链](https://ddl.ink/)https://ddl.ink/   
+
 ## 有趣的网站
 - [魔术橡皮擦](https://www.magiceraser.io/)  
 免费无需注册的图片魔术橡皮擦，快速删除图片中不想要的元素，也可作为去水印工具使用。  
