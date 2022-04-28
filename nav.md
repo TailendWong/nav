@@ -9,6 +9,7 @@
 [低端影视](https://ddrk.me/)  
 [不开VIP影院](https://bukaivip1.com/)   
 [追剧达人](https://vipmv.co/)  
+[影视森林](http://www.549.tv/)  
 
 ## 电子书
 [ZLibrary](https://u1lib.org/)  
@@ -43,4 +44,7 @@
 教材：https://www.zxx.edu.cn/elecEdu
 
 ## 分享源
-[火哥分享](https://www.firepx.com/)
+[火哥分享](https://www.firepx.com/)  
+[APP喵](https://www.appmiu.com/)  
+[tg搜](http://www.sssoou.com/)  
+
