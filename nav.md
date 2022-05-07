@@ -37,7 +37,9 @@
 - [魔术橡皮擦](https://www.magiceraser.io/)  
 免费无需注册的图片魔术橡皮擦，快速删除图片中不想要的元素，也可作为去水印工具使用。  
 - [SciHub学术导航](https://scihub.net.cn/)  
-免费下载文献。  
+免费下载文献。   
+- [谷粉学术](http://xueshu.99lb.net/)  
+- [google学术镜像](http://scholar.scqylaw.com/)  
 - [接码导航](https://jiema.pub/)    
 - [国家中小学智慧教育平台](https://www.zxx.edu.cn/)  
 教育部开放中小学教育平台，小学到高三全套教材和视频，全免费开放使用。  
