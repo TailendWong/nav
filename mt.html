@@ -8,16 +8,21 @@
     <script src="https://cdn.staticfile.org/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
-    <textarea name="url" id="url" cols="30" rows="10"></textarea>
+    <textarea name="url" id="url" cols="30" rows="10" placeholder="input your url or content which you want to convert to a qrcode"></textarea>
     <button onclick="fire()">generate</button>
     <div id="qr"></div>
 </body>
 <script>
+    var singleton = null
     function fire() {
         var input = document.getElementById('url').value;
         var str = input.split('&utm_campaign')[0];
         console.log(str)
-        new QRCode(document.getElementById('qr'), str);
+        if (singleton) {
+            singleton.makeCode(str)
+        } else {
+            singleton = new QRCode(document.getElementById('qr'), str);
+        }
     }
 </script>
 </html>
