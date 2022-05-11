@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://cdn.staticfile.org/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <textarea name="url" id="url" cols="30" rows="10"></textarea>
+    <button onclick="fire()">generate</button>
+    <div id="qr"></div>
+</body>
+<script>
+    function fire() {
+        var input = document.getElementById('url').value;
+        var str = input.split('&utm_campaign')[0];
+        alert(str)
+        new QRCode(document.getElementById('qr'), str);
+    }
+</script>
+</html>
