@@ -1,7 +1,7 @@
 # 网址导航
 ## 追剧
 
-[电影先生](http://www.dianyingim.com/)   
+[电影先生](http://dianying.im/)   
 [真不卡影院](http://zhenbuka.fun/)  
 [星空影视](https://xkys.tv/)  
 [大师兄影视](https://dsxys.com/)  
