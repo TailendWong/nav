@@ -27,8 +27,8 @@
 [阿里云搜](https://aliyunso.cn/)  
 ### 百度网盘
 [百度网盘搜索专区](http://wp.soshoulu.com/)  
-[懒盘搜索](https://lzpan.com/)
-[各网盘资源搜索app](https://wwd.lanzouj.com/iZdm505a1thi)  
+[懒盘搜索](https://lzpan.com/)  
+[各网盘资源搜索app](https://wwd.lanzouj.com/iZdm505a1thi/)  
 
 ## 搜索引擎
 > 优秀的百度搜索代替品，清爽无广告  
@@ -40,7 +40,7 @@
 ## 壁纸
 [轻壁纸](https://bz.qinggongju.com/)  
 [WallHere](https://wallhere.com/)  
-[wallhaven](https://wallhaven.cc/)  
+[WallHaven](https://wallhaven.cc/)  
 
 ## 短链接
 [D短链](https://ddl.ink/)https://ddl.ink/   
