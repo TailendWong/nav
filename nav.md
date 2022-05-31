@@ -17,23 +17,37 @@
 [鸠摩搜书](https://www.jiumodiary.com/)  
 
 ## 网盘资源
-[小纸条](https://u.gitcafe.net/)  
+### 阿里云盘
 [奈斯搜索](https://www.niceso.fun/)  
-[阿里盘搜](https://www.upyunso.com/)  
-[阿里盘搜](https://www.alipansou.com/)  
+[小纸条](https://u.gitcafe.net/)  
+[阿里盘搜1](https://www.upyunso.com/)  
+[阿里盘搜2](https://www.alipansou.com/)  
 [阿里云盘小站](https://wpxz.org/)  
 [云盘资源网](https://www.yunpanziyuan.com/)  
 [阿里云搜](https://aliyunso.cn/)  
+### 百度网盘
+[百度网盘搜索专区](http://wp.soshoulu.com/)  
+[懒盘搜索](https://lzpan.com/)
+[各网盘资源搜索app](https://wwd.lanzouj.com/iZdm505a1thi)  
 
 ## 搜索引擎
+> 优秀的百度搜索代替品，清爽无广告  
+
+[F搜索引擎](https://fsoufsou.com/)https://fsoufsou.com/  
 [元搜索引擎](https://paulgo.io/)https://paulgo.io/  
 [程序员搜索](https://goobe.io/)https://goobe.io/  
 
+## 壁纸
+[轻壁纸](https://bz.qinggongju.com/)  
+[WallHere](https://wallhere.com/)  
+[wallhaven](https://wallhaven.cc/)  
 
 ## 短链接
 [D短链](https://ddl.ink/)https://ddl.ink/   
 
 ## 有趣的网站
+- [网址导航站](https://imyshare.com/)  
+目前为止本人最喜爱的导航站
 - [魔术橡皮擦](https://www.magiceraser.io/)  
 免费无需注册的图片魔术橡皮擦，快速删除图片中不想要的元素，也可作为去水印工具使用。  
 - [SciHub学术导航](https://scihub.net.cn/)  
@@ -47,7 +61,9 @@
 教材：https://www.zxx.edu.cn/elecEdu
 
 ## 分享源
+[不死鸟分享](https://iui.su/)  
 [火哥分享](https://www.firepx.com/)  
 [APP喵](https://www.appmiu.com/)  
 [tg搜](http://www.sssoou.com/)  
+
 
