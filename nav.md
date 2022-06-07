@@ -27,6 +27,8 @@
 [阿里云搜](https://aliyunso.cn/)  
 ### 百度网盘
 [百度网盘搜索专区](http://wp.soshoulu.com/)  
+[小马盘搜](https://www.xiaomapan.com/)  
+[哎吆喂啊](http://www.aiyoweia.com/)  
 [懒盘搜索](https://lzpan.com/)  
 [各网盘资源搜索app](https://wwd.lanzouj.com/iZdm505a1thi/)  
 
