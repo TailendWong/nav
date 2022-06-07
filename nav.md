@@ -47,6 +47,11 @@
 ## 短链接
 [D短链](https://ddl.ink/)https://ddl.ink/   
 
+# github镜像
+[kgithub搜索栏为谷歌搜索](https://kgithub.com/)  
+[镜像1](https://hub.連接.台灣/)  
+[镜像2](https://hub.おうか.tw/)  
+
 ## 有趣的网站
 - [网址导航站](https://imyshare.com/)  
 目前为止本人最喜爱的导航站
@@ -67,5 +72,4 @@
 [火哥分享](https://www.firepx.com/)  
 [APP喵](https://www.appmiu.com/)  
 [tg搜](http://www.sssoou.com/)  
-
-
+[好网站不私藏归档](good_sites.html)
