@@ -34,8 +34,8 @@
 
 ## 搜索引擎
 > 优秀的百度搜索代替品，清爽无广告  
-
 [F搜索引擎](https://fsoufsou.com/)https://fsoufsou.com/  
+[无追搜索](https://www.wuzhuiso.com/)  
 [元搜索引擎](https://paulgo.io/)https://paulgo.io/  
 [程序员搜索](https://goobe.io/)https://goobe.io/  
 
