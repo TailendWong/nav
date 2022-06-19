@@ -48,6 +48,7 @@
 [D短链](https://ddl.ink/)https://ddl.ink/   
 
 # github镜像
+[fastgit](https://hub.fastgit.xyz/)  
 [kgithub搜索栏为谷歌搜索](https://kgithub.com/)  
 [镜像1](https://hub.連接.台灣/)  
 [镜像2](https://hub.おうか.tw/)  
@@ -64,8 +65,8 @@
 - [接码导航](https://jiema.pub/)    
 - [国家中小学智慧教育平台](https://www.zxx.edu.cn/)  
 教育部开放中小学教育平台，小学到高三全套教材和视频，全免费开放使用。  
-网课：https://www.zxx.edu.cn/syncClassroom 
-教材：https://www.zxx.edu.cn/elecEdu
+网课：[https://www.zxx.edu.cn/syncClassroom](https://www.zxx.edu.cn/syncClassroom) 
+教材：[https://www.zxx.edu.cn/elecEdu](https://www.zxx.edu.cn/elecEdu)
 
 ## 分享源
 [不死鸟分享](https://iui.su/)  
