@@ -66,7 +66,8 @@
 - [国家中小学智慧教育平台](https://www.zxx.edu.cn/)  
 教育部开放中小学教育平台，小学到高三全套教材和视频，全免费开放使用。  
 网课：[https://www.zxx.edu.cn/syncClassroom](https://www.zxx.edu.cn/syncClassroom) 
-教材：[https://www.zxx.edu.cn/elecEdu](https://www.zxx.edu.cn/elecEdu)
+教材：[https://www.zxx.edu.cn/elecEdu](https://www.zxx.edu.cn/elecEdu)  
+- [可协作的白板](https://excalidraw.com/)  
 
 ## 分享源
 [不死鸟分享](https://iui.su/)  
