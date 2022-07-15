@@ -2,14 +2,14 @@
 ## 追剧
 
 [电影先生](http://dianying.im/)   
-[真不卡影院](http://zhenbuka.fun/)  
-[星空影视](https://xkys.tv/)  
 [大师兄影视](https://dsxys.com/)  
 [555影视](https://555dy1.com/)    
 [低端影视](https://ddrk.me/)  
 [不开VIP影院](https://bukaivip1.com/)   
 [追剧达人](https://vipmv.co/)  
 [影视森林](http://www.549.tv/)  
+[真不卡影院](http://zhenbuka.fun/)  
+[星空影视](https://xkys.tv/)  
 
 ## 电子书
 [ZLibrary偶尔需vpn](https://u1lib.org/)  
