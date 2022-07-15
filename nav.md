@@ -12,9 +12,10 @@
 [影视森林](http://www.549.tv/)  
 
 ## 电子书
-[ZLibrary](https://u1lib.org/)  
+[ZLibrary偶尔需vpn](https://u1lib.org/)  
 [熊猫搜书](https://www.sopandas.com/)  
 [鸠摩搜书](https://www.jiumodiary.com/)  
+[elib需登录](https://elib.cc/)  
 
 ## 网盘资源
 ### 阿里云盘
@@ -78,3 +79,5 @@
 # 归档
 [好网站不私藏](good_sites.html)  
 [国内镜像站点](cn_mirror_sites.html)  
+[国内镜像站点2](https://github.com/eryajf/Thanks-Mirror)  
+[JDK各版本安装包](http://www.codebaoku.com/jdk/jdk-index.html)  
