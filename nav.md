@@ -82,3 +82,8 @@
 [国内镜像站点](cn_mirror_sites.html)  
 [国内镜像站点2](https://github.com/eryajf/Thanks-Mirror)  
 [JDK各版本安装包](http://www.codebaoku.com/jdk/jdk-index.html)  
+
+# 复习
+[知识体系](https://pdai.tech/)  
+[技术文摘抄](http://learn.lianglianglee.com/)  
+[图解计算机基础](https://xiaolincoding.com/)  
