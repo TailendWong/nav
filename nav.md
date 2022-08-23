@@ -12,10 +12,11 @@
 [星空影视](https://xkys.tv/)  
 
 ## 电子书
-[ZLibrary偶尔需vpn](https://u1lib.org/)  
+[书乐里](https://www.sulery.com/)  
 [熊猫搜书](https://www.sopandas.com/)  
 [鸠摩搜书](https://www.jiumodiary.com/)  
 [elib需登录](https://elib.cc/)  
+[ZLibrary偶尔需vpn](https://u1lib.org/)  
 
 ## 网盘资源
 ### 阿里云盘
