@@ -48,7 +48,7 @@
 [WallHaven](https://wallhaven.cc/)  
 
 ## 短链接
-[D短链](https://ddl.ink/)https://ddl.ink/   
+[https://suo.yt/](https://suo.yt/)https://suo.yt/   
 
 # github镜像
 [fastgit](https://hub.fastgit.xyz/)  
