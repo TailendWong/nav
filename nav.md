@@ -41,7 +41,7 @@
 [F搜索引擎](https://fsoufsou.com/)https://fsoufsou.com/  
 [无追搜索](https://www.wuzhuiso.com/)https://www.wuzhuiso.com/  
 [元搜索引擎1](https://paulgo.io/)https://paulgo.io/  
-[元搜索引擎2](https://searx.be/)https://searx.be/
+[元搜索引擎2](https://searx.be/)https://searx.be/  
 [程序员搜索](https://goobe.io/)https://goobe.io/  
 ## 壁纸
 [轻壁纸](https://bz.qinggongju.com/)  
