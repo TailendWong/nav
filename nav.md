@@ -36,10 +36,10 @@
 [各网盘资源搜索app](https://wwd.lanzouj.com/iZdm505a1thi/)  
 
 ## 搜索引擎
-> 优秀的百度搜索代替品，清爽无广告  
+`优秀的百度搜索代替品，清爽无广告`  
 [谷歌搜索镜像](https://www.soumao.cc/)https://www.soumao.cc/  
 [F搜索引擎](https://fsoufsou.com/)https://fsoufsou.com/  
-[无追搜索](https://www.wuzhuiso.com/)  
+[无追搜索](https://www.wuzhuiso.com/)https://www.wuzhuiso.com/  
 [元搜索引擎1](https://paulgo.io/)https://paulgo.io/  
 [元搜索引擎2](https://searx.be/)https://searx.be/
 [程序员搜索](https://goobe.io/)https://goobe.io/  
