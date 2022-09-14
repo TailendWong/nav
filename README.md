@@ -4,8 +4,7 @@
 
 # 隐藏功能
 * 防止分享链接被微信拦截
-  食用方法`http://nav.honia.tk?url=你要分享的链接`
-  > 目前需要结合短连接使用，待优化：接入短连接功能
+  食用方法`http://nav.honia.tk/outwx.html`
   
   效果图如下(可引导对方从浏览器打开链接)
   ![效果图](https://i.bmp.ovh/imgs/2022/07/15/e036f1d48016fc7f.jpg)
