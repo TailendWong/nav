@@ -45,7 +45,7 @@
     <h3>功能：引导对方用浏览器打开该链接</h3>
     <div class="box">
       <el-input v-model="longUrl" placeholder="请输入待转换链接" @change="handleChange"></el-input>
-      <el-button type="primary" simi="mini" @click="handleSubmit">转换</el-button>
+      <el-button type="primary" simi="mini" :loading="btnLoading" @click="handleSubmit">转换</el-button>
     </div>
     <div class="box box-result">
       <el-input v-model="result" placeholder="转换结果" ref="textToCopy"></el-input>
@@ -61,7 +61,8 @@ Vue.use(httpVueLoader)
       el: '#app',
       data: {
         longUrl: '',
-        result: ''
+        result: '',
+	btnLoading: false
       },
       methods:{
       	//在这里写方法
@@ -74,13 +75,18 @@ Vue.use(httpVueLoader)
             const formdata = new FormData();
             formdata.append("longUrl",param.longUrl);
             formdata.append("shortKey",'');
+	    this.btnLoading = true;
             fetch("https://suo.yt/short",{
                 method:"POST",
                 body:formdata
             }).then((response) => {
                 return response.json()
             }).then((res) => {
+		this.btnLoading = false;
                 this.result = res.ShortUrl
+            }).catch(e => {
+                this.btnLoading = false;
+                alert('短链接服务异常，请重试')
             })
           
         }, 
