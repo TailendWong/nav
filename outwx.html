@@ -23,7 +23,7 @@
       .box {
         height: 40px;
         width: 100%;
-        margin-top: 200px;
+        margin-top: 50px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -38,11 +38,14 @@
       .el-button {
         margin-left: 10px;
       }
+      h3 {
+          margin-top: 200px;
+      }
     </style>
 </head>
 <body>
   <div id="app">
-    <h3>功能：引导对方用浏览器打开该链接</h3>
+    <h3 align="center">功能：引导对方用浏览器打开该链接</h3>
     <div class="box">
       <el-input v-model="longUrl" placeholder="请输入待转换链接" @change="handleChange"></el-input>
       <el-button type="primary" simi="mini" :loading="btnLoading" @click="handleSubmit">转换</el-button>
