@@ -2,7 +2,7 @@
 ## 追剧
 
 [电影先生](http://dianying.im/)   
-[大师兄影视](https://dsxys.com/)  
+[大师兄影视](https://dsxys.pro/)  
 [555影视](https://555dy1.com/)    
 [低端影视](https://ddrk.me/)  
 [不开VIP影院](https://bukaivip1.com/)   
