@@ -61,6 +61,8 @@
 
 ## 短链接
 [https://suo.yt/](https://suo.yt/)https://suo.yt/   
+[https://too.st/](https://too.st/)https://too.st/  
+[https://tt.vg/](https://tt.vg/)https://tt.vg/  
 
 # github镜像
 [fastgit](https://hub.fastgit.xyz/)  
