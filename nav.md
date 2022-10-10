@@ -90,6 +90,7 @@
 网课：[https://www.zxx.edu.cn/syncClassroom](https://www.zxx.edu.cn/syncClassroom) 
 教材：[https://www.zxx.edu.cn/elecEdu](https://www.zxx.edu.cn/elecEdu)  
 - [可协作的白板](https://excalidraw.com/)  
+- [在线CS](https://playcsol.com/)  
 
 ## 分享源
 [不死鸟分享](https://iui.su/)  
