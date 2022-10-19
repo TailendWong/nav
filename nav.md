@@ -15,7 +15,7 @@
 [书乐里](https://www.sulery.com/)  
 [熊猫搜书](https://www.sopandas.com/)  
 [鸠摩搜书](https://www.jiumodiary.com/)  
-[ZLibrary镜像](https://v3.zhelper.net/)  
+[ZLibrary镜像](https://v3.zhelper.net/)https://v3.zhelper.net 、 https://zlib.pro  
 [elib需登录](https://elib.cc/)  
 [ZLibrary偶尔需vpn](https://u1lib.org/)  
 
