@@ -19,7 +19,22 @@ apt-get install build-essential libtool libpcre3 libpcre3-dev zlib1g-dev libssl-
 --with-stream_ssl_module \
 --with-stream_realip_module \
 && make && make install && ln -s /usr/local/nginx/sbin/nginx /usr/bin/
+tee /etc/systemd/system/nginx.service <<-'EOF'
+[Unit]
+Description=nginx service
+After=network.target
 
+[Service]
+Type=forking
+ExecStart=/usr/local/nginx/sbin/nginx
+ExecReload=/usr/local/nginx/sbin/nginx -s reload
+ExecStop=/usr/local/nginx/sbin/nginx -s quit
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+EOF
+chmod 755  /etc/systemd/system/nginx.service && systemctl daemon-reload && systemctl enable nginx && systemctl start nginx
 
 # docker
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
