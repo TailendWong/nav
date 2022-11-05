@@ -63,6 +63,7 @@
 [妖火](https://yh-pic.ihcloud.net/)  
 [图床3](https://img.nn.ci/)  
 [图床4](https://tc.xkx.me/)  
+[图床5](https://img.fy6b.com/)  
 
 ## 短链接
 [https://suo.yt/](https://suo.yt/)  
