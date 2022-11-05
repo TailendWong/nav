@@ -1,0 +1,2 @@
+- 香港https://too.st/shr
+- 美国https://tt.vg/shr
