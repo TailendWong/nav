@@ -1,115 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.5.16/vue.min.js"></script>
-  <!-- 这里使用了element ui框架 -->
-  <link href="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.9/theme-chalk/index.min.css" rel="stylesheet">
-  <script src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.9/index.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.5.16/vue.min.js"></script>
+    <!-- 这里使用了element ui框架 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.9/theme-chalk/index.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.9/index.min.js"></script>
     <style>
-      body, div {
-        padding: 0px;
-        margin: 0;
-      }
-      #app {
-        width:100%;
-        height: 100vh;
-      }
-      .box {
-        height: 40px;
-        width: 100%;
-        margin-top: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        body, div {
+            padding: 0px;
+            margin: 0;
+        }
 
-      }
-      .box-result {
-        margin-top: 50px;
-      }
-      .el-input {
-        width: 300px;
-      }
-      .el-button {
-        margin-left: 10px;
-      }
-      h3 {
-          margin-top: 200px;
-      }
+        #app {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .box {
+            height: 40px;
+            width: 100%;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        .box-result {
+            margin-top: 50px;
+        }
+
+        .el-input {
+            width: 300px;
+        }
+
+        .el-button {
+            margin-left: 10px;
+        }
+
+        h3 {
+            margin-top: 200px;
+        }
     </style>
 </head>
 <body>
-  <div id="app">
+<div id="app">
     <h3 align="center">功能：引导对方用浏览器打开该链接</h3>
     <div class="box">
-      <el-input v-model="longUrl" placeholder="请输入待转换链接" @change="handleChange"></el-input>
-      <el-button type="primary" simi="mini" :loading="btnLoading" @click="handleSubmit">转换</el-button>
+        <el-input v-model="longUrl" placeholder="请输入待转换链接" @change="handleChange"></el-input>
+        <el-button type="primary" simi="mini" :loading="btnLoading" @click="handleSubmit">转换</el-button>
     </div>
     <div class="box box-result">
-      <el-input v-model="result" placeholder="转换结果" ref="textToCopy"></el-input>
-      <el-button type="primary" simi="mini" @click="handleCopy">点击复制</el-button>
+        <el-input v-model="result" placeholder="转换结果" ref="textToCopy"></el-input>
+        <el-button type="primary" simi="mini" @click="handleCopy">点击复制</el-button>
     </div>
-  </div>
+</div>
 
 <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/vue-clipboard2/0.3.3/vue-clipboard.js"></script>
-<script>  
-Vue.use(httpVueLoader) 
-  new Vue({
-      el: '#app',
-      data: {
-        longUrl: '',
-        result: '',
-	btnLoading: false
-      },
-      methods:{
-      	//在这里写方法
-      
-        async handleSubmit () {
-            let lu = this.longUrl
-            // let lu = `https://www.baidu.com`;
-            let param = {longUrl: btoa('http://nav.honia.tk?url=' + lu)}
-
-            const formdata = new FormData();
-            formdata.append("longUrl",param.longUrl);
-            formdata.append("shortKey",'');
-	    this.btnLoading = true;
-            fetch("https://suo.yt/short",{
-                method:"POST",
-                body:formdata
-            }).then((response) => {
-                return response.json()
-            }).then((res) => {
-		this.btnLoading = false;
-                this.result = res.ShortUrl
-            }).catch(e => {
-                this.btnLoading = false;
-                alert('短链接服务异常，请重试')
-            })
-          
-        }, 
-        
-        handleCopy() {
-          let textToCopy = this.$refs.textToCopy.$el.querySelector('input')
-          textToCopy.select()
-          try {
-            const successful = document.execCommand('copy')
-            const msg = successful ? 'successful' : 'unsuccessful'
-            console.log('Copying text command was ' + msg)
-            alert('复制成功')
-          } catch (err) {
-            console.log('Oops, unable to copy')
-            alert('复制失败')
-          }
+<script>
+    const apis = ["https://v1.mk/short","https://suo.yt/short","https://too.st","https://tt.vg"]
+    new Vue({
+        el: '#app',
+        data: {
+            longUrl: '',
+            result: '',
+            btnLoading: false
         },
-        handleChange () {
-          console.log(this.longUrl, '=====url===')
+        methods: {
+            //在这里写方法
+            promiseFetch(apiUrl, formdataBody) {
+                return new Promise((resolve, reject) => {
+                    fetch(apiUrl, {
+                        method: "POST",
+                        body: formdataBody
+                    }).then((response) => {
+                        return response.json()
+                    }).then((res) => {
+                        this.btnLoading = false;
+                        this.result = res.ShortUrl
+                        resolve();
+                    }).catch(e => {
+                        console.log(e)
+                        resolve();
+                    })
+                });
+            },
+
+            async handleSubmit() {
+                let lu = this.longUrl
+                // let lu = `https://www.baidu.com`;
+                let param = {longUrl: btoa('http://nav.honia.tk?url=' + lu)}
+
+                const formdata = new FormData();
+                formdata.append("longUrl", param.longUrl);
+                formdata.append("shortKey", '');
+                this.btnLoading = true;
+
+                for (let i = 0; i < apis.length ; i++) {
+                    let api = apis[i]
+                    console.log("循环", i, api);
+                    await this.promiseFetch(api, formdata);
+                    if (this.result) {
+                        break;
+                    }
+                }
+
+                if (!this.result) {
+                    this.btnLoading = false;
+                    alert('短链接服务异常，请重试')
+                }
+
+            },
+
+            handleCopy() {
+                let textToCopy = this.$refs.textToCopy.$el.querySelector('input')
+                textToCopy.select()
+                try {
+                    const successful = document.execCommand('copy')
+                    const msg = successful ? 'successful' : 'unsuccessful'
+                    console.log('Copying text command was ' + msg)
+                    alert('复制成功')
+                } catch (err) {
+                    console.log('Oops, unable to copy')
+                    alert('复制失败')
+                }
+            },
+            handleChange() {
+                console.log(this.longUrl, '=====url===')
+            }
+
         }
-        
-      }
     })
 
 </script>
