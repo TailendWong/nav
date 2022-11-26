@@ -66,8 +66,9 @@
 [图床5](https://img.fy6b.com/)  
 
 ## 短链接
-[https://suo.yt/](https://suo.yt/)  
 [https://too.st/](https://too.st/)  
+[https://suo.yt/](https://suo.yt/)  
+[https://v1.mk/](https://v1.mk/)  
 [https://tt.vg/](https://tt.vg/)  
 
 # github镜像
