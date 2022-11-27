@@ -13,6 +13,7 @@
 
 ## 电子书
 [书乐里](https://www.sulery.com/)  
+[clibrary](https://clibrary.top/)  
 [熊猫搜书](https://www.sopandas.com/)  
 [鸠摩搜书](https://www.jiumodiary.com/)  
 [ZLibrary镜像](https://v3.zhelper.net/)https://v3.zhelper.net 、 https://zlib.pro  
