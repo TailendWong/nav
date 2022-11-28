@@ -2,6 +2,7 @@
 ## 追剧
 [555影视](https://https://555dy.cc/)备用https://www.555kan.net/  
 [星空影视](https://xkys.tv/)  
+[干饭影视](https://www.gfysys1.com/)  
 [影视森林](http://www.549.tv/)  
 [大师兄影视](https://dsxys.pro/)  
 [低端影视](https://ddys.tv/)  
