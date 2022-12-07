@@ -139,8 +139,3 @@
 [国内镜像站点2](https://github.com/eryajf/Thanks-Mirror)  
 [JDK各版本安装包1](http://www.codebaoku.com/jdk/jdk-index.html)  
 [JDK各版本安装包2](https://injdk.cn/)  
-
-# 复习
-[知识体系](https://pdai.tech/)  
-[技术文摘抄](http://learn.lianglianglee.com/)  
-[图解计算机基础](https://xiaolincoding.com/)  
