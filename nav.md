@@ -18,7 +18,7 @@
 [真不卡影院](http://zhenbuka.fun/)  
 [电影狗](https://www.dianyinggou.com/)  
 
-### 安卓app
+### 手机软件(安卓)
 [AH视频](https://ahsp.app/)  
 
 ## 电子书
