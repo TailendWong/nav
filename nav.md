@@ -1,19 +1,12 @@
 # 网址导航
 
-# github镜像
-[kgithub](https://kgithub.com/)  
-[镜像1](https://hub.yzuu.cf/)  
-[镜像2](https://hub.nuaa.cf/)  
-[镜像3](https://hub.njuu.cf/)  
-[fastgit](https://hub.fastgit.xyz/)  
-
 ## 追剧
 [7080影视](https://7080.wang/)  
-[555影视](https://https://555dy.cc/)备用https://www.555kan.net/  
+[555影视](https://555ys1.com/)备用[https://www.555kan.net/](https://www.555kan.net/)  
 [星空影视](https://xkys.tv/)  
 [干饭影视](https://www.gfysys1.com/)  
-[搜片](https://搜片.com/)备用https://soupian.xyz/  
-[茶杯狐](https://cupfox.app/)备用https://cupfox.com/  
+[搜片](https://搜片.com/)备用[https://soupian.xyz/](https://soupian.xyz/)  
+[茶杯狐](https://cupfox.app/)备用[https://cupfox.com/](https://cupfox.com/)  
 [影视森林](http://www.549.tv/)  
 [大师兄影视](https://dsxys.pro/)  
 [低端影视](https://ddys.tv/)  
@@ -50,24 +43,6 @@
 [懒盘搜索](https://lzpan.com/)  
 [各网盘资源搜索app](https://wwd.lanzouj.com/iZdm505a1thi/)  
 
-## 搜索引擎
-`优秀的百度搜索代替品，清爽无广告`  
-[F搜索引擎](https://fsoufsou.com/) https://fsoufsou.com/  
-[无追搜索](https://www.wuzhuiso.com/) https://www.wuzhuiso.com/  
-[元搜索引擎1](https://paulgo.io/) https://paulgo.io/  
-[元搜索引擎2](https://searx.be/) https://searx.be/    
-[CodeSearch](https://dig.codes/) https://dig.codes/  
-[程序员搜索](https://goobe.io/) https://goobe.io/  
-
-
-# 谷歌搜索镜像
-[镜像1](https://谷歌.ml/)  
-[镜像2](https://search.aust.cf/)  
-[镜像3](https://search.njau.cf/)  
-[镜像4](https://search.ahau.cf/)  
-[镜像5](https://search.ecnu.cf/)  
-[镜像6](https://www.soumao.cc/)  
-[发布站](https://www.library.ac.cn/)  
 
 ## 壁纸
 [轻壁纸](https://bz.qinggongju.com/)  
@@ -87,6 +62,32 @@
 [网络剪贴板](https://netcut.cn/)  
 [note](https://note.ms/)  
 [口令](https://600s.com/)  
+
+## 搜索引擎
+`优秀的百度搜索代替品，清爽无广告`  
+[F搜索引擎](https://fsoufsou.com/) https://fsoufsou.com/  
+[无追搜索](https://www.wuzhuiso.com/) https://www.wuzhuiso.com/  
+[元搜索引擎1](https://paulgo.io/) https://paulgo.io/  
+[元搜索引擎2](https://searx.be/) https://searx.be/    
+[CodeSearch](https://dig.codes/) https://dig.codes/  
+[程序员搜索](https://goobe.io/) https://goobe.io/  
+
+# github镜像
+[kgithub](https://kgithub.com/)  
+[镜像1](https://hub.yzuu.cf/)  
+[镜像2](https://hub.nuaa.cf/)  
+[镜像3](https://hub.njuu.cf/)  
+[fastgit](https://hub.fastgit.xyz/)  
+
+# 谷歌搜索镜像
+[镜像1](https://谷歌.ml/)  
+[镜像2](https://search.aust.cf/)  
+[镜像3](https://search.njau.cf/)  
+[镜像4](https://search.ahau.cf/)  
+[镜像5](https://search.ecnu.cf/)  
+[镜像6](https://www.soumao.cc/)  
+[发布站](https://www.library.ac.cn/)  
+
 ### 图床
 [imgloc](https://imgloc.com/)支持有效期  
 [妖火](https://yh-pic.ihcloud.net/)  
