@@ -1,6 +1,7 @@
 # 网址导航
 
 ## 追剧
+### 浏览器观看
 [555影视](https://555ys1.com/)备用[https://www.555kan.net/](https://www.555kan.net/)  
 [7080影视](https://7080.wang/)  
 [星空影视](https://xkys.tv/)  
@@ -16,6 +17,9 @@
 [追剧达人](https://vipmv.co/)  
 [真不卡影院](http://zhenbuka.fun/)  
 [电影狗](https://www.dianyinggou.com/)  
+
+### 安卓app
+[AH视频](https://ahsp.app/)  
 
 ## 电子书
 [书乐里](https://www.sulery.com/)  
