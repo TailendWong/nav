@@ -1,8 +1,8 @@
 # 网址导航
 
 ## 追剧
-[7080影视](https://7080.wang/)  
 [555影视](https://555ys1.com/)备用[https://www.555kan.net/](https://www.555kan.net/)  
+[7080影视](https://7080.wang/)  
 [星空影视](https://xkys.tv/)  
 [干饭影视](https://www.gfysys1.com/)  
 [搜片](https://搜片.com/)备用[https://soupian.xyz/](https://soupian.xyz/)  
