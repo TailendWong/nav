@@ -104,6 +104,7 @@
 [https://suo.yt/](https://suo.yt/)  
 [https://v1.mk/](https://v1.mk/)  
 [https://tt.vg/](https://tt.vg/)  
+[https://s.ops.ci/](https://s.ops.ci/)  
 
 ## MAC软件下载站
 [MacTorrents👍](https://www.torrentmac.net/) https://www.torrentmac.net/  
