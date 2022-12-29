@@ -21,8 +21,9 @@
 ### 手机软件(安卓)
 [AH视频](https://ahsp.app/)  
 
-## 电子书
+## 正经电子书
 [书乐里](https://www.sulery.com/)  
+[无名图书](https://www.book123.info/)
 [clibrary](https://clibrary.top/)  
 [熊猫搜书](https://www.sopandas.com/)  
 [鸠摩搜书](https://www.jiumodiary.com/)  
@@ -85,11 +86,10 @@
 
 # 谷歌搜索镜像
 [镜像1](https://谷歌.ml/)  
-[镜像2](https://search.aust.cf/)  
 [镜像3](https://search.njau.cf/)  
 [镜像4](https://search.ahau.cf/)  
 [镜像5](https://search.ecnu.cf/)  
-[镜像6](https://www.soumao.cc/)  
+[镜像2](https://search.aust.cf/)  
 [发布站](https://www.library.ac.cn/)  
 
 ### 图床
