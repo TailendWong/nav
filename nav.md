@@ -2,6 +2,7 @@
 
 ## 追剧
 ### 浏览器观看
+[影视工厂](https://www.ysgc.vip/)  
 [555影视](https://555ys1.com/)备用[https://www.555kan.net/](https://www.555kan.net/)  
 [7080影视](https://7080.wang/)  
 [星空影视](https://xkys.tv/)  
