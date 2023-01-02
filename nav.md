@@ -21,6 +21,7 @@
 
 ### 手机软件(安卓)
 [AH视频](https://ahsp.app/)  
+[大师兄（勿升级）](https://feixue.lanzouy.com/igDLH0jwi5te/)  
 
 ## 正经电子书
 [书乐里](https://www.sulery.com/)  
