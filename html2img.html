@@ -1,0 +1,2753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge"
+    />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        body,
+        html,
+        p {
+            margin: 0;
+            padding: 0;
+            font-family: SimSun;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .clearfix:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+
+        .s1 {
+            height: 515px;
+            background-image: url(http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner.png);
+            background-size: 100% auto;
+        }
+
+        .mt-25 {
+            margin-top: 25px;
+        }
+
+        .ml-30 {
+            margin-left: 30px;
+        }
+
+        .ml-18 {
+            margin-left: 18px;
+        }
+
+        .ml-20 {
+            margin-left: 20px;
+        }
+
+        .fs-15 {
+            font-size: 15px;
+        }
+
+        .lh-70 {
+            line-height: 70px;
+        }
+
+        .c2 {
+            height: 60px;
+        }
+
+        .mt-85 {
+            margin-top: 85px;
+        }
+
+        .ml-60 {
+            margin-left: 60px;
+        }
+
+        .fs-50 {
+            font-size: 50px;
+        }
+
+        .lh-60 {
+            line-height: 60px;
+        }
+
+        .lh-40 {
+            line-height: 40px;
+        }
+
+        .mt-15 {
+            margin-top: 15px;
+        }
+
+        .c5 {
+            display: inline-block;
+            color: #ffffff;
+        }
+
+        .mt-47 {
+            margin-top: 47px;
+        }
+
+        .pl-60 {
+            padding-left: 60px;
+        }
+
+        .c6 {
+            height: 44px;
+            padding: 18px 0;
+        }
+
+        .mt-6 {
+            margin-top: 6px;
+        }
+
+        .ml-44 {
+            margin-left: 44px;
+        }
+
+        .c7 {
+            width: 36px;
+            height: 8px;
+        }
+
+        .ml-150 {
+            margin-left: 150px;
+        }
+
+        .mt--60 {
+            margin-top: -80px;
+        }
+
+        .lh-18 {
+            line-height: 18px;
+        }
+
+        .mt-23 {
+            margin-top: 23px;
+        }
+
+        .fs-14 {
+            font-size: 14px;
+        }
+
+        .pl-20 {
+            padding-left: 20px;
+        }
+
+        .pr-20 {
+            padding-right: 20px;
+        }
+
+        .pt-23 {
+            padding-top: 23px;
+        }
+
+        .fs-24 {
+            font-size: 24px;
+        }
+
+        .lh-70 {
+            line-height: 70px;
+        }
+
+        .mr-10 {
+            margin-right: 10px;
+        }
+
+        .pl-30 {
+            padding-left: 30px;
+        }
+
+        .pt-50 {
+            padding-top: 50px;
+        }
+
+        .ml-30 {
+            margin-left: 30px;
+        }
+
+        .lh-25 {
+            line-height: 25px;
+        }
+
+        .ml-100 {
+            margin-left: 100px;
+        }
+
+        .fs-18 {
+            font-size: 18px;
+        }
+
+        .mt-22 {
+            margin-top: 22px;
+        }
+
+        .mt-30 {
+            margin-top: 30px;
+        }
+
+        .mt-19 {
+            margin-top: 19px;
+        }
+
+        .pt-25 {
+            padding-top: 25px;
+        }
+
+        .pl-60 {
+            padding-left: 60px;
+        }
+
+        .ml-22 {
+            margin-left: 22px;
+        }
+
+        .mr-20 {
+            margin-right: 20px;
+        }
+
+        .ml-43 {
+            margin-left: 43px;
+        }
+
+        .mr-117 {
+            margin-right: 117px;
+        }
+
+        .red-box {
+            width: 100px;
+        }
+
+        .ml-12 {
+            margin-left: 12px;
+        }
+
+        .pt-45 {
+            padding-top: 45px;
+        }
+
+        .bg-F4F7FA {
+            background-color: #f4f7fa;
+        }
+
+        .bg-FFFFFF {
+            background-color: #ffffff;
+        }
+
+        table,
+        tbody,
+        thead {
+            table-layout: fixed;
+            border-collapse: separate;
+        }
+
+        td,
+        th {
+            border-bottom: 1px solid #d8d8d8;
+            border-right: 1px solid #ebeef5;
+        }
+
+        td {
+            min-width: 0;
+        }
+
+        th {
+            font-weight: normal;
+            color: #ffffff;
+        }
+
+        td {
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        .inline-block {
+            display: inline-block;
+        }
+
+        .warp {
+            width: 100%;
+            white-space: normal;
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        .ml-4 {
+            margin-left: 4px;
+        }
+
+        .banner {
+            background-image: url(http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banenr-2.png);
+            background-size: 100% auto;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+
+        @page {
+            size: 1151px 636px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <!-- page1 -->
+    <div class="s1 section pt-25">
+        <div class="clearfix ml-30 lh-70">
+            <img
+                    class="fl c2"
+                    src="https://xianniu-image.oss-cn-beijing.aliyuncs.com/%E8%B4%A4%E7%89%9B%E5%9B%BE%E6%A0%87.png"
+                    alt="logo"
+            />
+            <p
+                    class="ml-20 fl"
+                    style="font-size: 18px"
+            >仁科信息技术</p>
+        </div>
+        <div class="mt-85 ml-60">
+            <div
+                    class="fs-50 lh-60"
+                    style="color: #4A4A53"
+            >
+                <p>信息化设备保险</p>
+                方案计划书
+            </div>
+            <p style="margin-top: 20px;
+                    line-height: 22px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #4A4A53;
+                ">尊敬的客户：</p>
+            <div style="width: 15px;height: 2px;margin-top: 3px;background-color: #F94E42;"></div>
+            <div
+                    class="c5"
+                    style="
+                    margin-top: 5px;
+                    line-height: 22px;
+                    font-size: 15px;
+                    color: #F94E42;
+                    "
+            >
+                韩科耀
+                <span style="margin-left: 18px;color: #4A4A53;">敬请查阅</span>
+            </div>
+            <img
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/red-box.png"
+                    alt="red-box"
+                    style="margin-right: 117px"
+                    class="red-box fr"
+            />
+        </div>
+        <div
+                class="c6 pl-60 clearfix"
+                style="
+            margin-top: 29px;
+          background-image:
+          url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/opacity.png');
+          "
+        >
+            <div class="fl fs-15">
+                <p>此方案建议书由仁科信息技术为您度身定制</p>
+                <p style="margin-top: 4px">www.baidu.com</p>
+            </div>
+            <img
+                    class="c7 mt-6 ml-43 fl"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                    alt="decorate"
+            />
+            <div class="fl ml-18 fs-15">
+                <p>建议人:我叫销售</p>
+                <p style="margin-top: 4px">联系电话：16619757520</p>
+            </div>
+        </div>
+        <p
+                class="ml-60 mt-23 lh-18 fs-14"
+                style="color: #4a4a53"
+        >
+            建议书仅供参考，不构成保险合同的一部分。本建议书以标准保险费演示，保险责任、责任免除及保险费缴纳等各项详细内容以保险合同条款
+        </p>
+    </div>
+    <!-- page2 -->
+    <div style="
+        height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+        <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+            <img
+                    class="mr-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                    alt="decorate"
+            />
+            保险总览
+            <img
+                    class="ml-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                    alt="decorate"
+            />
+        </div>
+        <div
+                class="pl-30 pt-50 banner"
+                style="
+          margin: 0 40px;
+          height: 440px;
+          "
+        >
+            <div class="clearfix">
+                <div class="fl ml-30 lh-25 clearfix">
+                    <div
+                            class="fs-18"
+                            style="font-weight: 400; color: #202131"
+                    >
+                        <span style="color: #909097">投保情况：</span>新投保
+                    </div>
+                    <div
+                            class="fs-18"
+                            style="font-weight: 400; color: #202131"
+                    >
+                        <span style="color: #909097">设备总数：</span>10,000
+                    </div>
+
+                </div>
+                <div
+                        class="fl lh-25 clearfix"
+                        style="margin-left: 100px"
+                >
+                    <div>
+                        <span style="color: #909097">保险周期：</span>1年
+                    </div>
+                    <div>
+                        <span style="color: #909097">保费合计：</span>¥10,000
+                    </div>
+                </div>
+            </div>
+            <div
+                    class="mt-22"
+                    style="height: 0px; border-top: 1px dashed
+            #979797"
+            ></div>
+            <div class="mt-30">
+                <div
+                        class="fl"
+                        style="
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 425px;
+              height: 245px;
+              background-size: 100% auto;
+              background-image:
+              url(http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/policy-section.png);
+              "
+                >
+                    <div
+                            class="fs-18"
+                            style="
+                height: 44px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: #202131;
+                line-height: 44px;
+                text-align: center;
+                background-size: 100% auto;
+                width: 425px;
+                background-image:
+                url(http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/policy-banner.png);
+                "
+                    >
+                        投保人
+                    </div>
+                    <div class="ml-12">
+                        <div class="mt-15 clearfix">
+                            <div style="
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    ">
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    客户名称：
+                                </div>
+                                北京仁科信息技术有限公司
+                            </div>
+                            <div style="
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    margin-left: 25px;
+                    ">
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    联系人：
+                                </div>
+                                韩科耀
+                            </div>
+                        </div>
+                        <div class="mt-19 clearfix">
+                            <div
+                                    class="fl"
+                                    style="
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    "
+                            >
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    联系电话：
+                                </div>
+                                16619757520
+                            </div>
+                            <div style="
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    margin-left: 25px;
+                    ">
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    地址：
+                                </div>
+                                北京市-朝阳区建外SOHO
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="
+              float: right;
+              background-size: cover;
+              background-repeat: no-repeat;
+              width: 425px;
+              height: 245px;
+              background-size: 100% auto;
+              background-image:
+              url(http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/applicant-section.png);
+              ">
+                    <div style="
+                height: 44px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-size: 18px;
+                color: #ffffff;
+                line-height: 44px;
+                text-align: center;
+                width: 425px;
+                background-size: 100% auto;
+                background-image:
+                url(http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/applicant-banner.png);
+                ">
+                        被保险人
+                    </div>
+                    <div class="ml-12">
+                        <div
+                                style="margin-top: 15px"
+                                class="clearfix"
+                        >
+                            <div style="
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    ">
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    客户名称：
+                                </div>
+                                北京仁科信息技术有限公司
+                            </div>
+                            <div style="
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    margin-left: 25px;
+                    ">
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    联系人：
+                                </div>
+                                韩科耀
+                            </div>
+                        </div>
+                        <div
+                                style="margin-top: 19px"
+                                class="clearfix"
+                        >
+                            <div style="
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    ">
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    联系人电话：
+                                </div>
+                                16619757520
+                            </div>
+                            <div style="
+                    float: left;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202131;
+                    line-height: 21px;
+                    margin-left: 25px;
+                    ">
+                                <div style="
+                      color: #909097;
+                      font-size: 15px;
+                      font-weight: 400;
+                      color: #909097;
+                      line-height: 21px;
+                      ">
+                                    地址：
+                                </div>
+                                北京市-朝阳区建外SOHO
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page3 -->
+        <div style="
+        min-height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+      ">
+            <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+                <img
+                        class="mr-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                        alt="decorate"
+                />
+                方案详情
+                <img
+                        class="ml-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                        alt="decorate"
+                />
+            </div>
+            <div
+                    class="clearfix banner"
+                    style="
+                    padding-top: 10px;
+          font-size: 12px;
+          padding-left: 5px;
+          margin: 0 40px;
+          min-height: 395px;
+        "
+            >
+                <div class="clearfix">
+                        <div
+                                class="fl"
+                                style="
+                    overflow: hidden;
+                width: 397px;
+                margin-left: 25px;
+                margin-top: 15px;
+                "
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.1
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险责任： </span>
+                                业务中断保障
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险条款： </span>
+                                网络完全责任险（营业中断损失）
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                        max-width: 100%;
+                  margin-left: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  word-break: break-all;
+                  "
+                            >
+                                <span style="color: #909097"> 服务内容： </span>
+                                <span class="warp">
+                    针对数据资产提供
+                  </span>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险标的： </span>
+                                营业损失
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险金额： </span>
+                                    ¥1,000
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险费率： </span>
+                                    0.01%
+                                </div>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #f94e42;
+                  "
+                            >
+                                <span style="color: #909097"> 保险费用： </span>
+                                ¥1,000
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 备注信息： </span>
+                                <div>这里是备注</div>
+                            </div>
+                        </div>
+                        <div
+                                class="fl"
+                                style="
+                    overflow: hidden;
+                width: 397px;
+                margin-left: 25px;
+                margin-top: 15px;
+                "
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.2
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险责任： </span>
+                                业务中断保障
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险条款： </span>
+                                网络完全责任险（营业中断损失）
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                        max-width: 100%;
+                  margin-left: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  word-break: break-all;
+                  "
+                            >
+                                <span style="color: #909097"> 服务内容： </span>
+                                <span class="warp">
+                    针对数据资产提供
+                  </span>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险标的： </span>
+                                营业损失
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险金额： </span>
+                                    ¥1,000
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险费率： </span>
+                                    0.01%
+                                </div>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #f94e42;
+                  "
+                            >
+                                <span style="color: #909097"> 保险费用： </span>
+                                ¥1,000
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 备注信息： </span>
+                                <div>这里是备注</div>
+                            </div>
+                        </div>
+                        <div
+                                class="fl"
+                                style="
+                    overflow: hidden;
+                width: 397px;
+                margin-left: 25px;
+                margin-top: 15px;
+                "
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.3
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险责任： </span>
+                                业务中断保障
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险条款： </span>
+                                网络完全责任险（营业中断损失）
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                        max-width: 100%;
+                  margin-left: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  word-break: break-all;
+                  "
+                            >
+                                <span style="color: #909097"> 服务内容： </span>
+                                <span class="warp">
+                    针对数据资产提供
+                  </span>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险标的： </span>
+                                营业损失
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险金额： </span>
+                                    ¥1,000
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险费率： </span>
+                                    0.01%
+                                </div>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #f94e42;
+                  "
+                            >
+                                <span style="color: #909097"> 保险费用： </span>
+                                ¥1,000
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 备注信息： </span>
+                                <div>这里是备注</div>
+                            </div>
+                        </div>
+                        <div
+                                class="fl"
+                                style="
+                    overflow: hidden;
+                width: 397px;
+                margin-left: 25px;
+                margin-top: 15px;
+                "
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.4
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险责任： </span>
+                                业务中断保障
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险条款： </span>
+                                网络完全责任险（营业中断损失）
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                        max-width: 100%;
+                  margin-left: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  word-break: break-all;
+                  "
+                            >
+                                <span style="color: #909097"> 服务内容： </span>
+                                <span class="warp">
+                    针对数据资产提供
+                  </span>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 保险标的： </span>
+                                营业损失
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险金额： </span>
+                                    ¥1,000
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 50%;
+                    text-indent: 10px;
+                    min-height: 30px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #202131;
+                    "
+                                >
+                                    <span style="color: #909097"> 保险费率： </span>
+                                    0.01%
+                                </div>
+                            </div>
+                            <div
+                                    class="bg-FFFFFF"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #f94e42;
+                  "
+                            >
+                                <span style="color: #909097"> 保险费用： </span>
+                                ¥1,000
+                            </div>
+                            <div
+                                    class="bg-F4F7FA"
+                                    style="
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                            >
+                                <span style="color: #909097"> 备注信息： </span>
+                                <div>这里是备注</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    <!-- page4 -->
+    <div style="
+        height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+        <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+            <img
+                    class="mr-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                    alt="decorate"
+            />
+            <img
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/number-5.png"
+                    alt="5"
+                    style="width: 37px; vertical-align: -20px;"
+            />
+            重保障
+            <img
+                    class="ml-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                    alt="decorate"
+            />
+        </div>
+        <div
+                class="banner"
+                style="
+          margin: 0 40px;
+          height: 440px;
+          overflow: hidden;
+          "
+        >
+            <div
+                    class="clearfix"
+                    style="
+            background-image:
+            url(http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/heavy-security.png);
+            background-repeat: no-repeat;
+            background-position: center 103px;
+            background-size: 253px 200px;
+            min-height: 324px;
+            "
+            >
+                <div
+                        class="fl clearfix"
+                        style="width: 50%; padding-top: 61px"
+                >
+                    <div
+                            class="clearfix"
+                            style="width: 202px; margin-left: 143px;
+                font-size: 12px"
+                    >
+                            <img
+                                    class="fl"
+                                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/selected.png"
+                                    alt="selected"
+                                    style="width: 18px; vertical-align: sub"
+                            />
+                        <div
+                                class="fl ml-4"
+style="color: #000"
+                                
+                        >
+                            业务中断保障
+                            <div style="
+                                    width: 180px;
+                                    font-size: 12px;
+                                    color: #909097;
+                                    margin-top: 5px;
+                                ">
+                                对冲因IT系统故障造成的业<br />务中断损失
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                            class="clearfix"
+                            style="
+                width: 202px;
+                margin-left: 110px;
+                margin-top: 66px;
+                font-size: 12px;
+                "
+                    >
+                            <img
+                                    class="fl"
+                                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/un-selected.png"
+                                    alt="un-selected"
+                                    style="width: 18px; vertical-align: sub"
+                            />
+                        <div
+                                class="fl ml-4"
+
+                                style="color: #909097"
+                        >
+                            物理资产意外损失保障
+                            <div style="
+                    width: 180px;
+                    font-size: 12px;
+                    color: #909097;
+                    margin-top: 5px;
+                    ">
+                                针对企业IT物理资产提供意<br />外损失保全
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                        class="fl clearfix"
+                        style="width: 50%; padding-top: 86px"
+                >
+                    <div
+                            class="clearfix fr"
+                            style="
+                width: 202px;
+                margin-right: 127px;
+                font-size: 12px;
+                color: #909097;
+                "
+                    >
+                            <img
+                                    class="fl"
+                                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/un-selected.png"
+                                    alt="un-selected"
+                                    style="width: 18px; vertical-align: sub"
+                            />
+                        <div
+                                class="fr ml-4"
+
+                                style="color: #909097"
+                        >
+                            系统可用性保障
+                            <div style="width: 180px; font-size: 12px; margin-top: 5px;color: #909097;">
+                                包括设备维修、安全保障、<br />
+                                系统优化、代维服务、加装<br />
+                                改配等
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                            class="clearfix fr"
+                            style="
+                width: 202px;
+                margin-right: 106px;
+                margin-top: 87px;
+                font-size: 12px;
+                "
+                    >
+                            <img
+                                    class="fl"
+                                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/un-selected.png"
+                                    alt="un-selected"
+                                    style="width: 18px; vertical-align: sub"
+                            />
+                        <div
+                                class="fl ml-4"
+
+                                style="color: #909097"
+                        >
+                            数字资产意外损失保障
+                            <div style="
+                    width: 180px;
+                    font-size: 12px;
+                    color: #909097;
+                    margin-top: 5px;
+                    ">
+                                为企业日益增多的数据资产<br />提供恢复与保全
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                        class="clearfix"
+                        style="
+              width: 202px;
+              margin-left: 220px;
+              margin-top: 20px;
+              font-size: 12px;
+              "
+                >
+                        <img
+                                class="fl"
+                                src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/un-selected.png"
+                                alt="un-selected"
+                                style="width: 18px; vertical-align: sub"
+                        />
+                    <div
+                            class="fl ml-4"
+
+                            style="color: #909097"
+                    >
+                        信息泄露保障
+                        <div style="
+                  width: 180px;
+                  font-size: 12px;
+                  color: #909097;
+                  margin-top: 5px;
+                  ">
+                            用来弥补因信息安全<br />问题造成的业务损失
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 20px; margin-left: 30px">
+                <img
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/selected.png"
+                        alt="selected"
+                        style="width: 18px; vertical-align: middle"
+                />
+                已包含保障内容
+                <img
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/un-selected.png"
+                        alt="un-selected"
+                        style="width: 18px; vertical-align: middle;
+              margin-left: 30px"
+                />
+                未包含保障内容
+            </div>
+        </div>
+    </div>
+    <!-- page5 -->
+        <div style="
+        min-height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+            <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+                <img
+                        class="mr-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                        alt="decorate"
+                />
+                服务范围
+                <img
+                        class="ml-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                        alt="decorate"
+                />
+            </div>
+            <div
+                    class="banner"
+                    style="
+          padding: 25px 25px 0;
+          margin: 0 40px;
+          min-height: 415px;
+          "
+            >
+                <div style="
+            border: 1px solid #d8d8d8;
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+            overflow: hidden;
+            ">
+                    <table
+                            align="center"
+                            border="0"
+                            cellspacing="0"
+                            cellpadding="0"
+                            style="
+              width: 827px;
+              border-color: #d8d8d8;
+              border-collapse: separate;
+              overflow: hidden;
+              "
+                    >
+                        <colgroup>
+                            <col
+                                    name="column_1"
+                                    width="134"
+                                    style="color: #fff;"
+                            />
+                            <col
+                                    name="column_2"
+                                    width="116"
+                            />
+                            <col
+                                    name="column_3"
+                                    width="285"
+                            />
+                            <col
+                                    name="column_4"
+                                    width="292"
+                            />
+                        </colgroup>
+                        <thead style="
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-weight: normal;
+                        ">
+                        <tr style="background-color: #f94e42; color:
+                          #ffffff">
+                            <th
+                                    align="center"
+                                    style=" padding-left: 25px; "
+                            >三保服务</th>
+                            <th
+                                    align="center"
+                                    style=" padding-left: 25px; "
+                            >服务名称</th>
+                            <th
+                                    align="left"
+                                    style=" padding-left: 25px; "
+                            >
+                                内容描述
+                            </th>
+                            <th
+                                    align="left"
+                                    style=" padding-left: 25px; "
+                            >
+                                关键约定
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr align="center">
+                                <td>保险式服务
+                                </td>
+                                <td>故障处理</td>
+                                <td
+                                        align="left"
+                                        style="
+                      line-height: 17px;
+                      padding: 12px 25px;
+                      color: #909097;
+                      font-size: 14px;
+                      "
+                                >
+                                    <div
+                                            class="warp"
+                                            style="max-width: 261px"
+                                    >
+                                        这里展示内容描述
+                                    </div>
+                                </td>
+                                <td
+                                        align="left"
+                                        style="
+                      line-height: 17px;
+                      padding: 12px 25px;
+                      color: #909097;
+                      font-size: 14px;
+                      "
+                                >
+                                    <div
+                                            class="warp"
+                                            style="max-width: 268px"
+                                    >
+                                        这里展示关键约定
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td>保健式服务
+                                        <div style="
+                                                font-size: 12px;
+                                                color: #EEB026;
+                                                line-height: 17px;">
+                                            增值服务
+                                        </div>
+                                </td>
+                                <td>故障处理</td>
+                                <td
+                                        align="left"
+                                        style="
+                      line-height: 17px;
+                      padding: 12px 25px;
+                      color: #909097;
+                      font-size: 14px;
+                      "
+                                >
+                                    <div
+                                            class="warp"
+                                            style="max-width: 261px"
+                                    >
+                                        这里展示内容描述
+                                    </div>
+                                </td>
+                                <td
+                                        align="left"
+                                        style="
+                      line-height: 17px;
+                      padding: 12px 25px;
+                      color: #909097;
+                      font-size: 14px;
+                      "
+                                >
+                                    <div
+                                            class="warp"
+                                            style="max-width: 268px"
+                                    >
+                                        这里展示关键约定
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td>保姆式服务
+                                        <div style="
+                                                font-size: 12px;
+                                                color: #EEB026;
+                                                line-height: 17px;">
+                                            增值服务
+                                        </div>
+                                </td>
+                                <td>故障处理</td>
+                                <td
+                                        align="left"
+                                        style="
+                      line-height: 17px;
+                      padding: 12px 25px;
+                      color: #909097;
+                      font-size: 14px;
+                      "
+                                >
+                                    <div
+                                            class="warp"
+                                            style="max-width: 261px"
+                                    >
+                                        这里展示内容描述
+                                    </div>
+                                </td>
+                                <td
+                                        align="left"
+                                        style="
+                      line-height: 17px;
+                      padding: 12px 25px;
+                      color: #909097;
+                      font-size: 14px;
+                      "
+                                >
+                                    <div
+                                            class="warp"
+                                            style="max-width: 268px"
+                                    >
+                                        这里展示关键约定
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div style="
+        min-height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+            <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+                <img
+                        class="mr-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                        alt="decorate"
+                />
+                特别约定
+                <img
+                        class="ml-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                        alt="decorate"
+                />
+            </div>
+            <div
+                    class="banner"
+                    style="
+          padding: 25px 25px 0;
+          margin: 0 40px;
+          min-height: 415px;
+          "
+            >
+                <div style="
+            /*border: 1px solid #d8d8d8;*/
+            /*border-bottom: none;*/
+            /*border-radius: 8px 8px 0 0;*/
+            white-space: pre-line;
+            overflow-y: hidden;
+            word-wrap: break-word;
+            ">
+                    这里是特别约定
+                </div>
+            </div>
+        </div>
+
+        <!-- page7 -->
+        <div style="
+        min-height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+            <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+                <img
+                        class="mr-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                        alt="decorate"
+                />
+                设备清单
+                <img
+                        class="ml-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                        alt="decorate"
+                />
+            </div>
+            <div
+                    class="banner"
+                    style="
+          padding-left: 5px;
+          padding-top: 5px;
+          margin: 0 40px;
+          min-height: 410px;
+          "
+            >
+                <div class="clearfix">
+                        <div
+                                style="margin-top: 15px; margin-left: 25px;word-break: break-all; word-wrap: break-word;"
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.1
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                    width: 25%;
+                                    text-indent: 10px;
+                                    min-height: 30px;
+                                    line-height: 30px;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    color: #202131;
+                                "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >厂商品牌：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >戴尔&amp;易安信/DELL&amp;EMC</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >设备系列：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >xi_lie_0</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备型号：</span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >D25-n000</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                width: 25%;
+                                text-indent: 10px;
+                                min-height: 30px;
+                                line-height: 30px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #202131;
+                            "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备类型：</span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                    text-indent: 0px;
+                  "
+                                    >-</div>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 设备数量： </span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >2（台）</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务级别： </span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >7*24*4</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  ">
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务地点： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    >省-市-区</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 起止时间： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    > 2020-01-01至2020-12-13</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                                style="margin-top: 15px; margin-left: 25px;word-break: break-all; word-wrap: break-word;"
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.2
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                    width: 25%;
+                                    text-indent: 10px;
+                                    min-height: 30px;
+                                    line-height: 30px;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    color: #202131;
+                                "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >厂商品牌：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >戴尔&amp;易安信/DELL&amp;EMC</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >设备系列：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >xi_lie_1</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备型号：</span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >D25-n001</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                width: 25%;
+                                text-indent: 10px;
+                                min-height: 30px;
+                                line-height: 30px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #202131;
+                            "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备类型：</span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                    text-indent: 0px;
+                  "
+                                    >-</div>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 设备数量： </span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >3（台）</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务级别： </span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >7*24*4</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  ">
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务地点： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    >省-市-区</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 起止时间： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    > 2020-01-01至2020-12-13</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                                style="margin-top: 15px; margin-left: 25px;word-break: break-all; word-wrap: break-word;"
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.3
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                    width: 25%;
+                                    text-indent: 10px;
+                                    min-height: 30px;
+                                    line-height: 30px;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    color: #202131;
+                                "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >厂商品牌：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >戴尔&amp;易安信/DELL&amp;EMC</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >设备系列：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >xi_lie_2</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备型号：</span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >D25-n002</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                width: 25%;
+                                text-indent: 10px;
+                                min-height: 30px;
+                                line-height: 30px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #202131;
+                            "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备类型：</span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                    text-indent: 0px;
+                  "
+                                    >-</div>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 设备数量： </span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >4（台）</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务级别： </span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >7*24*4</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  ">
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务地点： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    >省-市-区</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 起止时间： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    > 2020-01-01至2020-12-13</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                                style="margin-top: 15px; margin-left: 25px;word-break: break-all; word-wrap: break-word;"
+                        >
+                            <div
+                                    class="fs-18"
+                                    style="
+                  height: 24px;
+                  line-height: 24px;
+                  color: #f94e42;
+                  width: 383px;
+                  text-indent: 10px;
+                  margin-bottom: 6px;
+                  "
+                            >
+                                No.4
+                            </div>
+                            <div class="clearfix bg-F4F7FA">
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                    width: 25%;
+                                    text-indent: 10px;
+                                    min-height: 30px;
+                                    line-height: 30px;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    color: #202131;
+                                "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >厂商品牌：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >戴尔&amp;易安信/DELL&amp;EMC</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                    <span
+                            class="fl"
+                            style="width: 70px;color: #909097"
+                    >设备系列：</span>
+                                    <div
+                                            style="
+                        padding-left: 70px;
+                        text-indent: 0px;
+                      "
+                                    >xi_lie_3</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                  width: 25%;
+                                  text-indent: 10px;
+                                  min-height: 30px;
+                                  line-height: 30px;
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  color: #202131;
+                              "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备型号：</span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >D25-n003</div>
+                                </div>
+                                <div
+                                        class="fl clearfix"
+                                        style="
+                                width: 25%;
+                                text-indent: 10px;
+                                min-height: 30px;
+                                line-height: 30px;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #202131;
+                            "
+                                >
+                  <span
+                          class="fl"
+                          style="width: 70px;color: #909097"
+                  >设备类型：</span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                    text-indent: 0px;
+                  "
+                                    >-</div>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 设备数量： </span>
+                                    <div
+                                            style="
+                                            padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >5（台）</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务级别： </span>
+                                    <div
+                                            style="
+                      padding-left: 70px;
+                      text-indent: 0px;
+                    "
+                                    >7*24*4</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                  width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  ">
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 服务地点： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    >省-市-区</div>
+                                </div>
+                                <div
+                                        class="fl"
+                                        style="
+                    width: 25%;
+                  text-indent: 10px;
+                  min-height: 30px;
+                  line-height: 30px;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #202131;
+                  "
+                                >
+                    <span
+                            class="fl"
+                            style="color: #909097"
+                    > 起止时间： </span>
+                                    <div
+                                            style="padding-left: 70px;text-indent: 0px;"
+                                    > 2020-01-01至2020-12-13</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div style="page-break-before: always"></div>
+        <!-- page8 -->
+        <div style="
+        height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+            <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+                <img
+                        class="mr-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                        alt="decorate"
+                />
+                保司介绍
+                <img
+                        class="ml-10 c7"
+                        src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                        alt="decorate"
+                />
+            </div>
+            <div
+                    class="pl-30 pt-50 banner"
+                    style="
+          margin: 0 40px;
+          padding: 30px 55px 0 80px;
+          height: 410px;
+          "
+            >
+                <div style="
+            height: 100%;
+            background-image: url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/intro.png');
+            background-size: contain;
+            background-repeat:no-repeat;
+        "></div>
+            </div>
+        </div>
+    <!-- page9 -->
+    <div style="
+        height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+        <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+            <img
+                    class="mr-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                    alt="decorate"
+            />
+            IT超能保
+            <img
+                    class="ml-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                    alt="decorate"
+            />
+        </div>
+        <div
+                class="pl-30 pt-50 banner"
+                style="
+          margin: 0 40px;
+          padding: 55px 40px 65px;
+          height: 320px;
+          "
+        >
+            <div style="
+                height: 100%;
+                background-image: url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/delivery.png');
+                background-size: contain;
+                background-repeat:no-repeat;
+            "></div>
+        </div>
+    </div>
+    <!-- page10 -->
+    <div style="
+        height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+        <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+            <img
+                    class="mr-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                    alt="decorate"
+            />
+            IT超能保
+            <img
+                    class="ml-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                    alt="decorate"
+            />
+        </div>
+        <div
+                class="pl-30 pt-50 banner"
+                style="
+          margin: 0 40px;
+          padding: 45px 55px 0 40px;
+          height: 395px;
+          "
+        >
+            <div style="
+        height: 100%;
+        background-image: url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/map.png');
+        background-size: contain;
+        background-repeat:no-repeat;
+    "></div>
+        </div>
+    </div>
+    <!-- page11 -->
+    <div style="
+        height: 540px;
+        background-image:
+        url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/banner-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        ">
+        <div class="pl-20 pr-20 pt-23 fs-24 lh-70">
+            <img
+                    class="mr-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate-left.png"
+                    alt="decorate"
+            />
+            IT超能保
+            <img
+                    class="ml-10 c7"
+                    src="http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/decorate.png"
+                    alt="decorate"
+            />
+        </div>
+        <div
+                class="pl-30 pt-50 banner"
+                style="
+          margin: 0 40px;
+          padding: 55px 45px 85px;
+          height: 300px;
+          "
+        >
+            <div style="
+        height: 100%;
+        background-image: url('http://xianniu-image.oss-cn-beijing.aliyuncs.com/h5_image/offer/insurance/way.png');
+        background-size: contain;
+        background-repeat:no-repeat;
+    "></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
