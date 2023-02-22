@@ -21,6 +21,7 @@
 
 ### 手机软件(安卓)
 [AH视频](https://ahsp.app/)  
+[蛋播星球](https://wwpv.lanzoue.com/if1XL0nhc0oh)  
 [大师兄（勿升级）](https://feixue.lanzouy.com/igDLH0jwi5te/)  
 
 ## 正经电子书
