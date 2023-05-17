@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-05-17 15:16:02
+# 客户端：Clash
+# 创建时间：2023-05-17 15:25:25
 # 使用模版：V2RaySE 默认模版
-# 节点数量：30
+# 节点数量：29
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -42,10 +41,9 @@ proxies:
   - {"name":"🇭🇰_HK_香港_6","type":"trojan","server":"awshk9-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
   - {"name":"���'��ԕW�,N{�~ij��\u0019N�*","type":"ssr","server":"45.130.146.86","port":443,"password":"vyunme","cipher":"aes-256-cfb","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"ab93117422.jd.hk"}
   - {"name":"🇸🇬_SG_新加坡->🇺🇸_US_美国","type":"trojan","server":"usla.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true}
-  - {"name":"🇺🇸_US_美国_4","type":"vless","server":"op.manluqiusuo.top","port":443,"uuid":"30d2a3e5-41fc-4677-a91b-1b0bd223a4fe","tls":true,"servername":"op.manluqiusuo.top","network":"ws","ws-opts":{"path":"/duzhichao1996"}}
-  - {"name":"🇺🇸_US_美国_5","type":"trojan","server":"us4.microsoft-orgwly.vip","port":12059,"udp":true,"password":"f3ccb94b-fc75-475a-80e1-b67913115462","skip-cert-verify":true}
+  - {"name":"🇺🇸_US_美国_4","type":"trojan","server":"us4.microsoft-orgwly.vip","port":12059,"udp":true,"password":"f3ccb94b-fc75-475a-80e1-b67913115462","skip-cert-verify":true}
   - {"name":"🇭🇰_HK_香港_7","type":"trojan","server":"awshk4-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"198.2.200.105","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"198.2.200.105","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws"}
   - {"name":"🇭🇰_HK_香港_8","type":"trojan","server":"awshk13-data.amazon-azure.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
   - {"name":"🇺🇸_US_美国->🇱🇺_LU_卢森堡","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
   - {"name":"🇰🇷_KR_韩国_1","type":"trojan","server":"kr3.microsoft-orgwly.vip","port":443,"udp":true,"password":"f3ccb94b-fc75-475a-80e1-b67913115462","skip-cert-verify":true}
@@ -79,9 +77,8 @@ proxy-groups:
       - "���'��ԕW�,N{�~ij��\x19N�*"
       - 🇸🇬_SG_新加坡->🇺🇸_US_美国
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_8
       - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
       - 🇰🇷_KR_韩国_1
@@ -115,9 +112,8 @@ proxy-groups:
       - "���'��ԕW�,N{�~ij��\x19N�*"
       - 🇸🇬_SG_新加坡->🇺🇸_US_美国
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_8
       - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
       - 🇰🇷_KR_韩国_1
@@ -151,9 +147,8 @@ proxy-groups:
       - "���'��ԕW�,N{�~ij��\x19N�*"
       - 🇸🇬_SG_新加坡->🇺🇸_US_美国
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_8
       - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
       - 🇰🇷_KR_韩国_1
@@ -186,9 +181,8 @@ proxy-groups:
       - "���'��ԕW�,N{�~ij��\x19N�*"
       - 🇸🇬_SG_新加坡->🇺🇸_US_美国
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_8
       - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
       - 🇰🇷_KR_韩国_1
@@ -221,9 +215,8 @@ proxy-groups:
       - "���'��ԕW�,N{�~ij��\x19N�*"
       - 🇸🇬_SG_新加坡->🇺🇸_US_美国
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_8
       - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
       - 🇰🇷_KR_韩国_1
@@ -256,9 +249,8 @@ proxy-groups:
       - "���'��ԕW�,N{�~ij��\x19N�*"
       - 🇸🇬_SG_新加坡->🇺🇸_US_美国
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_8
       - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
       - 🇰🇷_KR_韩国_1
@@ -308,9 +300,8 @@ proxy-groups:
       - "���'��ԕW�,N{�~ij��\x19N�*"
       - 🇸🇬_SG_新加坡->🇺🇸_US_美国
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_7
-      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_5
       - 🇭🇰_HK_香港_8
       - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
       - 🇰🇷_KR_韩国_1
