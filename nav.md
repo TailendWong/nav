@@ -113,8 +113,7 @@
 [PDF处理](https://tools.pdf24.org/)  
 [音视频PDF处理](https://123apps.com/cn/)  
 
-## MAC软件下载站
-[muketm](https://muketm.cn/)  
+## MAC软件下载站  
 [MacTorrents👍](https://www.torrentmac.net/) https://www.torrentmac.net/  
 [AppAddict👍](https://appaddict.org/) https://appaddict.org/  
 [AppStorrent](https://appstorrent.ru/) https://appstorrent.ru/  
