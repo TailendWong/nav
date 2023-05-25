@@ -36,6 +36,7 @@
 
 ## 网盘资源
 ### 阿里云盘
+[yougit](https://yougit.net/)  
 [易搜](https://yiso.fun/)  
 [小纸条](https://u.gitcafe.net/)  
 [阿里盘搜1](https://www.upyunso.com/)  
