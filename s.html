@@ -408,7 +408,7 @@ logo添加文字样式
 	    width: 100%;
 	    height: 100%;
 	    margin: 0;
-	    padding: 6px 0 6px 5px;
+	    padding: 9px 0 9px 5px;
 	    border: 0;
 	    font-size: 16px;
 	    font-weight: 700;
@@ -537,24 +537,26 @@ logo添加文字样式
 		 if (v.startsWith("http://") || v.startsWith("https://")) return
 		 suggestMe(v)
 
-		 var sugshtml = suggests.map(s => `<div class="sug">
+		 var sugshtml = suggests.map(s => `<div class="sug" onclick="search('${s}');return false">
 			 	<button><em>${s}</em></button>
 			 	<div class="sug-edit sug-edit-p"></div>
 			 	<div class="sug-searchicon sug-searchicon-p"></div>
 		 	</div>`).join('')
 		 document.getElementById("suggs").innerHTML = sugshtml
 	}
-	function search() {
-		  var searchKey = document.getElementById("search_input").value;
-			if (searchKey != "") {
-				if (searchKey.startsWith("http://") || searchKey.startsWith("https://")) {
-					window.location.href = searchKey
-				} else {
-					window.location.href = "https://www.wuzhuiso.com/s?q=" + searchKey + "&src=result_input&srcg=360lite&a=www";
-					searchKey = "";
-				}
+	function search(sk,e) {
+		console.log(e)
+		alert(sk)
+		var searchKey = !sk ? document.getElementById("search_input").value : sk;
+		if (searchKey != "") {
+			if (searchKey.startsWith("http://") || searchKey.startsWith("https://")) {
+				window.location.href = searchKey
+			} else {
+				window.location.href = "https://www.wuzhuiso.com/s?q=" + searchKey + "&src=result_input&srcg=360lite&a=www";
+				searchKey = "";
 			}
-			return false;
+		}
+		return false;
 	}
 	function showOrHide() {
 		div = document.getElementById('favlist');
