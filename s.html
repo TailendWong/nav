@@ -514,20 +514,31 @@ logo添加文字样式
 </body>
 <script type="text/javascript">
 	var suggests = [];
+
+	function flushSuggestsVar(arr) {
+		suggests = arr
+		var sugshtml = suggests.map(s => `<div class="sug" onclick="search('${s}');return false">
+			 	<button><em>${s}</em></button>
+			 	<div class="sug-edit sug-edit-p"></div>
+			 	<div class="sug-searchicon sug-searchicon-p"></div>
+		 	</div>`).join('')
+		 document.getElementById("suggs").innerHTML = sugshtml
+	}
+	//定义回调函数
+        window.baidu = {
+            sug: function(json) {
+                flushSuggestsVar(json.s)
+            }
+        }
 	function suggestMe(content) {
 		if (content == "") {
-		 	suggests = []
+		 	flushSuggestsVar([])
 		 	return
 		 }
 		//组装查询地址
         var sugurl = "//suggestion.baidu.com/su?wd=#content#&cb=window.baidu.sug";
         sugurl = sugurl.replace("#content#", content);
-        //定义回调函数
-        window.baidu = {
-            sug: function(json) {
-                suggests = json.s
-            }
-        }
+ 
         //动态添加JS脚本
         var script = document.createElement("script");
         script.src = sugurl;
@@ -536,13 +547,6 @@ logo添加文字样式
 	function keychange(v) {
 		 if (v.startsWith("http://") || v.startsWith("https://")) return
 		 suggestMe(v)
-
-		 var sugshtml = suggests.map(s => `<div class="sug" onclick="search('${s}');return false">
-			 	<button><em>${s}</em></button>
-			 	<div class="sug-edit sug-edit-p"></div>
-			 	<div class="sug-searchicon sug-searchicon-p"></div>
-		 	</div>`).join('')
-		 document.getElementById("suggs").innerHTML = sugshtml
 	}
 	function search(sk) {
 		var searchKey = !sk ? document.getElementById("search_input").value : sk;
