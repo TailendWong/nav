@@ -142,7 +142,7 @@ logo添加文字样式
 		-webkit-animation: fadeIn 2.5s;
 		animation: fadeIn 2.5s;
 		background-color: rgba(255, 255, 255, .100);
-		border-radius: 50px;
+		border-radius: 30px;
 		display: table;
 		vertical-align: middle;
 		width: 80%;
@@ -390,6 +390,82 @@ logo添加文字样式
 			transform: translateY(0)
 		}
 	}
+	.sug {
+		color: #333;
+	    line-height: 24px;
+	    font-size: 18px;
+	    font-weight: 400;
+	    min-height: 45px;
+	    padding-right: 34px;
+	    text-align: left;
+    	word-break: break-all;
+    	position: relative;
+	}
+	.sug button {
+		position: relative;
+	    display: block;
+	    -webkit-box-sizing: border-box;
+	    width: 100%;
+	    height: 100%;
+	    margin: 0;
+	    padding: 6px 0 6px 5px;
+	    border: 0;
+	    font-size: 16px;
+	    font-weight: 700;
+	    line-height: 22px;
+	    text-align: left;
+	    color: #333;
+	    background: none transparent;
+	    -webkit-appearance: none;
+
+		margin-left: 17px;
+	    margin-right: 24px;
+	    padding-left: 28px;
+	    border-bottom: 1px solid #f1f1f1;
+	    line-height: 30px;
+	    font-size: 18px;
+	    padding-right: 24px;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+
+    	color: #1f1f1f;
+    	text-align: left;
+    	
+	    -webkit-tap-highlight-color: rgba(0,0,0,0);
+   		color: #1f1f1f;
+   		outline: 0;
+	}
+	.sug-edit-p {
+	    width: 35px;
+	    right: 6px;
+	    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAKqADAAQAAAABAAAAKgAAAADUGqULAAABY0lEQVRYCc3ZsQ3CMBAFUAwsQDqqJDsgUbECEmIPRENDCwMgBqGmQ0zACskGmcDmvpRIETiBJPb5LBnDGeTns2kualS2NE1XxpgD9QWF5lWce8zzXNnWnCIYx/FRa32mt9Yv2X7IHRsjk7ToSTISSRnjuDHig+Q2Le9kk/FGd2bbNMkZRybb/jibJEkunKCmtX4duaKM7yRgbdAb7crUdiYC+wXFnVRKXaVhv6DIZJZle2lYK1QithEqDdsKlYT9CZWC/QsqAfs3NDS2EzQktjM0FLYXNAS2N5QbOwjKiR0M5cI6gXJgnUF9Y51CfWKdQ31hvUB9YL1BXWO9Ql1ivUNdYVmgLrBs0KFYVugQLDu0LzYItA82GLQrVkQpHNVCVA0JX/cYlJVQXsKmJngJ3YqiuM+okWNJvcJiXCKOeRFQJKoNG0XRSwy0Bfuk4z9iXlzDnaVHSpr6QxzuE0SPldb12BvYgUQNO7Ni2gAAAABJRU5ErkJggg==);
+	    background-size: 13px 13px;
+	    background-color: transparent;
+	    position: absolute;
+	    z-index: 1;
+	    top: 0;
+	    box-sizing: content-box;
+	    width: 34px;
+	    height: 100%;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    z-index: 2;
+   }
+   .sug-searchicon-p {
+	    left: 8px;
+	    background-image: url('data:image/png;base64,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');
+	    background-size: 18px 19px;
+	    position: absolute;
+	    z-index: 1;
+	    top: 0;
+	    box-sizing: content-box;
+	    width: 34px;
+	    height: 100%;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	}
+
 </style>
 
 <body>
@@ -410,8 +486,9 @@ logo添加文字样式
 			<br />
 			<form onsubmit="return search()" class="search_bar">
 				<input type="submit" id="search_submit" value="">
-				<span><input class="search" type="text" value="" autocomplete="off" id="search_input"
+				<span><input class="search" type="text" value="" autocomplete="off" id="search_input" oninput="keychange(this.value)" 
 						autofocus="autofocus"></span>
+				<div id="suggs"></div>
 			</form>
 		</div>
 		<br />
@@ -436,10 +513,46 @@ logo添加文字样式
 	</div>
 </body>
 <script type="text/javascript">
+	var suggests = [];
+	function suggestMe(content) {
+		if (content == "") {
+		 	suggests = []
+		 	return
+		 }
+		//组装查询地址
+        var sugurl = "http://suggestion.baidu.com/su?wd=#content#&cb=window.baidu.sug";
+        sugurl = sugurl.replace("#content#", content);
+        //定义回调函数
+        window.baidu = {
+            sug: function(json) {
+                suggests = json.s
+            }
+        }
+        //动态添加JS脚本
+        var script = document.createElement("script");
+        script.src = sugurl;
+        document.getElementsByTagName("head")[0].appendChild(script);
+	}
+	function keychange(v) {
+		 if (v.startsWith("http://") || v.startsWith("https://")) return
+		 suggestMe(v)
+
+		 var sugshtml = suggests.map(s => `<div class="sug">
+			 	<button><em>${s}</em></button>
+			 	<div class="sug-edit sug-edit-p"></div>
+			 	<div class="sug-searchicon sug-searchicon-p"></div>
+		 	</div>`).join('')
+		 document.getElementById("suggs").innerHTML = sugshtml
+	}
 	function search() {
-			if (document.getElementById("search_input").value != "") {
-				window.location.href = "https://www.wuzhuiso.com/s?q=" + document.getElementById("search_input").value + "&src=result_input&srcg=360lite&a=www";
-				document.getElementById("search_input").value = "";
+		  var searchKey = document.getElementById("search_input").value;
+			if (searchKey != "") {
+				if (searchKey.startsWith("http://") || searchKey.startsWith("https://")) {
+					window.location.href = searchKey
+				} else {
+					window.location.href = "https://www.wuzhuiso.com/s?q=" + searchKey + "&src=result_input&srcg=360lite&a=www";
+					searchKey = "";
+				}
 			}
 			return false;
 	}
