@@ -544,9 +544,7 @@ logo添加文字样式
 		 	</div>`).join('')
 		 document.getElementById("suggs").innerHTML = sugshtml
 	}
-	function search(sk,e) {
-		console.log(e)
-		alert(sk)
+	function search(sk) {
 		var searchKey = !sk ? document.getElementById("search_input").value : sk;
 		if (searchKey != "") {
 			if (searchKey.startsWith("http://") || searchKey.startsWith("https://")) {
