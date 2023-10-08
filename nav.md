@@ -2,11 +2,9 @@
 
 ## 追剧
 ### 浏览器观看
-[影视工厂](https://www.ysgc.vip/)  
-[555影视](https://555ys1.com/)备用[https://www.555kan.net/](https://www.555kan.net/)  
 [7080影视](https://7080.wang/)  
-[星空影视](https://xkys.tv/)  
-[干饭影视](https://www.gfysys1.com/)  
+[555影视](https://555uu.online/)备用[[https://www.555kan.net/](https://555dy.shop/)]    
+[干饭影视](https://gfysys.cc/)  
 [搜片](https://搜片.com/)备用[https://soupian.xyz/](https://soupian.xyz/)  
 [茶杯狐](https://cupfox.app/)备用[https://cupfox.com/](https://cupfox.com/)  
 [影视森林](http://www.549.tv/)  
@@ -65,12 +63,10 @@
 [UC文件传输](https://fast.uc.cn/)  
 [muse](https://musetransfer.com/)  
 [文叔叔](https://wenshushu.cn/)  
-#### 点对点直传
-[轻松传](https://easychuan.cn/)  
 ### 文字
 [网络剪贴板](https://netcut.cn/)  
+[口令](https://ko0s.com/)  
 [note](https://note.ms/)  
-[口令](https://600s.com/)  
 
 ## 搜索引擎
 `优秀的百度搜索代替品，清爽无广告`  
