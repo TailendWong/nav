@@ -102,6 +102,10 @@
 [图床4](https://tc.xkx.me/)  
 [图床5](https://img.fy6b.com/)  
 
+### 文件床
+[catbox](https://catbox.moe/)  
+[趣味云](https://www.ffsup.com/)
+
 ## 短链接
 [https://too.st/](https://too.st/)  
 [https://suo.yt/](https://suo.yt/)  
