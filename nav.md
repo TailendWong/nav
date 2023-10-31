@@ -31,6 +31,7 @@
 [ZLibrary镜像](https://v3.zhelper.net/)https://v3.zhelper.net 、 https://zlib.pro  
 [elib需登录](https://elib.cc/)  
 [ZLibrary偶尔需vpn](https://u1lib.org/)  
+[更多](ebook_sites.html)  
 
 ## 网盘资源
 ### 阿里云盘
