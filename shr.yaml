@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2023-11-10 09:30:06.416737
+# 更新时间：2023-11-11 09:30:06.246762
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,31 +8,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _GB_英国, server: 198.244.231.25, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 141.193.68.81:443, server: 141.193.68.81, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, skip-cert-verify: true, udp: true}
+  - {name: other.kunlun-ppg.com:10845, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -51,8 +47,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -63,23 +58,20 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,8 +87,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _GB_英国
-      - 141.193.68.81:443
+      - other.kunlun-ppg.com:10845
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
