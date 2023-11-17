@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2023-11-16 09:30:06.073492
+# 更新时间：2023-11-17 09:30:06.641785
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,23 +8,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _FR_法国, server: 146.59.71.221, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 2, server: 146.59.110.168, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 3, server: 146.59.111.185, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 4, server: 146.59.110.239, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.177.250, port: 1082, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: yd-05.paofunlink.com, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com, udp: true}
-  - {name: _GB_英国, server: 35.176.9.232, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国 5, server: 146.59.111.197, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 6, server: 141.95.126.108, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 7, server: 146.59.71.220, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 8, server: 146.59.110.169, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 9, server: 146.59.111.186, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 10, server: 162.19.204.80, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 11, server: 146.59.110.240, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 12, server: 162.19.204.83, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 13, server: 141.95.126.100, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: 120.232.177.250, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _FR_法国, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 2, server: 51.158.203.2, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 3, server: 51.158.203.4, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _AF_阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _FR_法国 4, server: 51.158.200.160, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 5, server: 51.158.204.70, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 6, server: 146.59.110.169, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 7, server: 51.158.200.50, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 8, server: 51.158.54.237, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 9, server: 51.158.200.49, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 10, server: 57.129.1.21, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 11, server: 51.158.200.166, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 12, server: 51.158.200.119, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 13, server: 51.158.200.149, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 14, server: 51.158.202.172, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 15, server: 51.158.200.161, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 16, server: 51.158.202.187, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 17, server: 51.158.202.188, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 18, server: 146.59.71.220, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 19, server: 146.59.111.197, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 20, server: 146.59.71.221, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 21, server: 162.19.204.75, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 22, server: 141.95.98.94, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 23, server: 146.59.110.240, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 24, server: 146.59.111.185, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 25, server: 141.95.126.100, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -34,10 +43,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -47,7 +54,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -56,10 +74,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -69,7 +85,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -79,10 +106,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -92,7 +117,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -114,10 +150,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -127,7 +161,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -141,10 +186,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -154,7 +197,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
   - name: 📲 电报信息
     type: select
     proxies:
@@ -163,10 +217,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -176,7 +228,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -186,10 +249,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -199,7 +260,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,10 +290,8 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
+      - _AF_阿富汗
       - _FR_法国 4
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _GB_英国
       - _FR_法国 5
       - _FR_法国 6
       - _FR_法国 7
@@ -231,7 +301,18 @@ proxy-groups:
       - _FR_法国 11
       - _FR_法国 12
       - _FR_法国 13
-      - _CN_中国->🇺🇸_US_美国 3
+      - _FR_法国 14
+      - _FR_法国 15
+      - _FR_法国 16
+      - _FR_法国 17
+      - _FR_法国 18
+      - _FR_法国 19
+      - _FR_法国 20
+      - _FR_法国 21
+      - _FR_法国 22
+      - _FR_法国 23
+      - _FR_法国 24
+      - _FR_法国 25
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
