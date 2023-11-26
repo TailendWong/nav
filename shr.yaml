@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2023-11-25 09:30:08.590953
+# 更新时间：2023-11-26 09:30:07.847524
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,26 +8,28 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _FR_法国, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 2, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 2, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: _FR_法国 3, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _CN_中国->🇺🇦_UA_乌克兰, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: b5d54f18-0e1f-4562-b2e4-de3bf984a317, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: b5d54f18-0e1f-4562-b2e4-de3bf984a317, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国 4, server: 51.158.202.251, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 5, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _GB_英国, server: 198.244.231.34, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: cm01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: 120.240.88.111, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 5, server: cm01.newcome.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 6, server: 120.240.88.111, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@ccbaohe, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 7, server: cm01.newcome.xyz, port: 7703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 8, server: 120.240.88.111, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 9, server: cm01.newcome.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
+  - {name: _GB_英国 2, server: 18.133.213.117, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国->🇺🇸_US_美国, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: b5d54f18-0e1f-4562-b2e4-de3bf984a317, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _AF_阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _FR_法国 6, server: 162.19.59.164, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 7, server: 141.94.143.221, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: _DE_德国, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: _US_美国, server: sg2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 9bda5d52-ebb1-44df-bacf-039182452475, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.177.250, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: "", udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: 120.240.88.111, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: 120.240.88.111, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 4, server: cm01.newcome.xyz, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 5, server: 120.240.88.111, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 6, server: 120.240.88.111, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 7, server: cm01.newcome.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 8, server: cm01.newcome.xyz, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 9, server: cm01.newcome.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1, udp: true}
-  - {name: _GB_英国 2, server: 3.9.5.194, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国 3, server: 18.132.183.26, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: _IE_爱尔兰, server: 52.50.105.142, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: _IE_爱尔兰 2, server: 63.32.221.144, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇮🇳_IN_印度, server: host-053.crazyspeed.xyz, port: 10911, type: ss, cipher: chacha20-ietf-poly1305, password: ff21950f-e77d-4132-bbc1-d864b515251c, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -37,10 +39,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -50,10 +53,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -62,10 +66,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -75,10 +80,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -88,10 +94,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -101,10 +108,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -126,10 +134,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -139,10 +148,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -156,10 +166,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -169,10 +180,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -181,10 +193,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -194,10 +207,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -207,10 +221,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -220,10 +235,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,10 +258,11 @@ proxy-groups:
       - _FR_法国
       - _FR_法国 2
       - _FR_法国 3
-      - _DE_德国
-      - _US_美国
-      - _GB_英国
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _CN_中国->🇺🇸_US_美国
+      - _FR_法国 4
+      - _FR_法国 5
+      - _GB_英国
       - _CN_中国->🇺🇸_US_美国 2
       - _CN_中国->🇺🇸_US_美国 3
       - _CN_中国->🇺🇸_US_美国 4
@@ -255,10 +272,11 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国 8
       - _CN_中国->🇺🇸_US_美国 9
       - _GB_英国 2
-      - _GB_英国 3
-      - _IE_爱尔兰
-      - _IE_爱尔兰 2
-      - _CN_中国->🇮🇳_IN_印度
+      - _KR_韩国->🇺🇸_US_美国
+      - _AF_阿富汗
+      - _FR_法国 6
+      - _FR_法国 7
+      - _DE_德国
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
