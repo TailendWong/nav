@@ -2,7 +2,7 @@
 
 ## 追剧
 ### 浏览器观看
-[可可影视](https://www.keke1.app/)备用[[https://www.keke5.app/](https://www.keke5.app/)]   
+[可可影视](https://www.keke1.app/)备用[[http://www.kekys.com/](http://www.kekys.com/)]   
 [7080影视](https://7080.wang/)  
 [555影视](https://555uu.online/)备用[[https://www.555kan.net/](https://555dy.shop/)]    
 [干饭影视](https://gfysys.cc/)  
