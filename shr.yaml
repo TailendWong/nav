@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2023-11-27 09:30:06.652483
+# 更新时间：2023-11-28 09:30:06.056996
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,18 +8,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _FR_法国, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 2, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 3a285ed3-ebdf-485b-9e71-9528b313c69d, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 3a285ed3-ebdf-485b-9e71-9528b313c69d, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 3a285ed3-ebdf-485b-9e71-9528b313c69d, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _AF_阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _FR_法国 3, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 4, server: 54.36.174.181, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国 5, server: 54.36.174.181, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _GB_英国, server: 198.244.231.34, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _DE_德国, server: 5.104.107.143, port: 443, type: trojan, password: d33df23a-8b9e-468e-bc33-dd3643008ced, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国 2, server: 54.36.174.181, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 3, server: 54.36.174.181, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国 4, server: 54.36.174.181, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _FR_法国 5, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _FR_法国 6, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _FR_法国 7, server: 51.158.200.149, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _US_美国, server: 143.198.144.12, port: 47546, type: trojan, password: YB3shKTT5F, sni: android.googleapis.com, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国 6, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: service.ouluyun9803.com, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: d49dd50e-d1b9-4815-a938-7886bae110b8, udp: true}
+  - {name: _CN_中国->🇺🇦_UA_乌克兰, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 3a285ed3-ebdf-485b-9e71-9528b313c69d, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国 7, server: 162.19.59.163, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _DE_德国, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: _RU_俄罗斯联邦, server: 89.221.224.94, port: 80, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, sni: is2-t.sshmax.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: us.fanqiecloud.top, port: 22752, type: ss, cipher: chacha20-ietf-poly1305, password: 1acb876e-17a8-4652-baeb-26fc63ce2daf, udp: true}
+  - {name: _ES_西班牙, server: 185.218.20.4, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cBghTxo2s8cs8GWneXlRet, udp: true}
   - {name: _FR_法国 8, server: 141.94.143.221, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 9, server: 54.36.174.181, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _FR_法国 9, server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -27,15 +35,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
   - name: ♻️ 自动选择
@@ -44,15 +60,23 @@ proxy-groups:
     interval: 300
     proxies:
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
   - name: 🎥 NETFLIX
@@ -62,15 +86,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
   - name: ⛔️ 广告拦截
@@ -92,15 +124,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
   - name: 🌏 国内媒体
@@ -114,15 +154,23 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
   - name: 📲 电报信息
@@ -131,15 +179,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
   - name: 🍎 苹果服务
@@ -149,15 +205,23 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
   - name: 🎯 全球直连
@@ -176,15 +240,23 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _FR_法国
-      - _GB_英国
-      - _DE_德国
       - _FR_法国 2
+      - _CN_中国->🇺🇸_US_美国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇺🇸_US_美国 3
+      - _AF_阿富汗
       - _FR_法国 3
       - _FR_法国 4
       - _FR_法国 5
+      - _GB_英国
       - _FR_法国 6
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇦_UA_乌克兰
       - _FR_法国 7
+      - _DE_德国
+      - _RU_俄罗斯联邦
       - _US_美国
+      - _ES_西班牙
       - _FR_法国 8
       - _FR_法国 9
 rules:
