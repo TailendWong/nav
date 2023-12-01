@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2023-11-30 09:30:07.154503
+# 更新时间：2023-12-01 09:30:06.630367
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,107 +8,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇺🇸_US_美国, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 5b263211-7c16-4e24-84a0-57ce29a3c234, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 5b263211-7c16-4e24-84a0-57ce29a3c234, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 5b263211-7c16-4e24-84a0-57ce29a3c234, sni: alibaba-node.cn, skip-cert-verify: true, udp: true}
-  - {name: _CY_塞浦路斯, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _AF_阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _DE_德国, server: 5.104.108.120, port: 443, type: trojan, password: e86e242e-b5d5-46ae-a410-3684f7d70ac2, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 38.91.101.159, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 2, server: 38.91.101.159, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _FR_法国, server: 57.129.1.19, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 2, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _US_美国 3, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 4, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _FR_法国 3, server: 57.129.1.21, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 4, server: 51.158.200.143, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _CN_中国->🇹🇷_TR_土耳其, server: lbsh.bnnodeservice.com, port: 34014, type: trojan, password: c82b2e40-8a24-4a4a-85c7-e123ee0ff3d0, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 172.232.194.131, port: 2443, type: ss, cipher: aes-256-gcm, password: F+eM0SV9+4NTpCceBYIwkx931Ftq9s10oXdvpg/tIM8=, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 89.221.224.94, port: 80, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, sni: is2-t.sshmax.xyz, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国, server: 198.244.231.34, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _FR_法国 5, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _US_美国 6, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: _GB_英国 2, server: 198.244.228.191, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 2, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _FR_法国 3, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国 4, server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _FR_法国 5, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _FR_法国 6, server: 57.129.1.20, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: _FR_法国 7, server: 54.36.174.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国 8, server: 54.36.174.181, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -127,27 +75,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -158,80 +93,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -247,27 +143,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CY_塞浦路斯
-      - _AF_阿富汗
-      - _DE_德国
-      - _US_美国
-      - _US_美国 2
       - _FR_法国
       - _FR_法国 2
-      - _US_美国 3
-      - _US_美国 4
       - _FR_法国 3
       - _FR_法国 4
-      - _CN_中国->🇹🇷_TR_土耳其
-      - _US_美国 5
-      - _RU_俄罗斯联邦
-      - _GB_英国
       - _FR_法国 5
-      - _US_美国 6
-      - _GB_英国 2
+      - _FR_法国 6
+      - _FR_法国 7
+      - _FR_法国 8
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
