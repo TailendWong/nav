@@ -105,6 +105,7 @@
 
 ### 文件床
 [catbox](https://catbox.moe/)  
+[屋舍](https://www.uhsea.com/)  
 [趣味云](https://www.ffsup.com/)
 
 ## 短链接
