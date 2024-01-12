@@ -45,6 +45,8 @@
 [阿里云盘小站](https://wpxz.org/)  
 [云盘资源网](https://www.yunpanziyuan.com/)  
 [阿里云搜](https://aliyunso.cn/)  
+### 夸克网盘
+[kk小站](https://kkxz.vip/)  
 ### 百度网盘
 [百度网盘搜索专区](http://wp.soshoulu.com/)  
 [小马盘搜](https://www.xiaomapan.com/)  
