@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-01-26 09:40:06.161464
+# 更新时间：2024-01-27 09:40:06.765850
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,103 +8,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
-  - {name: _US_美国 2, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
-  - {name: _US_美国 3, server: 104.31.16.104, port: 8080, type: vmess, uuid: 3a6752b4-8353-4172-85b1-32202116714d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: asan3.azad1.tech}}, udp: true}
-  - {name: _GB_英国, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
-  - {name: _US_美国 4, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}, udp: true}
+  - {name: _US_美国->🇮🇷_IR_伊朗, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
+  - {name: _US_美国->🇮🇷_IR_伊朗 2, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: _US_美国->🇮🇷_IR_伊朗 3, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 05.kccic2pa.xyz, port: 50005, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 104.31.16.104, port: 8080, type: vmess, uuid: 3a6752b4-8353-4172-85b1-32202116714d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: asan3.azad1.tech}}, udp: true}
+  - {name: _CN_中国->🇦🇹_AT_奥地利, server: xibaozi.19890604.day, port: 10848, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: xibaozi.19890604.day, port: 10850, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
+  - {name: _AU_澳大利亚->🇺🇸_US_美国, server: 192.65.217.247, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k5us2.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /yfjc/kus2, headers: {Host: k5us2.yfjc.sbs}}, udp: true}
+  - {name: _AU_澳大利亚->🇺🇸_US_美国 2, server: 192.65.217.200, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k6us1.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /yfjc/kus1, headers: {Host: k6us1.yfjc.sbs}}, udp: true}
+  - {name: _AM_亚美尼亚->🇳🇱_NL_荷兰, server: 185.162.231.208, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k8nl2.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /yfjc/knl2, headers: {Host: k8nl2.yfjc.sbs}}, udp: true}
   - {name: _IQ_伊拉克->🇹🇷_TR_土耳其, server: 130.193.166.2, port: 443, type: vmess, uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: soft8989.redirectme.net}}, udp: true}
-  - {name: _US_美国 5, server: 104.18.15.150, port: 80, type: vmess, uuid: 4899b015-5823-486d-bfe6-06c3239260f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: 162.159.200.6, port: 80, type: vmess, uuid: 4899b015-5823-486d-bfe6-06c3239260f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 2, server: 162.159.200.7, port: 80, type: vmess, uuid: 4899b015-5823-486d-bfe6-06c3239260f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: er3.visaapp.top}}, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 45.144.2.113, port: 80, type: vmess, uuid: 4899b015-5823-486d-bfe6-06c3239260f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.apple.com}}, udp: true}
-  - {name: _US_美国 6, server: 104.18.15.147, port: 80, type: vmess, uuid: 4899b015-5823-486d-bfe6-06c3239260f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 3, server: 104.18.15.148, port: 80, type: vmess, uuid: 4899b015-5823-486d-bfe6-06c3239260f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}, udp: true}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦 4, server: 104.18.15.149, port: 80, type: vmess, uuid: 4899b015-5823-486d-bfe6-06c3239260f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}, udp: true}
-  - {name: _CN_中国->🇵🇰_PK_巴基斯坦, server: 36.212.152.13, port: 33311, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: service.ouluyun9803.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
-  - {name: _ES_西班牙->🇭🇰_HK_香港, server: 185.214.103.249, port: 8002, type: vmess, uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}, udp: true}
-  - {name: _IE_爱尔兰, server: 63.35.135.61, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国 2, server: 18.168.50.183, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 7, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国 8, server: 54.201.23.39, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _LU_卢森堡, server: 188.42.145.73, port: 443, type: trojan, password: 933e3c9c-701e-45df-978b-ca8f42fb8871, sni: k6nl1.yfjc.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /yfjc/knl1, headers: {Host: k6nl1.yfjc.sbs}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国 2, server: hamrahaval.asan3a.shop, port: 8080, type: vmess, uuid: 3a6752b4-8353-4172-85b1-32202116714d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: asan3.azad1.tech}}, udp: true}
+  - {name: _US_美国 2, server: be1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be1-vmess.sshmax.xyz}}, udp: true}
+  - {name: _US_美国 3, server: 34.221.71.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 4, server: www.crispyrainbow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
+  - {name: _US_美国 5, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}, udp: true}
+  - {name: _CN_中国->🇺🇦_UA_乌克兰, server: xibaozi.19890604.day, port: 10845, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇨🇿_CZ_捷克, server: xibaozi.19890604.day, port: 10846, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: xibaozi.19890604.day, port: 10838, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: xibaozi.19890604.day, port: 10837, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 5, server: xibaozi.19890604.day, port: 10847, type: trojan, password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: 34.222.2.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 7, server: 44.226.30.52, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -123,108 +143,127 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _ES_西班牙->🇭🇰_HK_香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -240,26 +279,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国->🇮🇷_IR_伊朗
+      - _US_美国->🇮🇷_IR_伊朗 2
+      - _US_美国->🇮🇷_IR_伊朗 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _CN_中国->🇦🇹_AT_奥地利
+      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国
+      - _AU_澳大利亚->🇺🇸_US_美国 2
+      - _AM_亚美尼亚->🇳🇱_NL_荷兰
+      - _IQ_伊拉克->🇹🇷_TR_土耳其
+      - _LU_卢森堡
+      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 2
       - _US_美国 3
-      - _GB_英国
       - _US_美国 4
-      - _IQ_伊拉克->🇹🇷_TR_土耳其
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 2
-      - _RU_俄罗斯联邦
+      - _CN_中国->🇺🇦_UA_乌克兰
+      - _CN_中国->🇨🇿_CZ_捷克
+      - _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
       - _US_美国 6
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 3
-      - _US_美国->🇷🇺_RU_俄罗斯联邦 4
-      - _CN_中国->🇵🇰_PK_巴基斯坦
-      - _CN_中国
-      - _ES_西班牙->🇭🇰_HK_香港
-      - _IE_爱尔兰
-      - _GB_英国 2
       - _US_美国 7
-      - _US_美国 8
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
