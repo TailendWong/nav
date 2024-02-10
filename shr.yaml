@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-02-09 09:40:05.891862
+# 更新时间：2024-02-10 09:40:06.988549
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,191 +8,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _DE_德国, server: 5.75.190.50, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _DE_德国 2, server: 5.78.81.59, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _DE_德国 3, server: 5.78.113.48, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _DE_德国 4, server: 5.78.72.21, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _DE_德国 5, server: 5.78.75.87, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _US_美国, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: _US_美国 2, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: _US_美国 3, server: 104.21.94.99, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国 2, server: 104.22.51.162, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: _US_美国 4, server: server33.beheshtbaneh.com, port: 8880, type: vmess, uuid: 0873fffc-414f-4140-a155-672129fd9a1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server33.beheshtbaneh.com}}, udp: true}
-  - {name: _US_美国 5, server: 172.67.221.183, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
-  - {name: _US_美国 6, server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
-  - {name: _US_美国->🇹🇷_TR_土耳其, server: 45.65.8.4, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: irsoft.sytes.net}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国 3, server: www.greendam.site, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}, udp: true}
-  - {name: _NL_荷兰, server: 91.242.229.77, port: 80, type: vmess, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 91.242.229.77}}, udp: true}
-  - {name: _US_美国 7, server: s12.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}, udp: true}
-  - {name: _US_美国 8, server: s1.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi4.daxiongda.top}}, udp: true}
-  - {name: _US_美国 9, server: s13.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi20.daxiongda.top}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西, server: s4.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}, udp: true}
-  - {name: _BR_巴西, server: s3.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}, udp: true}
-  - {name: _US_美国 10, server: s2.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}, udp: true}
-  - {name: _IN_印度, server: s8.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}, udp: true}
-  - {name: _US_美国 11, server: daxiongda.top, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi23.daxiongda.top}}, udp: true}
-  - {name: _US_美国->🇨🇱_CL_智利, server: s11.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}, udp: true}
-  - {name: _IN_印度 2, server: s7.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}, udp: true}
-  - {name: _US_美国 12, server: s14.956256.xyz, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}, udp: true}
-  - {name: _US_美国 13, server: 104.21.31.244, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}, udp: true}
-  - {name: _US_美国 14, server: 165.1.74.141, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.956256.xyz}}, udp: true}
-  - {name: _US_美国 15, server: 141.148.180.132, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s13.956256.xyz}}, udp: true}
-  - {name: _US_美国 16, server: 146.235.243.222, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s12.956256.xyz}}, udp: true}
-  - {name: _IN_印度 3, server: 141.148.193.95, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s7.956256.xyz}}, udp: true}
-  - {name: _IN_印度 4, server: 141.148.202.113, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s8.956256.xyz}}, udp: true}
-  - {name: _US_美国 17, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
-  - {name: _US_美国 18, server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
-  - {name: _ZA_南非, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _DE_德国 6, server: 116.203.116.244, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: _IE_爱尔兰, server: 54.73.239.19, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 172.67.221.183, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
+  - {name: _US_美国 2, server: 172.67.212.114, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: 172.67.157.8, port: 2096, type: trojan, password: RtOGIC4aSC, sni: ngo.topoppongroup.space, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 64.31.55.124, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com, udp: true}
+  - {name: _US_美国 4, server: www.nahck.site, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}, udp: true}
+  - {name: _US_美国 5, server: 172.67.180.248, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}, udp: true}
+  - {name: _GB_英国, server: au-melbourne-oracle-abfdf2.ip1.shop, port: 63503, type: vmess, uuid: ed4d8827-4d5a-4c05-a577-c66d6a2fc1e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au-melbourne-oracle-abfdf2.ip1.shop}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: 104.21.42.52, port: 2096, type: trojan, password: RtOGIC4aSC, sni: ngo.topoppongroup.space, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国, server: 116.203.116.244, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: _CN_中国->🇮🇳_IN_印度, server: 183.232.170.22, port: 30128, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: 104.21.23.176, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: _US_美国 7, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
+  - {name: _US_美国 8, server: www.crispyrainbow.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.biz}}, udp: true}
+  - {name: _US_美国 9, server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}, udp: true}
+  - {name: _NL_荷兰, server: 91.242.229.69, port: 2086, type: vmess, uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: nl1.xv2ray.net}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: 172.67.204.84, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true, udp: true}
   - {name: _RU_俄罗斯联邦, server: 45.144.2.113, port: 80, type: vmess, uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.144.2.113}}, udp: true}
-  - {name: _CA_加拿大, server: 15.157.40.4, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 19, server: 165.1.66.37, port: 80, type: vmess, uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.956256.xyz}}, udp: true}
-  - {name: _FR_法国, server: 15.188.111.158, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
+  - {name: _US_美国 11, server: 104.21.89.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}, udp: true}
+  - {name: _US_美国 12, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
+  - {name: _CY_塞浦路斯, server: 85.239.40.69, port: 21205, type: ss, cipher: aes-256-gcm, password: P84jEsm2JGaOIpEv, udp: true}
+  - {name: _US_美国 13, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}, udp: true}
+  - {name: _US_美国 14, server: server33.beheshtbaneh.com, port: 8880, type: vmess, uuid: 0873fffc-414f-4140-a155-672129fd9a1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server33.beheshtbaneh.com}}, udp: true}
+  - {name: _US_美国 15, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
+  - {name: _DE_德国 2, server: 5.75.190.50, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -211,48 +143,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -263,143 +178,92 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -415,48 +279,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _DE_德国 4
-      - _DE_德国 5
       - _US_美国
       - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇳🇱_NL_荷兰
       - _US_美国 3
-      - _US_美国->🇩🇪_DE_德国 2
       - _US_美国 4
       - _US_美国 5
+      - _GB_英国
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - _DE_德国
+      - _CN_中国->🇮🇳_IN_印度
       - _US_美国 6
-      - _US_美国->🇹🇷_TR_土耳其
-      - _US_美国->🇩🇪_DE_德国 3
-      - _NL_荷兰
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
-      - _US_美国->🇧🇷_BR_巴西
-      - _BR_巴西
+      - _NL_荷兰
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _RU_俄罗斯联邦
       - _US_美国 10
-      - _IN_印度
       - _US_美国 11
-      - _US_美国->🇨🇱_CL_智利
-      - _IN_印度 2
       - _US_美国 12
+      - _CY_塞浦路斯
       - _US_美国 13
       - _US_美国 14
       - _US_美国 15
-      - _US_美国 16
-      - _IN_印度 3
-      - _IN_印度 4
-      - _US_美国 17
-      - _US_美国 18
-      - _ZA_南非
-      - _DE_德国 6
-      - _IE_爱尔兰
-      - _RU_俄罗斯联邦
-      - _CA_加拿大
-      - _US_美国 19
-      - _FR_法国
+      - _DE_德国 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
