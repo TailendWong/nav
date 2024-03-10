@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-03-09 09:40:07.499959
+# 更新时间：2024-03-10 09:40:07.238095
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,39 +8,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _AE_阿联酋->🇫🇷_FR_法国, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: fbi.gov, port: 8080, type: vmess, uuid: b1e5c55d-e59b-42c4-aeb9-393e18525cca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: b1e5c55d-e59b-42c4-aeb9-393e18525cca-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.11, port: 443, type: trojan, password: b17fa17d-13a0-4e8a-a398-8e549ea8b208, sni: syndication-statutes-wanted-logo.trycloudflare.com, skip-cert-verify: true, network: ws, ws-opts: {path: /argox-tr, headers: {Host: syndication-statutes-wanted-logo.trycloudflare.com}}, udp: true}
+  - {name: _AE_阿联酋->🇬🇧_GB_英国, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}, udp: true}
+  - {name: _US_美国, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: _US_美国->🇮🇹_IT_意大利, server: frcc.digicert.pp.ua, port: 2052, type: vmess, uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apopsdsssaop, headers: {Host: asdfas.qkhbyf.tech}}, udp: true}
+  - {name: _IE_爱尔兰, server: 34.243.1.59, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: _AR_阿根廷, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _US_美国->🇮🇳_IN_印度, server: www.visa.co.jp, port: 8080, type: vmess, uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ydmmamd1.mac2win.top}}, udp: true}
+  - {name: _US_美国->🇮🇳_IN_印度 2, server: www.visa.com.hk, port: 80, type: vmess, uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ydmmamd2.mac2win.top}}, udp: true}
+  - {name: _US_美国 2, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: _US_美国 3, server: 138.124.184.209, port: 32955, type: ss, cipher: chacha20-ietf-poly1305, password: s2S9dyaGAPRY0N3LYz838G, udp: true}
+  - {name: _US_美国 4, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: 172.67.132.6, port: 2096, type: trojan, password: 7b06d62b-25ed-45ed-ac0d-bc28a4779ef9, sni: channel.v2bamdad.tech, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: 15.157.113.141, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -59,10 +91,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -73,29 +113,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -111,10 +175,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _AE_阿联酋->🇫🇷_FR_法国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _US_美国->🇫🇷_FR_法国
-      - _CA_加拿大->🇺🇸_US_美国
+      - _AE_阿联酋->🇬🇧_GB_英国
+      - _US_美国
+      - _US_美国->🇮🇹_IT_意大利
+      - _IE_爱尔兰
+      - _AR_阿根廷
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CA_加拿大
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
