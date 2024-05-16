@@ -154,7 +154,7 @@
         mounted: function() {  
             console.log('init');  
             // 这里可以执行其他初始化操作
-            // 接口预热
+            // 接口预热，不知道为啥第一次调用一定失败，没找到原因，所以预先调用一次
             this.handleSubmit(true)  
         } 
     })
