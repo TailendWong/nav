@@ -73,13 +73,13 @@
         },
         methods: {
             //在这里写方法
-            promiseFetch(apiUrl, formdataBody, preheat) {
+            promiseFetch(apiUrl, formdataBody, isPreheat) {
                 return new Promise((resolve, reject) => {
-                    axios.post(apiUrl, formdataBody, {timeout: preheat ? 200 : 1000})
+                    axios.post(apiUrl, formdataBody, {timeout: isPreheat ? 200 : 1000})
                         .then((res) => {
                             data = res.data
                             this.btnLoading = false;
-                            if (!preheat) {
+                            if (!isPreheat) {
                                 this.result = data.ShortUrl
                             }
                             resolve();
@@ -104,7 +104,9 @@
             },
 
             async handleSubmit(preheat) {
-                let lu = preheat ? 'http://qq.com' : this.longUrl
+                console.log("preheat",preheat)
+                isPreheat = preheat === true
+                let lu = isPreheat ? 'http://qq.com' : this.longUrl
                 // let lu = `https://www.baidu.com`;
                 let param = {longUrl: btoa('http://nav.honia.tk?url=' + lu)}
 
@@ -116,7 +118,7 @@
                 for (let i = 0; i < apis.length ; i++) {
                     let api = apis[i]
                     console.log("循环", i, api);
-                    await this.promiseFetch(api, formdata, preheat);
+                    await this.promiseFetch(api, formdata, isPreheat);
                     if (this.result) {
                         break;
                     }
@@ -124,7 +126,7 @@
 
                 if (!this.result) {
                     this.btnLoading = false;
-                    if(!preheat) {
+                    if(!isPreheat) {
                         alert('短链接服务异常，请重试')
                     }
                 }
