@@ -73,14 +73,15 @@
         },
         methods: {
             //在这里写方法
-            promiseFetch(apiUrl, formdataBody) {
+            promiseFetch(apiUrl, formdataBody, preheat) {
                 return new Promise((resolve, reject) => {
-                    axios.post(apiUrl, formdataBody, {timeout: 1000})
+                    axios.post(apiUrl, formdataBody, {timeout: preheat ? 200 : 1000})
                         .then((res) => {
-                            console.log(apiUrl,res)
                             data = res.data
                             this.btnLoading = false;
-                            this.result = data.ShortUrl
+                            if (!preheat) {
+                                this.result = data.ShortUrl
+                            }
                             resolve();
                         }).catch(e => {
                             console.log(e)
@@ -102,8 +103,8 @@
                 });
             },
 
-            async handleSubmit() {
-                let lu = this.longUrl
+            async handleSubmit(preheat) {
+                let lu = preheat ? 'http://qq.com' : this.longUrl
                 // let lu = `https://www.baidu.com`;
                 let param = {longUrl: btoa('http://nav.honia.tk?url=' + lu)}
 
@@ -115,7 +116,7 @@
                 for (let i = 0; i < apis.length ; i++) {
                     let api = apis[i]
                     console.log("循环", i, api);
-                    await this.promiseFetch(api, formdata);
+                    await this.promiseFetch(api, formdata, preheat);
                     if (this.result) {
                         break;
                     }
@@ -123,7 +124,9 @@
 
                 if (!this.result) {
                     this.btnLoading = false;
-                    alert('短链接服务异常，请重试')
+                    if(!preheat) {
+                        alert('短链接服务异常，请重试')
+                    }
                 }
 
             },
@@ -145,8 +148,17 @@
                 console.log(this.longUrl, '=====url===')
             }
 
-        }
+        },  
+        mounted: function() {  
+            console.log('init');  
+            // 这里可以执行其他初始化操作
+            // 接口预热
+            this.handleSubmit(true)  
+        } 
     })
+
+    
+
 
 </script>
 </body>
