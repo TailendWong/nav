@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-05-16 14:12:49.442664
+# 更新时间：2024-05-17 09:40:06.435792
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,99 +8,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国->🇺🇸_US_美国, server: 36.151.195.48, port: 20344, type: trojan, password: TNDSJfNv, skip-cert-verify: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 104.18.19.191, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
-  - {name: _US_美国, server: russia.com, port: 8880, type: vmess, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: _US_美国->🇩🇪_DE_德国 2, server: 104.18.36.119, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
-  - {name: _US_美国 2, server: russia.com, port: 2095, type: vmess, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: _US_美国->🇩🇪_DE_德国 3, server: 104.19.250.15, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
-  - {name: _US_美国 3, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
   - {name: _RU_俄罗斯联邦, server: 45.136.245.240, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: _US_美国 4, server: 18.236.155.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _US_美国 5, server: 23.157.40.26, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 6, server: 23.157.40.26, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 7, server: 23.157.40.26, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _US_美国 8, server: 23.157.40.26, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 9, server: 23.157.40.26, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: _US_美国 10, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: _US_美国 11, server: 23.157.40.26, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 12, server: 23.157.40.26, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: _US_美国 13, server: 23.157.40.26, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 14, server: 23.157.40.26, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US_美国, server: russia.com, port: 8880, type: vmess, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 104.18.19.191, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
+  - {name: _US_美国->🇩🇪_DE_德国 2, server: 104.18.36.119, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
+  - {name: _US_美国->🇩🇪_DE_德国 3, server: 104.19.250.15, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 36.151.195.48, port: 20344, type: trojan, password: TNDSJfNv, skip-cert-verify: true}
+  - {name: _US_美国 2, server: 54.212.53.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国 3, server: russia.com, port: 2095, type: vmess, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: _US_美国 4, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: _US_美国 5, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -119,25 +83,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -148,74 +103,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -231,25 +159,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国
-      - _US_美国->🇩🇪_DE_德国 2
-      - _US_美国 2
-      - _US_美国->🇩🇪_DE_德国 3
-      - _US_美国 3
       - _RU_俄罗斯联邦
+      - _US_美国
+      - _US_美国->🇩🇪_DE_德国
+      - _US_美国->🇩🇪_DE_德国 2
+      - _US_美国->🇩🇪_DE_德国 3
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 2
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
