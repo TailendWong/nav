@@ -35,6 +35,8 @@
 [更多](ebook_sites.html)  
 
 ## 网盘资源
+### 聚合
+[搜](https://www.woqusou.com/)  
 ### 阿里云盘
 [yougit](https://yougit.net/)  
 [易搜](https://yiso.fun/)  
