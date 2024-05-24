@@ -22,6 +22,6 @@
 
 
 # minor
-- https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/output.yaml
+- https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml
 - https://raw.githubusercontent.com/TailendWong/nav/gh-pages/shr.yaml
 - https://raw.githubusercontent.com/zxgs/xx/main/zxz.yml
