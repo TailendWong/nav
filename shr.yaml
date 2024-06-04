@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-06-03 09:40:06.500986
+# 更新时间：2024-06-04 09:40:06.236091
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,95 +8,179 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国->🇦🇺_AU_澳大利亚, server: 104.20.18.168, port: 443, type: trojan, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, network: ws, ws-opts: {path: /apple, headers: {Host: golinkwuxian.top}}}
-  - {name: _US_美国->🇦🇺_AU_澳大利亚 2, server: 104.20.19.168, port: 443, type: trojan, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, network: ws, ws-opts: {path: /apple, headers: {Host: golinkwuxian.top}}}
-  - {name: _US_美国, server: 104.16.38.71, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us6_0.wish.ml}}}
-  - {name: _US_美国->🇮🇳_IN_印度, server: 104.17.156.224, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: in4.wish.ml}}}
-  - {name: _US_美国 2, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us6_0.wish.ml}}}
-  - {name: _US_美国 3, server: 107.173.146.129, port: 80, type: vmess, uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: _DE_德国, server: 54.93.75.43, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
+  - {name: _CN_中国->🇩🇪_DE_德国, server: iepl5.forlive.live, port: 50118, type: ss, cipher: chacha20-ietf-poly1305, password: 25cb8cd7-800f-359e-81b5-a12863e2018d}
+  - {name: _RU_俄罗斯联邦, server: eedp257bubu2wefy1.lovebaipiao.net, port: 54321, type: vmess, uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy1.lovebaipiao.net}}}
+  - {name: _RU_俄罗斯联邦 2, server: eedp257bubu2wefy2.lovebaipiao.net, port: 54321, type: vmess, uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy2.lovebaipiao.net}}}
+  - {name: _RU_俄罗斯联邦 3, server: eedp257bubu2wefy.lovebaipiao.net, port: 54321, type: vmess, uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy.lovebaipiao.net}}}
+  - {name: _US_美国, server: 195.123.240.45, port: 12947, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: _CN_中国->🇹🇷_TR_土耳其, server: x.y49t1kh1.5ebf71z0-tro1.my777999.top, port: 21991, type: vmess, uuid: 33aefd89-3285-4347-9083-6249711f02e9, alterId: 0, cipher: auto, tls: false}
   - {name: _US_美国->🇨🇦_CA_加拿大, server: cdncdncdncdn.784654.xyz, port: 2052, type: vmess, uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: ca-cfcdn.aikunapp.com}}}
-  - {name: _GB_英国, server: 3.8.65.235, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: _US_美国->🇦🇺_AU_澳大利亚 3, server: c5.wuxianliulianng.xyz, port: 443, type: trojan, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, network: ws, ws-opts: {path: /apple, headers: {Host: golinkwuxian.top}}}
-  - {name: _US_美国 4, server: russia.com, port: 2095, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: _US_美国 5, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: _US_美国->🇫🇷_FR_法国, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: _US_美国->🇮🇳_IN_印度 2, server: 172.67.164.78, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: in3.wish.ml}}}
-  - {name: _US_美国->🇫🇷_FR_法国 2, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: _US_美国 6, server: Tgju.org, port: 2095, type: vmess, uuid: c8c1e652-fe34-4e04-879f-fea8940d7980, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: Asdfghjkl10.unique69.com}}}
-  - {name: _RU_俄罗斯联邦, server: 45.136.245.240, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: _RU_俄罗斯联邦 2, server: 45.147.200.170, port: 13964, type: vmess, uuid: 2cd0f258-d8cf-4c56-a5ec-5e400c1bbde8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: _FR_法国, server: 15.236.14.65, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: _CA_加拿大, server: ca-v2ray.ipracevpn.com, port: 443, type: vmess, uuid: e3ef2387-33aa-4c0f-86b5-008ee3bcb945, alterId: 0, cipher: auto, tls: true}
+  - {name: _US_美国 2, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: 2595193e-3b5e-437e-8998-7be6dbfbed71, alterId: 0, cipher: auto, tls: true}
+  - {name: _US_美国 3, server: www.speedtest.net, port: 2052, type: vmess, uuid: dfa5c809-1021-4e51-8600-8f31f4e3907a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: 2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou.}}}
+  - {name: _SE_瑞典, server: 185.146.173.92, port: 80, type: vmess, uuid: 3a71b42c-66d2-44ad-8a80-668d4f4339ea, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: Nl2.vmess.site.}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 2, server: 172.67.159.232, port: 2052, type: vmess, uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: ca-cfcdn.aikunapp.com}}}
+  - {name: _GB_英国, server: 18.133.59.128, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: _CA_加拿大 2, server: 158.51.121.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
+  - {name: _US_美国->🇸🇪_SE_瑞典, server: www.speedtest.net, port: 80, type: vmess, uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: Se2.vmess.site.}}}
+  - {name: _US_美国 4, server: 44.234.139.6, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: _GB_英国 2, server: 13.41.166.207, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 172.67.204.84, port: 2083, type: trojan, password: 0e81a9cd-d849-4101-8d64-574c283207de, sni: de1.trojanvpn.de, skip-cert-verify: true, network: ws, ws-opts: {path: /websocket, headers: {Host: de1.trojanvpn.de}}}
+  - {name: _PL_波兰, server: 51.77.53.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _PL_波兰 2, server: 51.77.53.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _US_美国 5, server: 23.157.40.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _PL_波兰 3, server: 51.77.53.200, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US_美国 6, server: 23.157.40.120, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _PL_波兰 4, server: 51.77.53.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _US_美国 7, server: 23.157.40.120, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _PL_波兰 5, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _PL_波兰 6, server: 51.77.53.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _US_美国 8, server: 23.157.40.120, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _US_美国 9, server: 23.157.40.120, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _DE_德国 2, server: 80.92.204.106, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
+  - {name: _US_美国 10, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: _US_美国 11, server: 23.157.40.120, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _US_美国 12, server: 23.157.40.120, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US_美国 13, server: 23.157.40.120, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _US_美国 14, server: 23.157.40.120, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: _US_美国 15, server: 23.157.40.120, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _PL_波兰 7, server: 51.77.53.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _US_美国 16, server: 23.157.40.120, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -115,24 +199,45 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -143,71 +248,134 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,24 +391,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国->🇦🇺_AU_澳大利亚
-      - _US_美国->🇦🇺_AU_澳大利亚 2
-      - _US_美国
-      - _US_美国->🇮🇳_IN_印度
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国->🇨🇦_CA_加拿大
-      - _GB_英国
-      - _US_美国->🇦🇺_AU_澳大利亚 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国->🇫🇷_FR_法国
-      - _US_美国->🇮🇳_IN_印度 2
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 6
+      - _DE_德国
+      - _CN_中国->🇩🇪_DE_德国
       - _RU_俄罗斯联邦
       - _RU_俄罗斯联邦 2
-      - _FR_法国
+      - _RU_俄罗斯联邦 3
+      - _US_美国
+      - _CN_中国->🇹🇷_TR_土耳其
+      - _US_美国->🇨🇦_CA_加拿大
+      - _CA_加拿大
+      - _US_美国 2
+      - _US_美国 3
+      - _SE_瑞典
+      - _US_美国->🇨🇦_CA_加拿大 2
+      - _GB_英国
+      - _CA_加拿大 2
+      - _US_美国->🇸🇪_SE_瑞典
+      - _US_美国 4
+      - _GB_英国 2
+      - _US_美国->🇩🇪_DE_德国
+      - _PL_波兰
+      - _PL_波兰 2
+      - _US_美国 5
+      - _PL_波兰 3
+      - _US_美国 6
+      - _PL_波兰 4
+      - _US_美国 7
+      - _PL_波兰 5
+      - _PL_波兰 6
+      - _US_美国 8
+      - _US_美国 9
+      - _DE_德国 2
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
+      - _US_美国 15
+      - _PL_波兰 7
+      - _US_美国 16
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
