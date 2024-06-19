@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-06-18 09:40:06.590799
+# 更新时间：2024-06-19 09:40:06.730366
 ####################################
 port: 7890
 socks-port: 7891
@@ -11,49 +11,34 @@ proxies:
   - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
   - {name: _US_美国, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: 59.56.77.178, port: 16058, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
   - {name: _US_美国 2, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: _US_美国 3, server: russia.com, port: 80, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: _PL_波兰, server: 51.77.53.200, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _US_美国 4, server: russia.com, port: 8880, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: 172.64.97.235, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: luther-soon-uploaded-anxiety.trycloudflare.com}}}
-  - {name: _PL_波兰 2, server: 51.77.53.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _PL_波兰 3, server: 51.77.53.200, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _PL_波兰 4, server: 51.77.53.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 5, server: www.speedtest.net, port: 80, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: De2.vmess.site.}}}
-  - {name: _PL_波兰 5, server: 51.77.53.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _PL_波兰 6, server: 51.77.53.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _PL_波兰 7, server: 51.77.53.200, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _GB_英国, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: _PL_波兰 8, server: 51.77.53.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _PL_波兰 9, server: 51.77.53.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _PL_波兰 10, server: 51.77.53.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: _PL_波兰 11, server: 51.77.53.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _PL_波兰 12, server: 51.77.53.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _PL_波兰 13, server: 51.77.53.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _PL_波兰 14, server: 51.77.53.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _PL_波兰 15, server: 51.77.53.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _PL_波兰 16, server: 51.77.53.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _PL_波兰 17, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _PL_波兰 18, server: 51.77.53.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _PL_波兰 19, server: 51.77.53.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国 6, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 7, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国 8, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _DE_德国, server: 18.158.123.27, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
-  - {name: _US_美国 9, server: 172.232.37.114, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: Zg9HJ8NpUH6c2IwEKY0cwg}
-  - {name: _US_美国 10, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 11, server: 169.197.142.216, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 12, server: 169.197.142.216, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 13, server: 38.75.136.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 14, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 15, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 54d73e4b-054d-4148-bab6-22646f4431a9}
-  - {name: _US_美国 16, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国 17, server: 38.75.136.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 18, server: 38.75.136.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _US_美国 19, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _US_美国 20, server: 38.99.82.85, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: ̈́m͒ߍM֡Tyۙҫ1͛P̎}
+  - {name: _RU_俄罗斯联邦, server: 89.169.53.36, port: 59985, type: vmess, uuid: d572d74e-427b-4525-9d0d-88608d1a4f19, alterId: 0, cipher: auto, tls: false}
+  - {name: _US_美国 3, server: 172.64.97.235, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: luther-soon-uploaded-anxiety.trycloudflare.com}}}
+  - {name: _US_美国 4, server: fbi.gov, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
+  - {name: _US_美国 5, server: russia.com, port: 80, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: _US_美国 6, server: russia.com, port: 8880, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: _PL_波兰, server: 51.77.53.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _PL_波兰 2, server: 51.77.53.200, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: _PL_波兰 3, server: 51.77.53.200, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _PL_波兰 4, server: 51.77.53.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _PL_波兰 5, server: 51.77.53.200, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _PL_波兰 6, server: 51.77.53.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _PL_波兰 7, server: 51.77.53.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _PL_波兰 8, server: 51.77.53.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: _PL_波兰 9, server: 51.77.53.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _PL_波兰 10, server: 51.77.53.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _PL_波兰 11, server: 51.77.53.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _PL_波兰 12, server: 51.77.53.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _PL_波兰 13, server: 51.77.53.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _PL_波兰 14, server: 51.77.53.200, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _PL_波兰 15, server: 51.77.53.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _PL_波兰 16, server: 51.77.53.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _US_美国 7, server: 205.134.180.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag}
+  - {name: _US_美国 8, server: 23.150.152.53, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: _US_美国 9, server: www.speedtest.net, port: 80, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: De2.vmess.site.}}}
+  - {name: _US_美国->🇫🇷_FR_法国, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: _US_美国->🇫🇷_FR_法国 2, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: _US_美国->🇫🇷_FR_法国 3, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -63,20 +48,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -86,26 +70,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -114,20 +84,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -137,26 +106,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -166,20 +121,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -189,26 +143,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -230,20 +170,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -253,26 +192,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -286,20 +211,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -309,26 +233,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -337,20 +247,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -360,26 +269,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -389,20 +284,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -412,26 +306,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -450,20 +330,19 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国 2
+      - _RU_俄罗斯联邦
       - _US_美国 3
-      - _PL_波兰
       - _US_美国 4
-      - _US_美国->🇨🇦_CA_加拿大
+      - _US_美国 5
+      - _US_美国 6
+      - _PL_波兰
       - _PL_波兰 2
       - _PL_波兰 3
       - _PL_波兰 4
-      - _US_美国 5
       - _PL_波兰 5
       - _PL_波兰 6
       - _PL_波兰 7
-      - _GB_英国
       - _PL_波兰 8
       - _PL_波兰 9
       - _PL_波兰 10
@@ -473,26 +352,12 @@ proxy-groups:
       - _PL_波兰 14
       - _PL_波兰 15
       - _PL_波兰 16
-      - _PL_波兰 17
-      - _PL_波兰 18
-      - _PL_波兰 19
-      - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - _DE_德国
       - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - _US_美国 14
-      - _US_美国 15
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国 20
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇫🇷_FR_法国 2
+      - _US_美国->🇫🇷_FR_法国 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
