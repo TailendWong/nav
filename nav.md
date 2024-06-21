@@ -66,10 +66,12 @@
 ## 中转站
 ### 文件
 #### 离线传
-[UC文件传输](https://fast.uc.cn/)  
 [muse](https://musetransfer.com/)  
 [文叔叔](https://wenshushu.cn/)  
+[filedoge](https://filedoge.com/)  
+[UC文件传输](https://fast.uc.cn/)  
 #### 点对点传
+[jidrop](http://www.jidrop.com/)  
 [AirSend-P2P](https://www.airsend.cn/)  
 [联信-P2P](https://open.umnet.cn/p2p/)  
 [rDrop-局域网](https://rdrop.link/)  
