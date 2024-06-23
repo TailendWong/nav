@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-06-22 09:40:06.643017
+# 更新时间：2024-06-23 09:40:06.991086
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,207 +8,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: _US_美国 2, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: _US_美国 3, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: _US_美国 4, server: fbi.gov, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: _US_美国 5, server: 104.16.149.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
   - {name: _US_美国->🇷🇺_RU_俄罗斯联邦, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com, skip-cert-verify: true}
-  - {name: _US_美国->🇦🇹_AT_奥地利, server: 104.21.3.201, port: 443, type: trojan, password: BO7e2KO_KlAjuJY-HYoabQ, sni: n37-at.netzrun.com, skip-cert-verify: true, network: ws, ws-opts: {path: /id, headers: {Host: n37-at.netzrun.com}}}
-  - {name: _US_美国->🇦🇹_AT_奥地利 2, server: 172.67.131.41, port: 443, type: trojan, password: BO7e2KO_KlAjuJY-HYoabQ, sni: n21-at.netzrun.com, skip-cert-verify: true, network: ws, ws-opts: {path: /id, headers: {Host: n21-at.netzrun.com}}}
-  - {name: _CA_加拿大, server: 23.227.38.5, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.freegradely.xyz}}}
-  - {name: _US_美国 6, server: 162.159.136.98, port: 80, type: vmess, uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccs2.hostmjj.com}}}
-  - {name: _CA_加拿大 2, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.freegradely.xyz}}}
-  - {name: _US_美国 7, server: 107.167.20.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927}}
-  - {name: _CA_加拿大 3, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
-  - {name: _US_美国 8, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748, alterId: 0, cipher: auto, tls: true}
-  - {name: _CN_中国->🇨🇦_CA_加拿大, server: sOeU2r.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: 6WqoBB.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚, server: OgbDOM.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚 2, server: 0L5tiN.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 3, server: goYrnu.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 4, server: bni3Ze.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: oBaNtB.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: bHBKrw.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 5, server: 6sLQvn.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 4, server: QRt0YX.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 6, server: SuitEn.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国, server: vmrFIW.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚 3, server: fpaBua.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 5, server: RFN07a.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国 2, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚 4, server: CeWCB4.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 7, server: R9MWml.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 6, server: bzeQbF.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 7, server: pOGxm7.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 8, server: 2thwD3.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 9, server: AWNsaz.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇦🇺_AU_澳大利亚 5, server: 3s522i.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 10, server: N6eKz0.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 8, server: 06GJ1t.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 9, server: vXdh1v.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 10, server: gRrEOM.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 11, server: dcR7Jw.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 11, server: sjXcsG.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 12, server: F25nP5.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国 13, server: EcykTr.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 12, server: mjhgoD.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray}}
+  - {name: _US_美国, server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: _US_美国 2, server: russia.com, port: 2095, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: _US_美国 3, server: 162.159.136.98, port: 80, type: vmess, uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccs2.hostmjj.com}}}
+  - {name: _CA_加拿大, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
+  - {name: _US_美国->🇫🇷_FR_法国, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: _US_美国->🇩🇪_DE_德国, server: hdfy1sub1.achaemenidempireofpersia.uk, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: hdfy1sub1.achaemenidempireofpersia.uk}}}
+  - {name: _AL_阿尔巴尼亚, server: 109.104.152.186, port: 11223, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=}
+  - {name: _US_美国 4, server: 23.157.40.10, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US_美国 5, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: 4f97bdbc-eaeb-4bf9-ad7f-faad44c6f6bb, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -227,52 +87,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -283,155 +108,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -447,52 +167,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _US_美国->🇷🇺_RU_俄罗斯联邦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
       - _US_美国 2
       - _US_美国 3
+      - _CA_加拿大
+      - _US_美国->🇫🇷_FR_法国
+      - _US_美国->🇩🇪_DE_德国
+      - _AL_阿尔巴尼亚
       - _US_美国 4
       - _US_美国 5
-      - _US_美国->🇷🇺_RU_俄罗斯联邦
-      - _US_美国->🇦🇹_AT_奥地利
-      - _US_美国->🇦🇹_AT_奥地利 2
-      - _CA_加拿大
-      - _US_美国 6
-      - _CA_加拿大 2
-      - _US_美国 7
-      - _CA_加拿大 3
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国 8
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国->🇦🇺_AU_澳大利亚
-      - _CN_中国->🇦🇺_AU_澳大利亚 2
-      - _CN_中国->🇨🇦_CA_加拿大 3
-      - _CN_中国->🇨🇦_CA_加拿大 4
-      - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇨🇦_CA_加拿大 5
-      - _CN_中国->🇺🇸_US_美国 4
-      - _CN_中国->🇨🇦_CA_加拿大 6
-      - _CN_中国
-      - _CN_中国->🇦🇺_AU_澳大利亚 3
-      - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国 2
-      - _CN_中国->🇦🇺_AU_澳大利亚 4
-      - _CN_中国->🇨🇦_CA_加拿大 7
-      - _CN_中国->🇺🇸_US_美国 6
-      - _CN_中国->🇺🇸_US_美国 7
-      - _CN_中国->🇨🇦_CA_加拿大 8
-      - _CN_中国->🇨🇦_CA_加拿大 9
-      - _CN_中国->🇦🇺_AU_澳大利亚 5
-      - _CN_中国->🇨🇦_CA_加拿大 10
-      - _CN_中国->🇺🇸_US_美国 8
-      - _CN_中国->🇺🇸_US_美国 9
-      - _CN_中国->🇺🇸_US_美国 10
-      - _CN_中国->🇺🇸_US_美国 11
-      - _CN_中国->🇨🇦_CA_加拿大 11
-      - _CN_中国->🇺🇸_US_美国 12
-      - _CN_中国->🇺🇸_US_美国 13
-      - _CN_中国->🇨🇦_CA_加拿大 12
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
