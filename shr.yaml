@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-09-15 09:40:06.920066
+# 更新时间：2024-09-16 09:40:06.669764
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,45 +8,46 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: 172.67.71.187, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 2, server: 172.64.166.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 3, server: 104.19.47.79, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip14.freegradely.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 4, server: 104.19.46.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip14.freegradely.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 5, server: 104.19.45.42, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip14.freegradely.xyz}}}
-  - {name: _US_美国 2, server: 104.19.21.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 6, server: 104.19.32.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip5-4.freegradely.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 7, server: 172.64.167.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, servername: ip2.1457230.xyz, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 8, server: 104.26.0.50, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip5-4.freegradely.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 9, server: 172.64.167.44, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 10, server: 172.64.167.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 11, server: 172.64.167.25, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 12, server: japan.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
-  - {name: _US_美国->🇫🇷_FR_法国, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 13, server: 104.26.13.31, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
-  - {name: _US_美国->🇬🇧_GB_英国, server: 13.37.53.94, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: _US_美国 3, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip005.dtku47.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 14, server: 23.227.38.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip5-4.freegradely.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 15, server: 162.159.140.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 16, server: 162.159.140.93, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 17, server: 104.26.5.67, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 18, server: 172.67.2.238, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
-  - {name: _US_美国->🇨🇦_CA_加拿大 19, server: 172.64.167.10, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
-  - {name: _US_美国 4, server: 172.64.99.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: _US_美国 5, server: 104.20.17.186, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: 104.19.47.80, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 2, server: 104.22.36.243, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 3, server: 104.26.8.156, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 4, server: 104.17.106.151, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: _US_美国, server: 185.247.184.115, port: 2098, type: vmess, uuid: 83876222-64a4-4912-aa18-b7d9d34959de, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: _US_美国 2, server: 104.18.219.30, port: 2052, type: vmess, uuid: 472628d9-f89c-4891-bb60-4161bc2583d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/QXjZG5u4F2, headers: {Host: us3AJ8biuQx.fzbqfrse.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 5, server: 104.26.5.90, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国 3, server: 69.50.95.138, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _US_美国->🇨🇦_CA_加拿大 6, server: 172.64.167.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 7, server: 104.19.45.31, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip13.freegradely.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 8, server: 172.64.166.28, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 9, server: 162.159.140.93, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 10, server: 104.19.45.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1457230.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 11, server: fbi.gov, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 12, server: 104.26.5.66, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 13, server: 104.19.38.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip5-4.freegradely.xyz}}}
+  - {name: _US_美国 4, server: 172.64.198.249, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: _US_美国 5, server: 172.64.99.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 14, server: 104.26.5.113, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 15, server: 172.64.167.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 16, server: 172.67.71.187, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国 6, server: 104.20.17.186, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 17, server: 104.26.5.57, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 18, server: singapore.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1789034.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 19, server: 104.19.47.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip1.1457230.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 20, server: 172.64.166.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ip2.1457230.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -54,30 +55,30 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -85,31 +86,31 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -117,18 +118,17 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -147,13 +147,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -161,18 +162,17 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -183,13 +183,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -197,30 +198,30 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -228,31 +229,31 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -260,18 +261,17 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -287,13 +287,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
       - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国->🇨🇦_CA_加拿大 4
-      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国
       - _US_美国 2
+      - _US_美国->🇨🇦_CA_加拿大 5
+      - _US_美国 3
       - _US_美国->🇨🇦_CA_加拿大 6
       - _US_美国->🇨🇦_CA_加拿大 7
       - _US_美国->🇨🇦_CA_加拿大 8
@@ -301,18 +302,17 @@ proxy-groups:
       - _US_美国->🇨🇦_CA_加拿大 10
       - _US_美国->🇨🇦_CA_加拿大 11
       - _US_美国->🇨🇦_CA_加拿大 12
-      - _US_美国->🇫🇷_FR_法国
       - _US_美国->🇨🇦_CA_加拿大 13
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国->🇨🇦_CA_加拿大 14
       - _US_美国->🇨🇦_CA_加拿大 15
       - _US_美国->🇨🇦_CA_加拿大 16
+      - _US_美国 6
       - _US_美国->🇨🇦_CA_加拿大 17
       - _US_美国->🇨🇦_CA_加拿大 18
       - _US_美国->🇨🇦_CA_加拿大 19
-      - _US_美国 4
-      - _US_美国 5
+      - _US_美国->🇨🇦_CA_加拿大 20
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
