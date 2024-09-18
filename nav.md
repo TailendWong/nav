@@ -115,7 +115,7 @@
 ### 文件床
 [屋舍](https://www.uhsea.com/)  
 [趣味云](https://www.ffsup.com/)  
-[catbox](https://catbox.moe/)  
+[catbox](https://seafile.longqianling.cn/)  
 
 ## 短链接
 [https://too.st/](https://too.st/)  
