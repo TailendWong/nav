@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-10-03 09:40:06.178201
+# 更新时间：2024-10-04 09:40:05.882136
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,40 +8,34 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 38.75.137.105, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: _US_美国 2, server: 142.202.49.68, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _IE_爱尔兰, server: 13.79.174.197, port: 63314, type: ss, cipher: chacha20-ietf-poly1305, password: nAOsWTXwwlBFd2Ez2dGK2s}
-  - {name: _US_美国 3, server: 169.197.142.216, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 4, server: 167.88.61.235, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 5, server: 139.64.164.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _US_美国 6, server: 69.50.95.218, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 7, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 8, server: 142.202.49.119, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 9, server: 185.47.253.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: _US_美国 10, server: 38.75.137.42, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 11, server: 142.202.49.84, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 12, server: 38.75.137.42, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _US_美国 13, server: 38.114.114.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 14, server: 69.50.92.55, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _US_美国 15, server: 15.204.87.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _CA_加拿大, server: 23.154.136.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 16, server: 69.50.95.218, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 17, server: 38.110.1.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _US_美国 18, server: 142.202.49.68, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 19, server: 38.75.137.105, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _US_美国 20, server: 38.75.137.105, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: _US_美国 21, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 22, server: 23.150.152.56, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 23, server: 139.64.164.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 24, server: 38.114.114.69, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _CA_加拿大 2, server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq}
-  - {name: _US_美国 25, server: 38.75.136.33, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _US_美国 26, server: 142.202.49.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _US_美国 27, server: 38.75.137.42, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: _US_美国 28, server: 142.202.49.84, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: _US_美国 29, server: 23.150.152.56, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: _US_美国 30, server: 142.202.49.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: _US_美国 31, server: 69.50.93.47, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _US_美国, server: 13.37.194.106, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: _US_美国 2, server: 69.50.92.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: malaysia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国 3, server: 69.50.95.179, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US_美国 4, server: 172.64.166.16, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国 5, server: 104.26.5.123, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国 6, server: 104.19.45.31, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 2, server: 104.19.21.71, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国 7, server: 104.18.57.111, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国 8, server: 162.159.140.19, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: _US_美国 9, server: 104.19.45.11, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
+  - {name: _US_美国 10, server: 15.204.87.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _US_美国 11, server: 104.19.42.49, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
+  - {name: _US_美国 12, server: 172.64.166.20, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
+  - {name: _US_美国 13, server: 172.64.167.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 223.244.26.216, port: 46010, type: vmess, uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 3, server: skk.moe, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国 14, server: 104.26.5.113, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
+  - {name: _US_美国 15, server: 69.50.92.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: _US_美国 16, server: 23.157.40.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _US_美国 17, server: 23.157.40.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _US_美国 18, server: 23.157.40.95, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _US_美国->🇬🇧_GB_英国, server: 104.19.45.90, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国->🇨🇦_CA_加拿大 4, server: 172.64.175.88, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: _US_美国 19, server: 104.26.5.56, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: _US_美国 20, server: 172.64.166.16, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: _US_美国 21, server: 172.64.166.2, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
+  - {name: _US_美国 22, server: 104.26.5.67, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -50,11 +44,12 @@ proxy-groups:
       - 🎯 全球直连
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -62,26 +57,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -89,11 +77,12 @@ proxy-groups:
     proxies:
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -101,26 +90,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -129,11 +111,12 @@ proxy-groups:
       - 🎯 全球直连
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -141,26 +124,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -181,11 +157,12 @@ proxy-groups:
       - 🎯 全球直连
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -193,26 +170,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -225,11 +195,12 @@ proxy-groups:
       - 🔰 节点选择
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -237,26 +208,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
   - name: 📲 电报信息
     type: select
     proxies:
@@ -264,11 +228,12 @@ proxy-groups:
       - 🎯 全球直连
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -276,26 +241,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -304,11 +262,12 @@ proxy-groups:
       - ♻️ 自动选择
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -316,26 +275,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -353,11 +305,12 @@ proxy-groups:
       - ♻️ 自动选择
       - _US_美国
       - _US_美国 2
-      - _IE_爱尔兰
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - _US_美国->🇨🇦_CA_加拿大 2
       - _US_美国 7
       - _US_美国 8
       - _US_美国 9
@@ -365,26 +318,19 @@ proxy-groups:
       - _US_美国 11
       - _US_美国 12
       - _US_美国 13
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国->🇨🇦_CA_加拿大 3
       - _US_美国 14
       - _US_美国 15
-      - _CA_加拿大
       - _US_美国 16
       - _US_美国 17
       - _US_美国 18
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大 4
       - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 2
-      - _US_美国 25
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - _US_美国 29
-      - _US_美国 30
-      - _US_美国 31
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
