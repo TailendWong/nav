@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2024-10-16 09:40:06.742284
+# 更新时间：2024-10-17 09:40:07.296036
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,75 +8,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _NL_荷兰->🇯🇵_JP_日本, server: 45.158.171.36, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
-  - {name: _GB_英国, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: _US_美国, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
-  - {name: _US_美国->🇮🇪_IE_爱尔兰, server: 3.71.242.90, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: _US_美国 2, server: 52.43.33.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _SG_新加坡->🇯🇵_JP_日本, server: 13.250.59.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _US_美国 3, server: 69.50.92.110, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: _DE_德国->🇮🇪_IE_爱尔兰, server: 3.124.66.211, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: 221.181.185.71, port: 20934, type: ss, cipher: aes-256-cfb, password: bbO8KazkNBUGb7HP}
-  - {name: _NL_荷兰, server: 45.158.171.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 120.232.153.40, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: _TR_土耳其, server: 5.188.36.54, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD}
-  - {name: _CA_加拿大, server: 23.154.136.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _US_美国->🇷🇺_RU_俄罗斯, server: 52.43.33.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国, server: mynode.work.gd, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: ̈́m͒ߍM֡Tyۙҫ1͛P̎}
+  - {name: _US_美国 2, server: 69.50.92.110, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: _SG_新加坡->🇨🇳_CN_中国, server: 13.250.59.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国 3, server: 35.87.156.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国 4, server: 15.204.87.217, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US_美国 5, server: 15.204.87.217, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: _US_美国 6, server: 15.204.87.217, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 未知, server: tg_mfbpn03.52cloud.us.kg, port: 38404, type: ss, cipher: chacha20-ietf-poly1305, password: 5409bf78-b122-4b9b-9050-da36576f5bbc}
+  - {name: _US_美国 7, server: 154.17.18.105, port: 18331, type: trojan, password: YRA8xacOj3zNCTB7npA83EgDD2Su9eIlXe0CY4q56RFxZawCaKOyDZly33SFpS, sni: livers.freetrade.link}
+  - {name: _US_美国 8, server: 104.17.215.18, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: jobscareerforstudent.com, network: ws, ws-opts: {path: /6b777a91, headers: {Host: jobscareerforstudent.com}}}
+  - {name: _US_美国 9, server: 154.21.81.134, port: 18333, type: trojan, password: Y4O3x7D8RSepyNXDA8ZOZEaKB3F9Y35Ca3TpuxlR6aCAeygSDl0IwcjCz2nSqF, sni: training.freetrade.link}
+  - {name: _US_美国 10, server: 67.220.72.41, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: ̈́m͒ߍM֡Tyۙҫ1͛P̎}
+  - {name: _US_美国 11, server: 23.150.248.122, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: _US_美国 12, server: 15.204.87.217, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: _US_美国 13, server: 52.72.252.176, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -95,19 +107,22 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -118,56 +133,65 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -183,19 +207,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _NL_荷兰->🇯🇵_JP_日本
-      - _GB_英国
+      - _US_美国->🇷🇺_RU_俄罗斯
       - _US_美国
-      - _US_美国->🇮🇪_IE_爱尔兰
       - _US_美国 2
-      - _SG_新加坡->🇯🇵_JP_日本
+      - _SG_新加坡->🇨🇳_CN_中国
       - _US_美国 3
-      - _DE_德国->🇮🇪_IE_爱尔兰
-      - _CN_中国->🇩🇪_DE_德国
-      - _NL_荷兰
-      - _CN_中国->🇺🇸_US_美国
-      - _TR_土耳其
-      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - 未知
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 13
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
