@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-02-24 09:40:05.699442
+# 更新时间：2025-02-25 09:40:05.287064
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,103 +8,123 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _RO_罗马尼亚, server: 93.114.98.252, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: alive-polecat.treefrog761.one, skip-cert-verify: false}
-  - {name: _CA_加拿大, server: 23.154.136.137, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: _DE_德国->🇨🇳_CN_中国, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: _UA_乌克兰, server: 176.103.53.105, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: _RU_俄罗斯, server: 217.30.10.18, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: _CN_中国->🇺🇸_US_美国, server: 14.18.253.178, port: 8348, type: ss, cipher: chacha20, password: N9k4f2PORl14}
-  - {name: _US_美国->🇿🇦_ZA_南非, server: 54.244.78.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _RO_罗马尼亚 2, server: alive-polecat.treefrog761.one, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: alive-polecat.treefrog761.one, skip-cert-verify: false}
-  - {name: _US_美国->🇷🇺_RU_俄罗斯, server: 18.236.132.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _RU_俄罗斯 2, server: 217.30.10.18, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
-  - {name: _CN_中国, server: dxv4.pai50288.uk, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false}
-  - {name: _CA_加拿大 2, server: 23.154.136.148, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: _RO_罗马尼亚 3, server: 185.193.49.88, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: _RU_俄罗斯 3, server: 217.30.10.18, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
-  - {name: _RU_俄罗斯 4, server: 217.30.10.18, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
-  - {name: _UA_乌克兰 2, server: 188.191.147.127, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6}
-  - {name: _US_美国, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _US_美国 2, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _ZA_南非, server: 129.232.134.112, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: _US_美国, server: yourjobnavigator.online, port: 443, type: trojan, password: 2cba4104747d49d18319e5ade1b93ab5, sni: yourjobnavigator.online}
+  - {name: _RU_俄罗斯, server: 217.30.10.18, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
+  - {name: _US_美国 2, server: 34.220.99.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: 34.212.9.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: _IT_意大利, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _GB_英国, server: 77.239.122.39, port: 2239, type: ss, cipher: chacha20-ietf-poly1305, password: 6edTuN9WSufTkYhvfJD0js}
+  - {name: _RU_俄罗斯 2, server: 217.30.10.18, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: _US_美国 3, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: khRaVpqrxCiJlvySn9J3eE}
+  - {name: _GB_英国 2, server: 51.24.35.25, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: _IS_冰岛, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _GB_英国->🇺🇸_US_美国, server: 51.44.122.101, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: _US_美国 4, server: 54.244.0.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国 5, server: 35.91.166.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _RU_俄罗斯 3, server: 217.30.10.18, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: _NL_荷兰, server: 45.158.171.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: _US_美国->🇨🇳_CN_中国, server: 35.87.185.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _MD_摩尔多瓦, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _DE_德国, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: _US_美国 6, server: 23.185.248.13, port: 17003, type: ss, cipher: aes-256-gcm, password: LKG8G8VL60RSB59P}
+  - {name: _CN_中国->🇺🇸_US_美国, server: 14.18.253.178, port: 8348, type: ss, cipher: chacha20, password: N9k4f2PORl14}
+  - {name: _US_美国 7, server: 3.73.204.4, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: _UA_乌克兰, server: 185.234.64.35, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YTNjNDY5}
+  - {name: _US_美国 8, server: 35.160.134.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _US_美国->🇸🇬_SG_新加坡 2, server: 52.32.166.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: _DE_德国->🇺🇸_US_美国, server: 35.159.100.34, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -123,26 +143,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -153,77 +178,92 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -239,26 +279,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _RO_罗马尼亚
-      - _CA_加拿大
-      - _DE_德国->🇨🇳_CN_中国
-      - _UA_乌克兰
-      - _RU_俄罗斯
-      - _CN_中国->🇺🇸_US_美国
-      - _US_美国->🇿🇦_ZA_南非
-      - _RO_罗马尼亚 2
-      - _US_美国->🇷🇺_RU_俄罗斯
-      - _RU_俄罗斯 2
-      - _CN_中国
-      - _CA_加拿大 2
-      - _RO_罗马尼亚 3
-      - _RU_俄罗斯 3
-      - _RU_俄罗斯 4
-      - _UA_乌克兰 2
       - _US_美国
+      - _RU_俄罗斯
       - _US_美国 2
-      - _ZA_南非
+      - _US_美国->🇸🇬_SG_新加坡
       - _IT_意大利
+      - _GB_英国
+      - _RU_俄罗斯 2
+      - _US_美国 3
+      - _GB_英国 2
+      - _IS_冰岛
+      - _GB_英国->🇺🇸_US_美国
+      - _US_美国 4
+      - _US_美国 5
+      - _RU_俄罗斯 3
+      - _NL_荷兰
+      - _US_美国->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _DE_德国
+      - _US_美国 6
+      - _CN_中国->🇺🇸_US_美国
+      - _US_美国 7
+      - _UA_乌克兰
+      - _US_美国 8
+      - _US_美国->🇸🇬_SG_新加坡 2
+      - _DE_德国->🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
