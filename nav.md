@@ -168,3 +168,4 @@
 [国内镜像站点2](https://github.com/eryajf/Thanks-Mirror)  
 [JDK各版本安装包1](http://www.codebaoku.com/jdk/jdk-index.html)  
 [JDK各版本安装包2](https://injdk.cn/)  
+[JDK各版本安装包3](https://jdk.java.net/java-se-ri/17-MR1)  
