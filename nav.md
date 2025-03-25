@@ -83,24 +83,10 @@
 
 # github镜像
 [kkgithub](https://help.kkgithub.com/questions/)  
-[镜像1](https://hub.yzuu.cf/)  
-[镜像2](https://hub.nuaa.cf/)  
-[镜像3](https://hub.njuu.cf/)  
-[fastgit](https://hub.fastgit.xyz/)  
-
-# 谷歌搜索镜像
-[镜像1](https://谷歌.ml/)  
-[镜像3](https://search.njau.cf/)  
-[镜像4](https://search.ahau.cf/)  
-[镜像5](https://search.ecnu.cf/)  
-[镜像2](https://search.aust.cf/)  
-[发布站](https://www.library.ac.cn/)  
 
 ### 图床
 [imgloc](https://imgloc.com/)支持有效期  
-[妖火](https://yh-pic.ihcloud.net/)  
 [图床3](https://img.nn.ci/)  
-[图床4](https://tc.xkx.me/)  
 [图床5](https://img.fy6b.com/)  
 
 ### 文件床
@@ -110,10 +96,10 @@
 
 ## 短链接
 [https://too.st/](https://too.st/)  
-[https://suo.yt/](https://suo.yt/)  
 [https://v1.mk/](https://v1.mk/)  
-[https://tt.vg/](https://tt.vg/)  
 [https://s.ops.ci/](https://s.ops.ci/)  
+~~[https://suo.yt/](https://suo.yt/)~~  
+~~[https://tt.vg/](https://tt.vg/)~~  
 
 ## 工具站
 [图片处理](https://www.gaituya.com/)  
@@ -151,7 +137,6 @@
 [不死鸟分享](https://iui.su/)  
 [火哥分享](https://www.firepx.com/)  
 [APP喵](https://www.appmiu.com/)  
-[tg搜](http://www.sssoou.com/)  
 
 # 归档
 [好网站不私藏](good_sites.html)  
