@@ -5,18 +5,18 @@
 [可可影视](https://www.keke1.app/)备用[[http://www.kekys.com/](http://www.kekys.com/)]   
 [7080影视](https://7080.wang/)  
 [555影视](https://555uu.online/)备用[[https://www.555kan.net/](https://555dy.shop/)]    
-[干饭影视](https://gfysys.cc/)  
-[搜片](https://搜片.com/)备用[https://soupian.xyz/](https://soupian.xyz/)  
-[茶杯狐](https://cupfox.app/)备用[https://cupfox.com/](https://cupfox.com/)  
-[影视森林](http://www.549.tv/)  
-[大师兄影视](https://dsxys.pro/)  
-[低端影视](https://ddys.tv/)  
+[影视森林](http://www.549.fr/)  
+[低端影视](https://ddys.pro/)  
 [HDmoli](https://www.hdmoli.com/)  
-[不开VIP影院](https://bukaivip1.com/)   
-[电影先生](http://dianying.im/)   
-[追剧达人](https://vipmv.co/)  
-[真不卡影院](http://zhenbuka.fun/)  
-[电影狗](https://www.dianyinggou.com/)  
+~~[干饭影视](https://gfysys.cc/)~~  
+~~[搜片](https://搜片.com/)备用[https://soupian.xyz/](https://soupian.xyz/)~~  
+~~[茶杯狐](https://cupfox.app/)备用[https://cupfox.com/](https://cupfox.com/)~~  
+~~[大师兄影视](https://dsxys.pro/)~~  
+~~[不开VIP影院](https://bukaivip1.com/)~~   
+~~[电影先生](http://dianying.im/)~~   
+~~[追剧达人](https://vipmv.co/)~~  
+~~[真不卡影院](http://zhenbuka.fun/)~~  
+~~[电影狗](https://www.dianyinggou.com/)~~  
 
 ### 手机软件(安卓)
 [AH视频](https://ahsp.app/)  
