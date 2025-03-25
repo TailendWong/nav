@@ -111,6 +111,8 @@ https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea
 [音视频PDF处理](https://123apps.com/cn/)  
 
 ## MAC软件下载站  
+[合集](https://iui.su/1282/)  
+[麦禾软件](https://www.machub.cn/)  
 [MacTorrents👍](https://www.torrentmac.net/) https://www.torrentmac.net/  
 [AppAddict👍](https://appaddict.org/) https://appaddict.org/  
 [AppStorrent](https://appstorrent.ru/) https://appstorrent.ru/  
