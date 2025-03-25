@@ -81,17 +81,8 @@
 [口令](https://ko0s.com/)  
 [note](https://note.ms/)  
 
-## 搜索引擎
-`优秀的百度搜索代替品，清爽无广告`  
-[F搜索引擎](https://fsoufsou.com/) https://fsoufsou.com/  
-[无追搜索](https://www.wuzhuiso.com/) https://www.wuzhuiso.com/  
-[元搜索引擎1](https://paulgo.io/) https://paulgo.io/  
-[元搜索引擎2](https://searx.be/) https://searx.be/    
-[CodeSearch](https://dig.codes/) https://dig.codes/  
-[程序员搜索](https://goobe.io/) https://goobe.io/  
-
 # github镜像
-[kgithub](https://kgithub.com/)  
+[kkgithub](https://help.kkgithub.com/questions/)  
 [镜像1](https://hub.yzuu.cf/)  
 [镜像2](https://hub.nuaa.cf/)  
 [镜像3](https://hub.njuu.cf/)  
