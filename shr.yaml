@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-04-06 09:40:17.366631
+# 更新时间：2025-04-07 09:40:19.833862
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,19 +8,13 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _US_美国, server: 2.58.87.221, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L}
-  - {name: _US_美国 2, server: 34.217.15.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _US_美国 3, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XsDDBBSiY18qHD9CcomK5T}
-  - {name: _FR_法国, server: 141.227.128.69, port: 1935, type: trojan, password: utF6JLQd2x, sni: x1es-ovh.devefun.net}
+  - {name: _US_美国, server: 104.21.21.226, port: 443, type: trojan, password: 6040a753-e35b-4384-8713-96f3c639b621, sni: uK803.890689.Xyz, network: ws, ws-opts: {path: /WxWOWO1YA9bs2HOmaeWimvT3, headers: {Host: uK803.890689.Xyz}}}
+  - {name: _CN_中国->🇺🇸_US_美国, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: api100-core-quic-lf.amemv.com}}}
+  - {name: _US_美国 2, server: 104.21.16.1, port: 443, type: trojan, password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db, sni: 1g.890699.xyZ, network: ws, ws-opts: {path: /lXENb74xF4ylXngZ, headers: {Host: 1g.890699.xyZ}}}
+  - {name: _GB_英国, server: 51.24.55.122, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: _CN_中国->🇨🇦_CA_加拿大, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v25.heduian.link}}}
-  - {name: _US_美国->🇬🇧_GB_英国, server: 63.177.179.90, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: _CN_中国->🇺🇸_US_美国, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v40.heduian.link}}}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: _US_美国 4, server: 172.67.200.238, port: 443, type: trojan, password: 2fec7227-9abe-46f2-af18-78302b836c45, sni: 3s.890689.xyz, network: ws, ws-opts: {path: /XjTi1NYwi9A2bckpqdDoAgkondVWl, headers: {Host: 3s.890689.xyz}}}
-  - {name: _GB_英国, server: 51.68.13.106, port: 1935, type: trojan, password: FiSo7J6vfS, sni: x1fr-ovh.devefun.net}
-  - {name: _US_美国 5, server: 16.170.0.241, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: _US_美国 6, server: 35.94.124.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 2.58.87.221, port: 12269, type: vmess, uuid: db85ff0e-c33f-401d-c415-4c7cce135704, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: _US_美国 3, server: 172.67.200.238, port: 443, type: trojan, password: 2fec7227-9abe-46f2-af18-78302b836c45, sni: 3s.890689.xyz, network: ws, ws-opts: {path: /XjTi1NYwi9A2bckpqdDoAgkondVWl, headers: {Host: 3s.890689.xyz}}}
+  - {name: _US_美国 4, server: 104.21.96.1, port: 443, type: trojan, password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db, sni: 1g.890699.xyZ, network: ws, ws-opts: {path: /lXENb74xF4ylXngZ, headers: {Host: 1g.890699.xyZ}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -28,36 +22,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -65,18 +47,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,18 +72,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -119,36 +89,24 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -156,18 +114,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,18 +136,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - _FR_法国
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _US_美国->🇬🇧_GB_英国
       - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - _US_美国 4
+      - _US_美国 2
       - _GB_英国
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国->🇨🇳_CN_中国
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _US_美国 3
+      - _US_美国 4
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
