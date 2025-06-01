@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-05-31 09:40:06.125073
+# 更新时间：2025-06-01 09:40:06.163801
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,95 +8,79 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _DE_德国->🇺🇸_US_美国, server: 5.75.207.190, port: 8443, type: vmess, uuid: 726ae698-6b9e-4aa1-9f95-8f3533589cc0, alterId: 0, cipher: auto, tls: false}
-  - {name: _US_美国, server: cdn2.bpcdn.cc, port: 80, type: vmess, uuid: 1bf31ad5-cbd4-4c10-a832-81ce4a9ee6c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz}}}
-  - {name: _US_美国->🇫🇷_FR_法国, server: 172.67.204.120, port: 443, type: trojan, password: 4a3ee276-f50f-46f6-ba4d-13571732ab70, sni: ddcDe.890603.XYz, network: ws, ws-opts: {path: /COp52Dbu3dvwvDWUxOqxq, headers: {Host: ddcDe.890603.XYz}}}
+  - {name: _US_美国->🇫🇷_FR_法国, server: 104.21.25.95, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, network: ws, ws-opts: {path: /mZr1mA5hub7QHHkQBzYO, headers: {Host: DDd.890604.FIlEGear-sG.Me}}}
   - {name: _CN_中国->🇺🇸_US_美国, server: 36.151.251.62, port: 13542, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true}
-  - {name: _CN_中国->🇨🇦_CA_加拿大, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
-  - {name: _RU_俄罗斯->🇺🇸_US_美国, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: _US_美国->🇫🇷_FR_法国 2, server: 104.21.25.95, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, network: ws, ws-opts: {path: /mZr1mA5hub7QHHkQBzYO, headers: {Host: DDd.890604.FIlEGear-sG.Me}}}
-  - {name: _US_美国 2, server: 172.67.149.202, port: 443, type: trojan, password: 19a78eeb-d83a-4364-b095-b7dd93436320, sni: CVFgTrE4.222560.XyZ, network: ws, ws-opts: {path: /Hq0I4JMuzO0WLijID, headers: {Host: CVFgTrE4.222560.XyZ}}}
-  - {name: _US_美国 3, server: kz.mjt000.com, port: 443, type: trojan, password: ea17601d-8ebf-4431-b815-4d644821ca7e, sni: kz.mjt000.com}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: 5f9d335d-swexs0-t5juhn-4tue.cu.plebai.net, port: 15229, type: trojan, password: fe506496-24eb-11ef-abd3-f23c91cfbbc9, sni: 5f9d335d-swexs0-t5juhn-4tue.cu.plebai.net, skip-cert-verify: true}
+  - {name: _US_美国, server: kz.mjt000.com, port: 443, type: trojan, password: ea17601d-8ebf-4431-b815-4d644821ca7e, sni: kz.mjt000.com}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: f5ada702-swb8g0-t5fh9u-1uni.cu.plebai.net, port: 15229, type: trojan, password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, skip-cert-verify: true}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: 36.151.251.62, port: 3330, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true}
+  - {name: _CN_中国->🇺🇸_US_美国 5, server: 7d09e919-swq1s0-tcvn0z-1tlyg.cu.plebai.net, port: 15229, type: trojan, password: be8ba532-0dcf-11f0-9a65-f23c9164ca5d, sni: 7d09e919-swq1s0-tcvn0z-1tlyg.cu.plebai.net, skip-cert-verify: false}
+  - {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _US_美国 2, server: 172.67.133.248, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, network: ws, ws-opts: {path: /mZr1mA5hub7QHHkQBzYO, headers: {Host: DDd.890604.FIlEGear-sG.Me}}}
   - {name: _CN_中国->🇩🇪_DE_德国, server: 120.233.44.201, port: 21102, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: 120.233.44.201, skip-cert-verify: true}
-  - {name: _US_美国 4, server: 170.114.45.51, port: 2086, type: vmess, uuid: 1bf31ad5-cbd4-4c10-a832-81ce4a9ee6c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustoucjjnid18sj6us.lovebaipiao.com}}}
-  - {name: _US_美国 5, server: 141.193.213.168, port: 2086, type: vmess, uuid: 1bf31ad5-cbd4-4c10-a832-81ce4a9ee6c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustoucjjnid18sj6us.lovebaipiao.com}}}
-  - {name: _US_美国 6, server: 141.193.213.169, port: 2086, type: vmess, uuid: 1bf31ad5-cbd4-4c10-a832-81ce4a9ee6c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustoucjjnid18sj6us.lovebaipiao.com}}}
-  - {name: _US_美国 7, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: _US_美国->🇫🇷_FR_法国 3, server: 172.67.133.248, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, network: ws, ws-opts: {path: /mZr1mA5hub7QHHkQBzYO, headers: {Host: DDd.890604.FIlEGear-sG.Me}}}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: true}
-  - {name: _IT_意大利, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _CN_中国->🇺🇸_US_美国 6, server: bd8e9b7d-swzb40-t5vrf3-716s.cu.plebai.net, port: 15229, type: trojan, password: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b, sni: bd8e9b7d-swzb40-t5vrf3-716s.cu.plebai.net, skip-cert-verify: true}
+  - {name: _CN_中国->🇨🇦_CA_加拿大, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}}
+  - {name: _CN_中国->🇺🇸_US_美国 7, server: 36.151.251.61, port: 33097, type: trojan, password: RlzoEILU, sni: 36.151.251.61, skip-cert-verify: true}
+  - {name: _CN_中国->🇺🇸_US_美国 8, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17004, type: ss, cipher: aes-256-gcm, password: ZC3MD9RI5P36IHID}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -115,24 +99,20 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -143,71 +123,59 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,24 +191,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _DE_德国->🇺🇸_US_美国
-      - _US_美国
       - _US_美国->🇫🇷_FR_法国
       - _CN_中国->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 2
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _RU_俄罗斯->🇺🇸_US_美国
-      - _US_美国->🇫🇷_FR_法国 2
-      - _US_美国 2
-      - _US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国->🇫🇷_FR_法国 3
+      - _US_美国
       - _CN_中国->🇺🇸_US_美国 3
-      - _IT_意大利
+      - _CN_中国->🇺🇸_US_美国 4
+      - _CN_中国->🇺🇸_US_美国 5
+      - _RU_俄罗斯
+      - _US_美国 2
+      - _CN_中国->🇩🇪_DE_德国
+      - _CN_中国->🇺🇸_US_美国 6
+      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国->🇺🇸_US_美国 7
+      - _CN_中国->🇺🇸_US_美国 8
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
