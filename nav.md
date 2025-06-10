@@ -25,13 +25,13 @@
 
 ## 正经电子书
 [鸠摩搜书](https://www.jiumodiary.com/)  
-[anna](https://annas-archive.org/)  
+[Annas需魔法](https://annas-archive.org/)  
 [书乐里](https://www.sulery.com/)  
 [熊猫搜书](https://www.sopandas.com/)  
 [ZLibrary镜像](https://v3.zhelper.net/)https://v3.zhelper.net 、 https://zlib.pro  
 [clibrary](https://clibrary.top/)  
 [elib需登录](https://elib.cc/)  
-[ZLibrary偶尔需vpn](https://u1lib.org/)  
+[ZLibrary偶尔需魔法](https://u1lib.org/)  
 [无名图书](https://www.book123.info/)  
 [更多](ebook_sites.html)  
 
