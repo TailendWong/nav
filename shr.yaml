@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-06-27 09:40:09.305076
+# 更新时间：2025-06-28 09:40:10.628580
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,91 +8,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _CN_中国, server: xd-js.timiwc.com, port: 21332, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k65.tudou211.com}
-  - {name: _CN_中国 2, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: _CN_中国->🇺🇸_US_美国, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v7.heduian.link}}}
-  - {name: _KR_韩国->🇨🇳_CN_中国, server: 221.150.109.20, port: 50345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: _CN_中国 3, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: false}
-  - {name: _CN_中国 4, server: xd-js.timiwc.com, port: 59599, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k62.tudou211.com}
-  - {name: _IR_伊朗, server: 37.152.181.119, port: 56104, type: vmess, uuid: efd57bc3-8086-48bd-9b1a-6fd8ab8cee6d, alterId: 0, cipher: auto, tls: false}
+  - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ocbc.com}}}
+  - {name: _CN_中国, server: 111.26.109.79, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: _KR_韩国->🇺🇸_US_美国, server: 221.150.109.20, port: 50345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: _CN_中国->🏳️_unKnow_未知, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com}
+  - {name: _CN_中国->🏳️_unKnow_未知 2, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com}
+  - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: xd-js.timiwc.com, port: 21332, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k65.tudou211.com}
   - {name: _CN_中国->🇨🇦_CA_加拿大, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v35.heduian.link}}}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: 111.26.109.79, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo}}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: _CN_中国->🇨🇦_CA_加拿大 2, server: 111.26.109.79, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: _CN_中国 5, server: 36.156.184.33, port: 21332, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k65.tudou211.com}
-  - {name: _BE_比利时, server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/}}
-  - {name: _CN_中国->🇺🇸_US_美国 4, server: 111.26.109.79, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}}
-  - {name: _CN_中国->🇺🇸_US_美国 5, server: 42.240.152.238, port: 8842, type: trojan, password: 1b4c16925f934c57b954a9f0f23dea33, sni: brwx.spvpv.com, skip-cert-verify: true}
-  - {name: _CN_中国->🇺🇸_US_美国 6, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75}
+  - {name: "[SSR] TG频道@stymei1 7", server: cnamelm-dwzksl7kzye3rdby.bestbrocciu.com, port: 9031, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17004, type: ss, cipher: aes-256-gcm, password: PNZAZ7XKT5SYVF5A}
+  - {name: _IR_伊朗->🇺🇸_US_美国, server: 89.44.112.34, port: 2535, type: vmess, uuid: 04d7c089-bbc5-4ef2-80ef-a0982cf33708, alterId: 0, cipher: auto, tls: false}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: 36.156.184.33, port: 21332, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k65.tudou211.com}
+  - {name: "[SSR] TG频道@stymei1 8", server: cnamelm-dwzksl7kzye3rdby.bestbrocciu.com, port: 9080, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 63.178.144.147, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: _CN_中国->🇺🇸_US_美国 5, server: 111.26.109.79, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -111,23 +103,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -138,68 +128,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -215,23 +199,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
-      - _CN_中国 2
       - _CN_中国->🇺🇸_US_美国
-      - _KR_韩国->🇨🇳_CN_中国
-      - _CN_中国 3
-      - _CN_中国 4
-      - _IR_伊朗
-      - _CN_中国->🇨🇦_CA_加拿大
+      - _CN_中国
+      - _KR_韩国->🇺🇸_US_美国
+      - _CN_中国->🏳️_unKnow_未知
+      - _CN_中国->🏳️_unKnow_未知 2
+      - _MD_摩尔多瓦
       - _CN_中国->🇺🇸_US_美国 2
+      - _CN_中国->🇨🇦_CA_加拿大
+      - "[SSR] TG频道@stymei1 7"
       - _CN_中国->🇺🇸_US_美国 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇨🇦_CA_加拿大 2
-      - _CN_中国 5
-      - _BE_比利时
+      - _IR_伊朗->🇺🇸_US_美国
       - _CN_中国->🇺🇸_US_美国 4
+      - "[SSR] TG频道@stymei1 8"
+      - _US_美国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国 5
-      - _CN_中国->🇺🇸_US_美国 6
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
