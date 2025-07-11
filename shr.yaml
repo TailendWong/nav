@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-07-10 09:40:07.511294
+# 更新时间：2025-07-11 09:40:07.033609
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,39 +8,59 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _SK_斯洛伐克->🏳️_unKnow_未知, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: _CN_中国->🇨🇦_CA_加拿大, server: 111.26.109.79, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: _MD_摩尔多瓦, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
   - {name: _US_美国, server: 104.21.6.179, port: 443, type: trojan, password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, sni: ZZzzzZZ.890601.XYZ, network: ws, ws-opts: {path: /l96MZ8se5Kl2p8BiMhP42l, headers: {Host: ZZzzzZZ.890601.XYZ}}}
+  - {name: _KR_韩国->🇧🇪_BE_比利时, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: _US_美国 2, server: aAZXsdE.003330333.xYZ, port: 80, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /SXjq8YlnGNBlbnEsM, headers: {Host: aazxsde.003330333.xyz}}}
+  - {name: _NL_荷兰, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _US_美国 3, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _GB_英国->🇰🇷_KR_韩国, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: _MD_摩尔多瓦, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _JO_约旦, server: 109.107.159.246, port: 17228, type: ss, cipher: aes-256-gcm, password: psamSbJq}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -59,10 +79,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -73,29 +98,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -111,10 +151,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SK_斯洛伐克->🏳️_unKnow_未知
-      - _CN_中国->🇨🇦_CA_加拿大
-      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国
+      - _KR_韩国->🇧🇪_BE_比利时
+      - _US_美国 2
+      - _NL_荷兰
+      - _US_美国 3
+      - _GB_英国->🇰🇷_KR_韩国
+      - _MD_摩尔多瓦
+      - _JO_约旦
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
