@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-07-12 09:40:26.794110
+# 更新时间：2025-07-13 09:40:07.796983
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,8 +8,13 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _US_美国, server: ssrsub.cloudflare.182682.xyz, port: 8880, type: vmess, uuid: 67828a6e-0144-4e57-8169-2447a3dd2e61, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: _MD_摩尔多瓦, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _MD_摩尔多瓦 2, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _CN_中国, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: _KR_韩国, server: 220.124.31.130, port: 19378, type: ss, cipher: aes-256-gcm, password: NiznLvoIuy}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: _KR_韩国->🇲🇩_MD_摩尔多瓦, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: _UA_乌克兰, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH}
 proxy-groups:
   - name: 🔰 节点选择
@@ -17,16 +22,26 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
   - name: 🎥 NETFLIX
     type: select
@@ -34,8 +49,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
   - name: ⛔️ 广告拦截
     type: select
@@ -55,8 +75,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
   - name: 🌏 国内媒体
     type: select
@@ -68,16 +93,26 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
   - name: 🍎 苹果服务
     type: select
@@ -85,8 +120,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
   - name: 🎯 全球直连
     type: select
@@ -103,8 +143,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
+      - _MD_摩尔多瓦
+      - _MD_摩尔多瓦 2
+      - _CN_中国
       - _CN_中国->🇺🇸_US_美国
+      - _KR_韩国
+      - _CN_中国->🇺🇸_US_美国 2
+      - _KR_韩国->🇲🇩_MD_摩尔多瓦
       - _UA_乌克兰
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
