@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-08-11 09:40:07.743327
+# 更新时间：2025-08-12 09:40:07.206812
 ####################################
 port: 7890
 socks-port: 7891
@@ -8,59 +8,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: _KR_韩国->🇲🇩_MD_摩尔多瓦, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: _CN_中国->🇺🇸_US_美国, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v37.heduian.link}}}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: _US_美国, server: 34.203.13.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}}
-  - {name: _US_美国->🇨🇳_CN_中国, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
-  - {name: _CN_中国->🇬🇧_GB_英国, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}}
-  - {name: _DK_丹麦->🇪🇸_ES_西班牙, server: pubg.ac, port: 80, type: vmess, uuid: 27425750-5bf5-497b-92d4-16e67030e154, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: _US_美国, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA}
+  - {name: _RU_俄罗斯, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _CN_中国->🇺🇸_US_美国, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v24.heduian.link}}}
+  - {name: _DK_丹麦->🇨🇳_CN_中国, server: csgo.com, port: 80, type: vmess, uuid: a134e3de-b25a-4020-9998-05fa6b715f1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v37.heduian.link}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -79,15 +67,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -98,44 +83,35 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,15 +127,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _KR_韩国->🇲🇩_MD_摩尔多瓦
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
       - _US_美国
-      - _CN_中国->🇺🇸_US_美国 3
-      - _US_美国->🇨🇳_CN_中国
-      - _CN_中国->🇬🇧_GB_英国
-      - _DK_丹麦->🇪🇸_ES_西班牙
-      - _CN_中国->🇸🇬_SG_新加坡
+      - _RU_俄罗斯
+      - _CN_中国->🇺🇸_US_美国
+      - _DK_丹麦->🇨🇳_CN_中国
+      - _MD_摩尔多瓦
+      - _CN_中国->🇺🇸_US_美国 2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
