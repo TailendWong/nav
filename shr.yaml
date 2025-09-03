@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-09-02 09:40:07.807157
+# 更新时间：2025-09-03 09:40:07.825029
 ####################################
 port: 7890
 socks-port: 7891
@@ -9,9 +9,8 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ocbc.com}}}
-  - {name: _DK_丹麦->🇺🇸_US_美国, server: fastcup.net, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: _DK_丹麦->🇺🇸_US_美国 2, server: csgo.com, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
-  - {name: _DK_丹麦->🇺🇸_US_美国 3, server: pubg.ac, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}}
+  - {name: _MD_摩尔多瓦, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _US_美国, server: 38.180.211.126, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Kuiqk2cP0BMWrgme9IfEvp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,18 +18,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -38,9 +35,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,9 +56,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -74,18 +69,16 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -93,9 +86,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -112,9 +104,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _CN_中国->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国
-      - _DK_丹麦->🇺🇸_US_美国 2
-      - _DK_丹麦->🇺🇸_US_美国 3
+      - _MD_摩尔多瓦
+      - _US_美国
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
