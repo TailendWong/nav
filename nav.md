@@ -112,6 +112,13 @@ https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea
 [图片处理](https://www.gaituya.com/)  
 [PDF处理](https://tools.pdf24.org/)  
 [音视频PDF处理](https://123apps.com/cn/)  
+[Cover Page（封面制作）](https://www.coverpage.one/image)  
+[Unblurimage（无损放大）](https://unblurimage.ai/zh/)  
+[图片批量调整](https://easyresizer.com/zh-cn/)  
+
+## 资源站
+[车载DJ音乐](https://www.djuu.com/)  
+[Hippter优质PPT模板](https://www.hippter.com/)  
 
 ## MAC软件下载站  
 [合集](https://iui.su/1282/)  
