@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-11-08 11:49:10.807960
+# 更新时间：2025-11-12 11:49:20.738327
 ####################################
 mixed-port: 7890
 allow-lan: false
@@ -51,426 +51,365 @@ tun:
 
 
 proxies:
-  - type: trojan
-    name: 🇨🇳_CN_中国
-    server: oss-cn-shanghai.letssepub.com
-    port: 20021
-    password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-    network: tcp
-    sni: dingding-doc.com
-    tls: true
-  - type: trojan
-    name: 🇨🇳_CN_中国_1
-    server: 36.151.192.242
-    port: 194
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-  - type: trojan
-    name: 🇨🇳_CN_中国_2
-    server: 36.151.192.242
-    port: 4556
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-  - type: trojan
-    name: 🇨🇳_CN_中国_3
-    server: 36.150.215.239
-    port: 24392
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-  - type: trojan
-    name: 🇨🇳_CN_中国_4
-    server: 36.150.215.239
-    port: 53743
-    password: BxceQaOe
-    network: tcp
-    skip-cert-verify: true
-  - type: vmess
-    name: 🇩🇪 德国 33
-    server: 185.146.173.16
-    port: 80
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    ws-opts:
-      path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
-        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  - type: vmess
-    name: 🇩🇪 德国 33_1
-    server: 141.101.121.250
-    port: 80
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    ws-opts:
-      path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
-        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
   - type: hysteria2
-    name: 🇺🇸_US_美国
-    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+    name: рџ‡®рџ‡·_IR_дјЉжњ—
+    server: mla2.maliaojc.top
+    port: 58330
+    password: 54c406da-f76f-49c1-8263-b711efe57d1e
+    skip-cert-verify: true
+    sni: mla2.maliaojc.top
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ
+    server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
     port: 1743
-    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
   - type: hysteria2
-    name: 🇺🇸_US_美国_1
-    server: us3.oomz.ru
-    port: 30000
-    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
-    skip-cert-verify: true
-    sni: bing.com
-  - type: trojan
-    name: 🇺🇸_US_美国_2
-    server: www.digitalocean.com
-    port: 443
-    password: trojan
-    network: ws
-    sni: azadnet-9ya.pages.dev
-    fingerprint: random
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: azadnet-9ya.pages.dev
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
+    server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
+    port: 1743
+    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   - type: hysteria2
-    name: 🇺🇸_US_美国_3
-    server: us1.oomz.ru
-    port: 30000
-    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
-    skip-cert-verify: true
-    sni: bing.com
-  - type: vmess
-    name: 🇩🇪 德国 26
-    server: 185.146.173.117
-    port: 80
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    ws-opts:
-      path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
-        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  - type: vmess
-    name: 🇺🇸 美国 CloudFlare节点
-    server: 104.18.240.238
-    port: 80
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    ws-opts:
-      path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
-        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  - type: vless
-    name: 🇸🇪_SE_瑞典
-    server: 91.230.128.10
-    port: 993
-    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-    network: tcp
-    servername: speed.cloudflare.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: uiNUZVDwZTHc3jYpobpZgTzN_2V8Vt8zSVXqANXKUUE
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: hysteria2
-    name: 🇮🇷_IR_伊朗
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    port: 54265
-    password: 0fc81038-0f9c-4a4f-980f-aa91c4a0afb4
-    skip-cert-verify: true
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  - type: vless
-    name: 🇺🇸_US_美国_4
-    server: 130.49.77.10
-    port: 443
-    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-    network: tcp
-    servername: speed.cloudflare.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇺🇸_US_美国_5
-    server: 155.212.37.10
-    port: 993
-    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-    network: tcp
-    servername: speed.cloudflare.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: hysteria2
-    name: 🇨🇳_CN_中国_5
-    server: hinet-tw-01-ddns.sakuraikaede.com
-    port: 30002
-    password: b443f03b-f189-4fa1-85b1-c21f3256c06d
-    sni: hinet.eessgrgrgrgr.cloudns.nz
-  - type: vless
-    name: 🇺🇸_US_美国_6
-    server: 155.212.110.3
-    port: 993
-    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-    network: tcp
-    servername: speed.cloudflare.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: DnnQOtWhilZ3rqlSip0spBkluYlPeydouSR3iklbPTs
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: hysteria2
-    name: 🇺🇸_US_美国_7
-    server: 61f04f6d-t4v9c0-t5amrp-b4pt.la.shifen.uk
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
+    server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
     port: 1743
     password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  - type: vless
-    name: 🇨🇳_CN_中国_6
-    server: 62.60.148.21
-    port: 443
-    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+  - type: trojan
+    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ
+    server: 36.151.251.38
+    port: 38799
+    password: BxceQaOe
     network: tcp
-    servername: st.ozone.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
-      short-id: ee6f3e8f44b1f0b6
-      spider-x: /
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+  - type: trojan
+    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
+    server: 36.150.215.248
+    port: 4011
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
   - type: vless
-    name: 🇺🇸_US_美国_8
-    server: 208.69.79.250
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
+    server: 208.69.78.142
     port: 443
-    uuid: 3e854511-e001-4410-bf5d-d5be54343331
+    uuid: 7aae7d90-0b37-421e-834a-502ea15f43df
     network: grpc
     servername: www.microsoft.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: qTY8hd7-sXoOqLRAL02QQMsCvdbLBEhPDB4RlGXCyhI
-      short-id: e0c4810a6d6c2d94
+      public-key: eV7nN5zQA1ecRLyt2u1ChDrl5LU832tCySZOrWoiVXo
+      short-id: 91fbf6164cb2bc53
     grpc-opts:
-      grpc-service-name: 8a5f7ad82cd0c35e0f464d72
+      grpc-service-name: dcfc23920fc8a07991dda30d
     client-fingerprint: safari
-  - type: ss
-    name: 🇨🇳_CN_中国_7
-    server: 103.36.91.32
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
-  - type: vless
-    name: 🇺🇸_US_美国_9
-    server: 155.212.110.2
-    port: 993
-    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-    network: tcp
-    servername: speed.cloudflare.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇺🇸_US_美国_10
-    server: 155.212.110.3
-    port: 443
-    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-    network: tcp
-    servername: speed.cloudflare.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: DnnQOtWhilZ3rqlSip0spBkluYlPeydouSR3iklbPTs
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
   - type: hysteria2
-    name: 🇺🇸_US_美国_11
-    server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+    name: рџ‡«рџ‡·_FR_жі•е›Ѕ
+    server: 163.172.21.105
+    port: 5355
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    sni: www.bing.com
+  - type: hysteria2
+    name: рџ‡®рџ‡·_IR_дјЉжњ—_1
+    server: mla8.maliaojc.top
+    port: 58330
+    password: 54c406da-f76f-49c1-8263-b711efe57d1e
+    skip-cert-verify: true
+    sni: mla8.maliaojc.top
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
+    server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
+    port: 1743
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
+  - type: vless
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
+    server: www.speedtest.net
+    port: 80
+    uuid: 734ee0de-2827-4f6f-9ad1-dd64b56ae8ab
+    network: ws
+    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    encryption: none
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      headers:
+        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
+    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+    port: 1743
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
+    server: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
+    port: 1743
+    password: 06c625ea-5902-11ee-9e87-f23c9313b177
+    sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
+    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+    port: 1743
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  - type: trojan
+    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
+    server: 36.150.215.247
+    port: 1251
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
+    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
+    port: 1743
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
+    server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
+  - type: trojan
+    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
+    server: 58.152.53.186
+    port: 443
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
+    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+    port: 1743
+    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
+    server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
     port: 1743
     password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
   - type: hysteria2
-    name: 🇺🇸_US_美国_12
-    server: us2.oomz.ru
-    port: 30000
-    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
+    name: рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
+    server: 140.238.155.160
+    port: 30300
+    password: 2429bee3-e0c1-47dd-b420-75e6512b184b
     skip-cert-verify: true
-    sni: bing.com
-  - type: trojan
-    name: 🇺🇸_US_美国_13
-    server: ip.sb
-    port: 443
-    password: trojan
-    network: ws
-    sni: nixian.pages.dev
-    fingerprint: random
-    tls: true
-    ws-opts:
-      path: /?ed=2560/?Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-
-      headers:
-        Host: nixian.pages.dev
-  - type: vless
-    name: 🇷🇴_RO_罗马尼亚
-    server: teary.ilooo.ir
-    port: 2020
-    uuid: 52a15490-6ae2-43f3-9aef-2bf7acf9cc0a
-    network: tcp
-    encryption: none
+    sni: www.bing.com
   - type: vmess
-    name: 🇩🇪 德国 18
-    server: 185.146.173.24
-    port: 80
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+    name: рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
+    server: nl-v2ray.freevmess.com
+    port: 2083
+    uuid: c3d066bc-4170-4006-a95c-0012367e8f13
     alterId: 0
-    network: ws
+    network: tcp
     cipher: auto
-    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    tls: true
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
+    server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
+    port: 1743
+    password: 06c625ea-5902-11ee-9e87-f23c9313b177
+    sni: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
+    server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+    port: 1743
+    ports: 20000-50000
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+  - type: vless
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
+    server: 172.66.156.81
+    port: 80
+    uuid: 734ee0de-2827-4f6f-9ad1-dd64b56ae8ab
+    network: ws
+    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    encryption: none
     ws-opts:
-      path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
-        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
       headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  - type: hysteria2
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
+    server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
+    port: 1743
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  - type: vless
+    name: рџ‡Їрџ‡ґ_JO_зє¦ж—¦
+    server: london.fonixapp.org
+    port: 11133
+    uuid: 160a7b5d-fd67-4e83-8d8e-73dcfb6d91c2
+    network: tcp
+    servername: cloudtalk.io
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: y3umRzGnap4t5V4C_rlt870Rku-TG4F8ttsq-_5gKTY
+      short-id: d3e9
+      spider-x: /
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
+    server: rhdheysy-463252636-fryhuhhd.poshakhowdy.ir
+    port: 2095
+    uuid: 4676aae9-d466-4ad2-e5ed-db2ac4051d02
+    network: ws
+    servername: uevsievsusg-82828isbshshs.poshakhowdy.ir
+    ws-opts:
+      path: /
+      headers:
+        Host: uevsievsusg-82828isbshshs.poshakhowdy.ir
+  - type: vless
+    name: рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
+    server: 140.238.155.160
+    port: 42557
+    uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+    network: tcp
+    servername: www.yahoo.com
+    tls: true
+    reality-opts:
+      public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+      short-id: f430927d
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
+    server: antimage.fonixapp.org
+    port: 37876
+    uuid: 29397c5b-be3b-41d9-8a49-21575668e915
+    network: tcp
+    servername: yelp.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: ldoGIafEPJu2W4gODAoLjobXOOe9NKb-110WCz1-EwM
+      short-id: 907e
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
 proxy-groups:
-  - name: 🚀 节点选择
+  - name: рџљЂ иЉ‚з‚№йЂ‰ж‹©
     type: select
     proxies:
-      - ♻️ 自动选择
+      - в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
       - DIRECT
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 33_1
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪 德国 26
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇪_SE_瑞典
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_6
-      - 🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国_7
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇷🇴_RO_罗马尼亚
-      - 🇩🇪 德国 18
-  - name: ♻️ 自动选择
+      - рџ‡®рџ‡·_IR_дјЉжњ—
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
+      - рџ‡«рџ‡·_FR_жі•е›Ѕ
+      - рџ‡®рџ‡·_IR_дјЉжњ—_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
+      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
+      - рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
+      - рџ‡Їрџ‡ґ_JO_зє¦ж—¦
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
+      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
+  - name: в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
     type: url-test
     proxies:
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 33_1
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪 德国 26
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇪_SE_瑞典
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_6
-      - 🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国_7
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇷🇴_RO_罗马尼亚
-      - 🇩🇪 德国 18
+      - рџ‡®рџ‡·_IR_дјЉжњ—
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
+      - рџ‡«рџ‡·_FR_жі•е›Ѕ
+      - рџ‡®рџ‡·_IR_дјЉжњ—_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
+      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
+      - рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
+      - рџ‡Їрџ‡ґ_JO_зє¦ж—¦
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
+      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
     url: http://www.gstatic.com/generate_204
     interval: 300
-  - name: 🎯 全球直连
+  - name: рџЋЇ е…Ёзђѓз›ґиїћ
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-  - name: 🛑 全球拦截
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
+  - name: рџ›‘ е…Ёзђѓж‹¦ж€Є
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: рџђџ жјЏзЅ‘д№‹й±ј
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🇨🇳_CN_中国
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇨🇳_CN_中国_3
-      - 🇨🇳_CN_中国_4
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 33_1
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪 德国 26
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇪_SE_瑞典
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇨🇳_CN_中国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_6
-      - 🇺🇸_US_美国_8
-      - 🇨🇳_CN_中国_7
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_12
-      - 🇺🇸_US_美国_13
-      - 🇷🇴_RO_罗马尼亚
-      - 🇩🇪 德国 18
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - рџЋЇ е…Ёзђѓз›ґиїћ
+      - в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
+      - рџ‡®рџ‡·_IR_дјЉжњ—
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
+      - рџ‡«рџ‡·_FR_жі•е›Ѕ
+      - рџ‡®рџ‡·_IR_дјЉжњ—_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
+      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
+      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
+      - рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
+      - рџ‡Їрџ‡ґ_JO_зє¦ж—¦
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
+      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
+      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -534,15 +473,15 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,LocalAreaNetwork,🎯 全球直连
-  - RULE-SET,BanAD,🛑 全球拦截
-  - RULE-SET,BanProgramAD,🛑 全球拦截
-  - RULE-SET,GoogleCN,🎯 全球直连
-  - RULE-SET,SteamCN,🎯 全球直连
-  - RULE-SET,Telegram,🚀 节点选择
-  - RULE-SET,ProxyMedia,🚀 节点选择
-  - RULE-SET,ProxyLite,🚀 节点选择
-  - RULE-SET,ChinaDomain,🎯 全球直连
-  - RULE-SET,ChinaCompanyIp,🎯 全球直连
-  - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
+  - RULE-SET,LocalAreaNetwork,рџЋЇ е…Ёзђѓз›ґиїћ
+  - RULE-SET,BanAD,рџ›‘ е…Ёзђѓж‹¦ж€Є
+  - RULE-SET,BanProgramAD,рџ›‘ е…Ёзђѓж‹¦ж€Є
+  - RULE-SET,GoogleCN,рџЋЇ е…Ёзђѓз›ґиїћ
+  - RULE-SET,SteamCN,рџЋЇ е…Ёзђѓз›ґиїћ
+  - RULE-SET,Telegram,рџљЂ иЉ‚з‚№йЂ‰ж‹©
+  - RULE-SET,ProxyMedia,рџљЂ иЉ‚з‚№йЂ‰ж‹©
+  - RULE-SET,ProxyLite,рџљЂ иЉ‚з‚№йЂ‰ж‹©
+  - RULE-SET,ChinaDomain,рџЋЇ е…Ёзђѓз›ґиїћ
+  - RULE-SET,ChinaCompanyIp,рџЋЇ е…Ёзђѓз›ґиїћ
+  - GEOIP,CN,рџЋЇ е…Ёзђѓз›ґиїћ
+  - MATCH,рџђџ жјЏзЅ‘д№‹й±ј
