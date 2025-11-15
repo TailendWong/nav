@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-11-14 11:49:06.348386
+# 更新时间：2025-11-15 11:49:06.428086
 ####################################
 mixed-port: 7890
 allow-lan: false
@@ -51,182 +51,58 @@ tun:
 
 
 proxies:
-  - type: hysteria2
-    name: рџ‡®рџ‡·_IR_дјЉжњ—
-    server: mla2.maliaojc.top
-    port: 58330
-    password: 54c406da-f76f-49c1-8263-b711efe57d1e
-    skip-cert-verify: true
-    sni: mla2.maliaojc.top
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ
-    server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-    port: 1743
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
-    server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
-    port: 1743
-    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
-    server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
-    port: 1743
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  - type: trojan
-    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ
-    server: 36.151.251.38
-    port: 38799
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-  - type: trojan
-    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
-    server: 36.150.215.248
-    port: 4011
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-  - type: vless
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
-    server: 208.69.78.142
-    port: 443
-    uuid: 7aae7d90-0b37-421e-834a-502ea15f43df
-    network: grpc
-    servername: www.microsoft.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: eV7nN5zQA1ecRLyt2u1ChDrl5LU832tCySZOrWoiVXo
-      short-id: 91fbf6164cb2bc53
-    grpc-opts:
-      grpc-service-name: dcfc23920fc8a07991dda30d
-    client-fingerprint: safari
-  - type: hysteria2
-    name: рџ‡«рџ‡·_FR_жі•е›Ѕ
-    server: 163.172.21.105
-    port: 5355
-    password: dongtaiwang.com
-    skip-cert-verify: true
-    sni: www.bing.com
-  - type: hysteria2
-    name: рџ‡®рџ‡·_IR_дјЉжњ—_1
-    server: mla8.maliaojc.top
-    port: 58330
-    password: 54c406da-f76f-49c1-8263-b711efe57d1e
-    skip-cert-verify: true
-    sni: mla8.maliaojc.top
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
-    server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
-    port: 1743
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
-  - type: vless
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
-    server: www.speedtest.net
-    port: 80
-    uuid: 734ee0de-2827-4f6f-9ad1-dd64b56ae8ab
-    network: ws
-    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    encryption: none
-    ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-      headers:
-        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
-    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-    port: 1743
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
-    server: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-    port: 1743
-    password: 06c625ea-5902-11ee-9e87-f23c9313b177
-    sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
-    server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-    port: 1743
-    password: 712bdc36-24be-11ee-be53-f23c9313b177
-    sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-  - type: trojan
-    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
-    server: 36.150.215.247
-    port: 1251
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
-    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-    port: 1743
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
-    server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-    port: 1743
-    ports: 20000-50000
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-    sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  - type: trojan
-    name: рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
-    server: 58.152.53.186
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
-    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-    port: 1743
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
-    server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-    port: 1743
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-  - type: hysteria2
-    name: рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
-    server: 140.238.155.160
-    port: 30300
-    password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-    skip-cert-verify: true
-    sni: www.bing.com
   - type: vmess
-    name: рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
-    server: nl-v2ray.freevmess.com
-    port: 2083
-    uuid: c3d066bc-4170-4006-a95c-0012367e8f13
+    name: 🇺🇸US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
+    server: onecat-us.03ezhg0qsa.download
+    port: 25024
+    uuid: 69749298-6821-3358-b6d3-1d18d8642cba
     alterId: 0
     network: tcp
     cipher: auto
-    tls: true
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
-    server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
-    port: 1743
-    password: 06c625ea-5902-11ee-9e87-f23c9313b177
-    sni: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
-  - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
-    server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-    port: 1743
-    ports: 20000-50000
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+  - type: trojan
+    name: 🇨🇳_CN_中国
+    server: 116.49.237.130
+    port: 518
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+  - type: trojan
+    name: 🇨🇳_CN_中国_1
+    server: 116.49.237.130
+    port: 4094
+    password: BxceQaOe
+    network: tcp
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+  - type: vmess
+    name: 🇯🇵 日本4|@ripaojiedian
+    server: 114.98.183.61
+    port: 47083
+    uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
+    alterId: 0
+    network: tcp
+    cipher: auto
   - type: vless
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
-    server: 172.66.156.81
+    name: 🇷🇴_RO_罗马尼亚
+    server: dl.darkterror.fonixapp.org
+    port: 19737
+    uuid: b3ed90bf-5d36-4661-982a-cda4255dcda8
+    network: tcp
+    servername: ilovepdf.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: C8j5dsJwK-i2cDVzt9QQ8HzpL7LfryWoAWHZ7ap4ERg
+      short-id: 62f7cd
+      spider-x: /
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸_US_美国
+    server: www.speedtest.net
     port: 80
-    uuid: 734ee0de-2827-4f6f-9ad1-dd64b56ae8ab
+    uuid: d59dbeb7-3989-4f4c-aed8-ac5fbd9c1a7a
     network: ws
     servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
     encryption: none
@@ -235,52 +111,193 @@ proxies:
       headers:
         Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
   - type: hysteria2
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
-    server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
-    port: 1743
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    name: 🇨🇦_CA_加拿大
+    server: 140.238.137.165
+    port: 30102
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
+    skip-cert-verify: true
+    sni: du.wish.ml
+  - type: trojan
+    name: 🇺🇸_US_美国_1
+    server: 65.109.227.138
+    port: 2053
+    password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053
+      headers:
+        Host: joss.dus.biz.id
   - type: vless
-    name: рџ‡Їрџ‡ґ_JO_зє¦ж—¦
-    server: london.fonixapp.org
-    port: 11133
-    uuid: 160a7b5d-fd67-4e83-8d8e-73dcfb6d91c2
+    name: 🇺🇸_US_美国_2
+    server: dl.huskar.fonixapp.org
+    port: 13484
+    uuid: ae9e793d-16a0-4fe2-9db5-ed120b6a80d2
     network: tcp
-    servername: cloudtalk.io
+    servername: ilovepdf.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: y3umRzGnap4t5V4C_rlt870Rku-TG4F8ttsq-_5gKTY
-      short-id: d3e9
+      public-key: 02I96zqdx5EkO2a1L2S3YZdk8aYkbkMAQvQs6gs0wU0
+      short-id: f3f97f79
       spider-x: /
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
-    server: rhdheysy-463252636-fryhuhhd.poshakhowdy.ir
-    port: 2095
-    uuid: 4676aae9-d466-4ad2-e5ed-db2ac4051d02
-    network: ws
-    servername: uevsievsusg-82828isbshshs.poshakhowdy.ir
-    ws-opts:
-      path: /
-      headers:
-        Host: uevsievsusg-82828isbshshs.poshakhowdy.ir
-  - type: vless
-    name: рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
-    server: 140.238.155.160
-    port: 42557
-    uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+    name: 🇺🇸_US_美国_3
+    server: graygoat.fonixapp.org
+    port: 48983
+    uuid: 75c18b2c-9f28-44e5-9fde-02c00b6d30a0
     network: tcp
-    servername: www.yahoo.com
+    servername: smallpdf.com
     tls: true
+    encryption: none
     reality-opts:
-      public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-      short-id: f430927d
+      public-key: 7hoSQsWXvX5kVe1gUt5mLIpbfiIp3017V3S6Ym0hqW0
+      short-id: 509af44ce1
+      spider-x: /
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: 🇳🇱_NL_荷兰
+    server: 132.226.162.10
+    port: 30102
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
+    skip-cert-verify: true
+  - type: vless
+    name: 🇮🇶_IQ_伊拉克
+    server: fis.jykvpn.com
+    port: 443
+    uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    network: tcp
+    servername: cdnjs.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+      short-id: c2a0b2d60a7fc300
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: trojan
+    name: 🇳🇱_NL_荷兰_1
+    server: 45.144.48.55
+    port: 2053
+    password: 55d19115-ec40-407b-a674-74e6a948347a
+    network: ws
+    sni: joss.dus.biz.id
+    fingerprint: chrome
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
+      headers:
+        Host: joss.dus.biz.id
+  - type: vmess
+    name: 🇨🇳CN-144.48.180.186-7884
+    server: v12.heduian.link
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    network: ws
+    cipher: auto
+    servername: ocbc.com
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
+  - type: vless
+    name: 🇺🇸_US_美国_4
+    server: 152.53.84.101
+    port: 20579
+    uuid: 93cd7e0f-8a81-4076-be8b-6d3bf3f8f810
+    network: tcp
+    servername: ilovepdf.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: mT6lh-gtbEuWk3Zk6XGF_hYvpLwxTyvwtH7F-_fRbxI
+      short-id: 89f1da93
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
-    server: antimage.fonixapp.org
+    name: 🇫🇷_FR_法国
+    server: 195.154.42.111
+    port: 33009
+    uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+    network: tcp
+    servername: www.yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0
+      short-id: c0d304da0c4dcadc
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇷🇴_RO_罗马尼亚_1
+    server: zeusolympus.fonixapp.org
+    port: 45714
+    uuid: 00077dbc-4430-4c2d-baa7-878720254c97
+    network: tcp
+    servername: ilovepdf.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 0GENC9ZpilKBLqipubONSKa0QjIDIYkrILHExjfy91Q
+      short-id: 54387a
+      spider-x: /
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇮🇶_IQ_伊拉克_1
+    server: ges.jykvpn.com
+    port: 443
+    uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+    network: tcp
+    servername: cdnjs.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+      short-id: 4c02bbbfa833b3b6
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸_US_美国_5
+    server: 172.66.156.81
+    port: 80
+    uuid: d59dbeb7-3989-4f4c-aed8-ac5fbd9c1a7a
+    network: ws
+    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    encryption: none
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      headers:
+        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  - type: trojan
+    name: 🇨🇳_CN_中国_2
+    server: 58.152.110.9
+    port: 443
+    password: 2274c52572e721086f8bd8f88984643c
+    network: tcp
+    sni: www.nintendogames.net
+  - type: vless
+    name: 🇩🇪_DE_德国
+    server: vp9.myphotomoments.ir
+    port: 443
+    uuid: Warpi-Free-Vpn-In-GooglePlay
+    network: tcp
+    encryption: none
+  - type: hysteria2
+    name: 🇺🇸_US_美国_6
+    server: 40.233.80.237
+    port: 30300
+    password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+    skip-cert-verify: true
+    sni: www.bing.com
+  - type: vless
+    name: 🇺🇸_US_美国_7
+    server: 152.53.147.191
     port: 37876
     uuid: 29397c5b-be3b-41d9-8a49-21575668e915
     network: tcp
@@ -292,124 +309,192 @@ proxies:
       short-id: 907e
     client-fingerprint: chrome
     flow: xtls-rprx-vision
+  - type: trojan
+    name: 🇳🇱_NL_荷兰_2
+    server: 86.107.197.239
+    port: 443
+    password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
+    network: ws
+    sni: joss.dus.biz.id
+    tls: true
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+      headers:
+        Host: joss.dus.biz.id
+  - type: vless
+    name: 🇭🇺_HU_匈牙利
+    server: helsinki.fonixapp.org
+    port: 54978
+    uuid: a79d31ed-99d6-4116-8f50-fa46957ac6a0
+    network: tcp
+    servername: study.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: clfoV7PyfUylden53xvv2FuAoSYFBeZ2JdP0ZzC2ISo
+      short-id: cc58ae21d5
+      spider-x: /
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: trojan
+    name: 🇸🇪_SE_瑞典
+    server: 193.180.211.52
+    port: 443
+    password: 72a9357f-8841-4229-ad79-c3fdee0aae51
+    network: ws
+    sni: joss.dus.biz.id
+    fingerprint: randomized
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/193.180.211.52=443
+  - type: vless
+    name: 🇸🇪_SE_瑞典_1
+    server: sweden.marzxo.biz
+    port: 8090
+    uuid: fafd4d2b-558e-7ae5-8e95-cde87e74ca95
+    network: tcp
+    servername: refersion.com
+    tls: true
+    reality-opts:
+      public-key: Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU
+      short-id: 828348fc6d8e49cf
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+  - type: ss
+    name: 🇺🇸_US_美国_8
+    server: 23.95.75.146
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  - type: ss
+    name: 🇷🇺_RU_俄罗斯
+    server: 45.14.245.2
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  - type: ss
+    name: 🇰🇷_KR_韩国
+    server: 221.139.79.57
+    port: 37008
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
 proxy-groups:
-  - name: рџљЂ иЉ‚з‚№йЂ‰ж‹©
+  - name: 🚀 节点选择
     type: select
     proxies:
-      - в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
+      - ♻️ 自动选择
       - DIRECT
-      - рџ‡®рџ‡·_IR_дјЉжњ—
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
-      - рџ‡«рџ‡·_FR_жі•е›Ѕ
-      - рџ‡®рџ‡·_IR_дјЉжњ—_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
-      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
-      - рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
-      - рџ‡Їрџ‡ґ_JO_зє¦ж—¦
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
-      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
-  - name: в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
+      - 🇺🇸US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国_1
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
+      - 🇮🇶_IQ_伊拉克
+      - 🇳🇱_NL_荷兰_1
+      - 🇨🇳CN-144.48.180.186-7884
+      - 🇺🇸_US_美国_4
+      - 🇫🇷_FR_法国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇮🇶_IQ_伊拉克_1
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国_2
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇺_HU_匈牙利
+      - 🇸🇪_SE_瑞典
+      - 🇸🇪_SE_瑞典_1
+      - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇰🇷_KR_韩国
+  - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - рџ‡®рџ‡·_IR_дјЉжњ—
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
-      - рџ‡«рџ‡·_FR_жі•е›Ѕ
-      - рџ‡®рџ‡·_IR_дјЉжњ—_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
-      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
-      - рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
-      - рџ‡Їрџ‡ґ_JO_зє¦ж—¦
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
-      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
+      - 🇺🇸US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国_1
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
+      - 🇮🇶_IQ_伊拉克
+      - 🇳🇱_NL_荷兰_1
+      - 🇨🇳CN-144.48.180.186-7884
+      - 🇺🇸_US_美国_4
+      - 🇫🇷_FR_法国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇮🇶_IQ_伊拉克_1
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国_2
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇺_HU_匈牙利
+      - 🇸🇪_SE_瑞典
+      - 🇸🇪_SE_瑞典_1
+      - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇰🇷_KR_韩国
     url: http://www.gstatic.com/generate_204
     interval: 300
-  - name: рџЋЇ е…Ёзђѓз›ґиїћ
+  - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
-      - в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
-  - name: рџ›‘ е…Ёзђѓж‹¦ж€Є
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: рџђџ жјЏзЅ‘д№‹й±ј
+  - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
-      - рџЋЇ е…Ёзђѓз›ґиїћ
-      - в™»пёЏ и‡ЄеЉЁйЂ‰ж‹©
-      - рџ‡®рџ‡·_IR_дјЉжњ—
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_2
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_3
-      - рџ‡«рџ‡·_FR_жі•е›Ѕ
-      - рџ‡®рџ‡·_IR_дјЉжњ—_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_4
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_5
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_6
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_7
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_8
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_2
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_9
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_10
-      - рџ‡Ёрџ‡і_CN_дё­е›Ѕ_3
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_11
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_12
-      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§
-      - рџ‡ірџ‡±NLВІ_7|31%|GPTвЃє|TK|NF|X
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_13
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_14
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_15
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_16
-      - рџ‡Їрџ‡ґ_JO_зє¦ж—¦
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_17
-      - рџ‡Ёрџ‡¦_CA_еЉ ж‹їе¤§_1
-      - рџ‡єрџ‡ё_US_зѕЋе›Ѕ_18
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇺🇸US²_2|0.6MB/s|18%|GPT|YT-CN|TK|NF|X|KeepHistory
+      - 🇨🇳_CN_中国
+      - 🇨🇳_CN_中国_1
+      - 🇯🇵 日本4|@ripaojiedian
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
+      - 🇮🇶_IQ_伊拉克
+      - 🇳🇱_NL_荷兰_1
+      - 🇨🇳CN-144.48.180.186-7884
+      - 🇺🇸_US_美国_4
+      - 🇫🇷_FR_法国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇮🇶_IQ_伊拉克_1
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国_2
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇺_HU_匈牙利
+      - 🇸🇪_SE_瑞典
+      - 🇸🇪_SE_瑞典_1
+      - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇰🇷_KR_韩国
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -473,15 +558,15 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,LocalAreaNetwork,рџЋЇ е…Ёзђѓз›ґиїћ
-  - RULE-SET,BanAD,рџ›‘ е…Ёзђѓж‹¦ж€Є
-  - RULE-SET,BanProgramAD,рџ›‘ е…Ёзђѓж‹¦ж€Є
-  - RULE-SET,GoogleCN,рџЋЇ е…Ёзђѓз›ґиїћ
-  - RULE-SET,SteamCN,рџЋЇ е…Ёзђѓз›ґиїћ
-  - RULE-SET,Telegram,рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - RULE-SET,ProxyMedia,рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - RULE-SET,ProxyLite,рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - RULE-SET,ChinaDomain,рџЋЇ е…Ёзђѓз›ґиїћ
-  - RULE-SET,ChinaCompanyIp,рџЋЇ е…Ёзђѓз›ґиїћ
-  - GEOIP,CN,рџЋЇ е…Ёзђѓз›ґиїћ
-  - MATCH,рџђџ жјЏзЅ‘д№‹й±ј
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🛑 全球拦截
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Telegram,🚀 节点选择
+  - RULE-SET,ProxyMedia,🚀 节点选择
+  - RULE-SET,ProxyLite,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
