@@ -137,7 +137,7 @@ https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea
 - [魔术橡皮擦](https://www.magiceraser.io/)  
 免费无需注册的图片魔术橡皮擦，快速删除图片中不想要的元素，也可作为去水印工具使用。  
 - [SciHub学术导航](https://scihub.net.cn/)  
-免费下载文献。   
+免费下载文献。如果下载不了，去这里求助，10分钟左右会回复https://www.pidantuan.com/  
 - [谷粉学术](http://xueshu.99lb.net/)  
 - [google学术镜像](http://scholar.scqylaw.com/)  
 - [接码导航](https://jiema.pub/)    
