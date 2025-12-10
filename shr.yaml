@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-11-24 11:49:14.329394
+# 更新时间：2025-12-10 11:49:14.329394
 ####################################
 mixed-port: 7890
 allow-lan: false
@@ -51,395 +51,408 @@ tun:
 
 
 proxies:
-  - type: vmess
-    name: 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
-    server: 32c57d76-t66sg0-t7n4ch-1rfon.hk3.p5pv.com
-    port: 80
-    uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-    alterId: 2
-    network: ws
-    cipher: auto
-    servername: 32c57d76-t66sg0-t7n4ch-1rfon.hk3.p5pv.com
-    ws-opts:
-      path: /
-      headers:
-        Host: 32c57d76-t66sg0-t7n4ch-1rfon.hk3.p5pv.com
-  - type: vmess
-    name: 🇭🇰 HK_66
-    server: dfed4efb-t4n8g0-t636g9-luwe.hk3.p5pv.com
-    port: 80
-    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-    alterId: 2
-    network: ws
-    cipher: auto
-    servername: broadcastlv.chat.bilibili.com
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - type: vmess
-    name: 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
-    server: v5.heduian.link
-    port: 30805
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-    servername: v5.heduian.link
-  - type: trojan
-    name: 🇺🇸_US_美国
-    server: 94.131.123.74
-    port: 443
-    password: 94a81dc7-e8e6-46e5-838d-84ca142b88b2
-    network: ws
-    sni: joss.gpj1.web.id
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/94.131.123.74=443
-      headers:
-        Host: joss.gpj1.web.id
-  - type: trojan
+  - type: hysteria
     name: 🇫🇷_FR_法国
-    server: 178.33.161.196
-    port: 2053
-    password: be94cd60-8e91-4cd6-9c53-26ee1314edfd
-    network: ws
-    sni: joss.gpj1.web.id
-    fingerprint: randomized
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/178.33.161.196=2053
-      headers:
-        Host: joss.gpj1.web.id
-  - type: vmess
-    name: 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
-    server: hkt.gotochinatown.net
-    port: 80
-    uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-    alterId: 2
-    network: ws
-    cipher: auto
-    servername: hkt.gotochinatown.net
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
+    server: 195.154.200.40
+    port: 15010
+    auth-str: dongtaiwang.com
+    protocol: udp
+    sni: apple.com
+    up: "100"
+    down: "100"
+    skip-cert-verify: true
+    alpn:
+      - h3
+  - type: hysteria
+    name: 🇺🇸_US_美国
+    server: 51.159.226.1
+    port: 49003
+    auth-str: dongtaiwang.com
+    protocol: udp
+    sni: apple.com
+    up: "11"
+    down: "55"
+    skip-cert-verify: true
+    alpn:
+      - h3
+  - type: hysteria
+    name: 🇫🇷_FR_法国_1
+    server: 62.210.10.186
+    port: 50011
+    auth-str: dongtaiwang.com
+    protocol: udp
+    sni: apple.com
+    up: 11 Mbps
+    down: 55 Mbps
+    skip-cert-verify: true
+    alpn:
+      - h3
   - type: vless
-    name: 🇺🇸_US_美国_1
-    server: tuskar.fonixapp.org
-    port: 36276
-    uuid: 6181c423-65d5-4952-b6db-f373bc42b7f8
-    network: tcp
-    servername: smallpdf.com
+    name: 🇸🇬_SG_新加坡
+    server: sg.fluxcommunity.my.id
+    port: 2082
+    uuid: ff831988-b64a-4bc3-93dd-58389c91a03a
+    network: ws
+    servername: sg.fluxcommunity.my.id
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg.fluxcommunity.my.id
+    client-fingerprint: chrome
+  - type: hysteria
+    name: 🇫🇷_FR_法国_2
+    server: 62.210.10.186
+    port: 35511
+    auth-str: dongtaiwang.com
+    protocol: udp
+    sni: apple.com
+    up: "11"
+    down: "55"
+    skip-cert-verify: true
+    alpn:
+      - h3
+  - type: hysteria2
+    name: 🇨🇳_CN_中国
+    server: f8703d1a-t6r5s0-tb016b-1m7l4.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+    sni: f8703d1a-t6r5s0-tb016b-1m7l4.hk2.hyhuawei.com
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_1
+    server: df9ad4da-t6t0g0-t80oqd-1rsuw.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
+    sni: df9ad4da-t6t0g0-t80oqd-1rsuw.hk2.hyhuawei.com
+  - type: vless
+    name: 🇷🇺_RU_俄罗斯
+    server: nl-78w-c.southnetworks.cloud
+    port: 80
+    uuid: 094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa
+    network: ws
+    servername: nl-78w-c.southnetworks.cloud
+    ws-opts:
+      path: /getWorkerUpdates
+      headers:
+        Host: nl-78w-c.southnetworks.cloud
+  - type: vless
+    name: 🇬🇧_GB_英国
+    server: 91.84.118.130
+    port: 1443
+    uuid: 2a2a6062-003c-4f44-b293-ee0d0416afee
+    network: grpc
+    servername: ozon.ru
     tls: true
     encryption: none
     reality-opts:
-      public-key: a3usSjtSaH2XGzG5oi3oqPYKlhsJOmmJYI4nitX1rn8
-      short-id: 2b
+      public-key: JuDrUZsgHt0i_hz3kOhQbiX708vbjR9uHHFwi3fWqSc
+      short-id: 47e92a4b0513b27f
+    grpc-opts:
+      grpc-service-name: admin
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇷🇺_RU_俄罗斯_1
+    server: 176.123.162.253
+    port: 8443
+    uuid: 2a2a6062-003c-0004-b293-ee0d0416afee
+    network: tcp
+    servername: pimg.mycdn.me
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU
+      short-id: aea104e730
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_2
+    server: 22d6f82f-t6t0g0-tkgk4w-1fvdh.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
+    sni: 22d6f82f-t6t0g0-tkgk4w-1fvdh.hk2.hyhuawei.com
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_3
+    server: 21d94221-t6pb40-tdps9l-155d9.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+    sni: 21d94221-t6pb40-tdps9l-155d9.hk2.hyhuawei.com
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_4
+    server: 6761e2ad-t6pb40-tnfe2z-1s4hc.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+    sni: 6761e2ad-t6pb40-tnfe2z-1s4hc.hk2.hyhuawei.com
+  - type: vless
+    name: 🇺🇸_US_美国_1
+    server: 69.84.182.13
+    port: 443
+    uuid: be52060e-7934-4bc6-89b3-0b6cf4cda789
+    network: ws
+    servername: fr-1-fr-1.aiopen.sbs
+    tls: true
+    ws-opts:
+      path: /kbjc/fr1
+      headers:
+        Host: fr-1-fr-1.aiopen.sbs
+    client-fingerprint: chrome
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_5
+    server: a72b4e9b-t6t0g0-t7c05o-n09f.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+    sni: a72b4e9b-t6t0g0-t7c05o-n09f.hk2.hyhuawei.com
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_6
+    server: 11c76ef0-t6r5s0-th9kx9-1os43.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+    sni: 11c76ef0-t6r5s0-th9kx9-1os43.hk2.hyhuawei.com
+  - type: vless
+    name: 🇬🇧_GB_英国_1
+    server: 51.250.25.11
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_7
+    server: d15b0a2f-t6pb40-tc61cs-1tja8.hk2.hyhuawei.com
+    port: 443
+    ports: 30000-60000
+    password: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+    sni: d15b0a2f-t6pb40-tc61cs-1tja8.hk2.hyhuawei.com
+  - type: vless
+    name: 🇬🇧_GB_英国_2
+    server: 51.250.109.47
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    servername: ads.x5.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 🇺🇸_US_美国_2
-    server: ge1.clear-vpn.org
-    port: 443
-    uuid: 83367474-3a42-4aa8-a74f-82e930370975
+    name: 🇬🇧_GB_英国_3
+    server: 51.250.99.190
+    port: 1488
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
     network: tcp
-    servername: ge1.clear-vpn.org
+    servername: ads.x5.ru
     tls: true
     encryption: none
     reality-opts:
-      public-key: tCsa9mOLB6gCTdF4cx-s4BhckPBw846-cxggHOhmkyw
-      short-id: fb228829c3da833b
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇬🇧_GB_英国_4
+    server: 144.124.254.31
+    port: 1443
+    uuid: 2a2a6062-003c-4f44-b293-ee0d0416afee
+    network: grpc
+    servername: ozon.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: JuDrUZsgHt0i_hz3kOhQbiX708vbjR9uHHFwi3fWqSc
+      short-id: 47e92a4b0513b27f
+    grpc-opts:
+      grpc-service-name: admin
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇷🇺_RU_俄罗斯_2
+    server: istanbul.fonixapp.org
+    port: 443
+    uuid: cb7188cf-2c3a-43a5-af90-d893922e4917
+    network: tcp
+    servername: fonts.gstatic.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: eS0NqJCAo6Jn4PuU3nU4A5D7RyNbn3WyhipXViddnzI
+      short-id: "5457"
+      spider-x: /
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: hysteria2
+    name: 🇺🇸_US_美国_2
+    server: 134.195.101.191
+    port: 35000
+    ports: 35000-39000
+    password: be52060e-7934-4bc6-89b3-0b6cf4cda789
+    skip-cert-verify: true
+    sni: www.apple.com
+  - type: vless
+    name: 🇬🇧_GB_英国_5
+    server: uk1.oomz.ru
+    port: 443
+    uuid: 937f8940-ad8a-409f-93c3-4d6249af628f
+    network: tcp
+    servername: www.bp.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+      short-id: d923
+    client-fingerprint: qq
+    flow: xtls-rprx-vision
+  - type: trojan
+    name: 🇷🇺_RU_俄罗斯_3
+    server: 46.29.161.237
+    port: 443
+    password: af4b064a9c39472fb34ad8b113acdc6b
+    network: tcp
+    sni: 46.29.161.237
+    skip-cert-verify: true
+  - type: vless
+    name: 🇨🇦_CA_加拿大
+    server: 167.17.70.16
+    port: 8443
+    uuid: 55975415-43c0-461c-8752-d5b8013364e3
+    network: tcp
+    servername: www.microsoft.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 8W9r2aXGhKNtvPxnL6EiPpQuSm9OJT17x2xyxwxIo30
+      short-id: 84f70f1177981563
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
     name: 🇺🇸_US_美国_3
-    server: greenwolf.fonixapp.org
-    port: 12489
-    uuid: c99dcc63-70e3-423d-a853-e3749b2cf06f
+    server: antimage.fonixapp.org
+    port: 443
+    uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
     network: tcp
-    servername: indeed.com
+    servername: ajax.cloudflare.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: GyvksSpuOucs7XsCfiq2yRn3cxVN_Y8b3Zippb_mYCM
-      short-id: 50bcccfb
+      public-key: WeNlf_hPscBLSwtg1PgOmurK1f7VyQSNPmOYeG0wIQw
+      short-id: 6590cb
+      spider-x: /
     client-fingerprint: chrome
     flow: xtls-rprx-vision
-  - type: trojan
-    name: 🇷🇺_RU_俄罗斯
-    server: 193.233.114.58
-    port: 8443
-    password: d78d48df-b788-4a95-9e9f-77c9b2f69822
-    network: ws
-    sni: joss.gpj1.web.id
-    fingerprint: randomized
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/193.233.114.58=8443
-      headers:
-        Host: joss.gpj1.web.id
-  - type: trojan
-    name: 🇨🇳_CN_中国
-    server: psg2-ag.t.sgateway.link
-    port: 5223
-    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-    network: tcp
-    sni: pod-kr-g1.psusercontent.com
-    tls: true
-  - type: ss
-    name: 🇨🇳_CN_中国_1
-    server: wangcai.singdns.com
-    port: 21712
-    cipher: aes-128-gcm
-    password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
   - type: vless
-    name: 🇧🇬_BG_保加利亚
-    server: 178.239.123.216
-    port: 24443
-    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-    network: ws
-    servername: vless3.datatestvless.click
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: vless3.datatestvless.click
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇳🇱_NL_荷兰
-    server: nl3.srv.oplcdn.link
-    port: 8443
-    uuid: d42c146e-2ded-4b4a-8592-6459ac636910
+    name: 🇺🇸_US_美国_4
+    server: lifestealer.fonixapp.org
+    port: 443
+    uuid: e3af49ba-6a41-4fa1-8f21-f40d1f154c68
     network: tcp
-    servername: ign.com
+    servername: configuration.apple.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
+      public-key: DJ1l1bgvwpj-SoHuC6eLVfzd3rp1zQmCV76fdVazMgc
+      short-id: 173c58
     client-fingerprint: chrome
     flow: xtls-rprx-vision
-  - type: vless
-    name: 🇨🇦_CA_加拿大
-    server: fi3.srv.oplcdn.link
-    port: 8443
-    uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-    network: tcp
-    servername: ign.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 🇨🇳_CN_中国_2
-    server: hk3.t.sgateway.link
-    port: 5223
-    password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-    network: tcp
-    sni: pod-hk-z1.psusercontent.com
-    tls: true
-  - type: ss
-    name: 🇷🇺_RU_俄罗斯_1
-    server: 45.14.245.2
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
-  - type: trojan
-    name: 🇨🇳_CN_中国_3
-    server: 58.152.18.98
-    port: 443
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    network: tcp
-    sni: www.nintendogames.net
-  - type: trojan
-    name: 🇨🇳_CN_中国_4
-    server: 58.152.18.95
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-  - type: ss
-    name: 🏳️_unKnow_未知
-    server: 213.176.16.71
-    port: 4966
-    cipher: chacha20-ietf-poly1305
-    password: lXOVjEMsx00jeOQzHsQrkL
   - type: vless
     name: 🇸🇦_SA_沙特阿拉伯
-    server: 77.110.119.225
-    port: 443
-    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+    server: 213.165.63.234
+    port: 62728
+    uuid: e03b538a-91c9-4d3c-a2cb-8a6b1d8df54f
     network: tcp
-    servername: st.ozone.ru
-    tls: true
-    reality-opts:
-      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-      short-id: 07e904766d29b958
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇮🇷_IR_伊朗
-    server: lv.tvm1.ru
-    port: 59724
-    uuid: 6a67d755-6ea7-4447-a7d0-7faae429ff1a
-    network: tcp
-    servername: www.yahoo.com
+    servername: yandex.ru
     tls: true
     encryption: none
     reality-opts:
-      public-key: ebgYDy5MsZiayW8VYknobN3wDvmmxCeYvYnjTKbid1M
-      short-id: 0234359d414eac72
+      public-key: ITde_Ktn7SlHLykmQ4vzVXLXZd0J7ZxuS3Oc4bNHFg8
+      short-id: d8edfadb35ecdf00
     client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: trojan
-    name: 🇺🇸_US_美国_4
-    server: 158.178.206.197
-    port: 8443
-    password: c2de1269-17cb-41f6-ab97-f8c11a6f0f4f
-    network: ws
-    sni: joss.gpj1.web.id
-    tls: true
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/158.178.206.197=8443
-      headers:
-        Host: joss.gpj1.web.id
-  - type: ss
-    name: 🇫🇷_FR_法国_1
-    server: 146.19.49.251
+  - type: hysteria2
+    name: 🇨🇳_CN_中国_8
+    server: 84041b9f-t6pb40-t6z0et-1t60o.hk2.hyhuawei.com
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  - type: trojan
-    name: 🇺🇸_US_美国_5
-    server: 3.76.168.69
-    port: 22223
-    password: telegram-id-directvpn
-    network: tcp
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-  - type: trojan
-    name: 🇩🇪_DE_德国
-    server: 3.127.91.148
-    port: 22222
-    password: telegram-id-privatevpns
-    network: tcp
-    sni: 3.127.91.148
-    skip-cert-verify: true
-  - type: ss
-    name: 🇺🇸_US_美国_6
-    server: 23.95.75.146
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  - type: trojan
-    name: 🇩🇪_DE_德国_1
-    server: 3.127.91.148
-    port: 22223
-    password: telegram-id-directvpn
-    network: tcp
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-  - type: vless
-    name: 🇷🇺_RU_俄罗斯_2
-    server: 178.236.16.98
-    port: 35728
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    network: tcp
-    servername: yahoo.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇩🇪_DE_德国_2
-    server: fi4.srv.oplcdn.link
-    port: 8443
-    uuid: d42c146e-2ded-4b4a-8592-6459ac636910
-    network: tcp
-    servername: ign.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
+    ports: 30000-60000
+    password: ce481c6e-f4c8-11ef-bbb0-f23c91cfbbc9
+    sni: 84041b9f-t6pb40-t6z0et-1t60o.hk2.hyhuawei.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
-      - 🇭🇰 HK_66
-      - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
-      - 🇺🇸_US_美国
       - 🇫🇷_FR_法国
-      - 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国_1
+      - 🇸🇬_SG_新加坡
+      - 🇫🇷_FR_法国_2
       - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国_1
-      - 🇧🇬_BG_保加利亚
-      - 🇳🇱_NL_荷兰
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国_2
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
-      - 🏳️_unKnow_未知
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_4
-      - 🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_6
-      - 🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_5
+      - 🇨🇳_CN_中国_6
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
       - 🇷🇺_RU_俄罗斯_2
-      - 🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_5
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇦_SA_沙特阿拉伯
+      - 🇨🇳_CN_中国_8
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
-      - 🇭🇰 HK_66
-      - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
-      - 🇺🇸_US_美国
       - 🇫🇷_FR_法国
-      - 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国_1
+      - 🇸🇬_SG_新加坡
+      - 🇫🇷_FR_法国_2
       - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国_1
-      - 🇧🇬_BG_保加利亚
-      - 🇳🇱_NL_荷兰
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国_2
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
-      - 🏳️_unKnow_未知
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_4
-      - 🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_6
-      - 🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_5
+      - 🇨🇳_CN_中国_6
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
       - 🇷🇺_RU_俄罗斯_2
-      - 🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_5
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇦_SA_沙特阿拉伯
+      - 🇨🇳_CN_中国_8
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -459,36 +472,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
-      - 🇭🇰 HK_66
-      - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
-      - 🇺🇸_US_美国
       - 🇫🇷_FR_法国
-      - 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国
+      - 🇫🇷_FR_法国_1
+      - 🇸🇬_SG_新加坡
+      - 🇫🇷_FR_法国_2
       - 🇨🇳_CN_中国
       - 🇨🇳_CN_中国_1
-      - 🇧🇬_BG_保加利亚
-      - 🇳🇱_NL_荷兰
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国_2
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_2
       - 🇨🇳_CN_中国_3
       - 🇨🇳_CN_中国_4
-      - 🏳️_unKnow_未知
-      - 🇸🇦_SA_沙特阿拉伯
-      - 🇮🇷_IR_伊朗
-      - 🇺🇸_US_美国_4
-      - 🇫🇷_FR_法国_1
-      - 🇺🇸_US_美国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_6
-      - 🇩🇪_DE_德国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_5
+      - 🇨🇳_CN_中国_6
+      - 🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇬🇧_GB_英国_4
       - 🇷🇺_RU_俄罗斯_2
-      - 🇩🇪_DE_德国_2
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国_5
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇸🇦_SA_沙特阿拉伯
+      - 🇨🇳_CN_中国_8
 rule-providers:
   LocalAreaNetwork:
     type: http
