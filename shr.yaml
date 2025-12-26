@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2025-12-25 11:11:16.859486
+# 更新时间：2025-12-26 11:11:18.283417
 ####################################
 mixed-port: 7890
 allow-lan: false
@@ -252,6 +252,15 @@ proxies:
       public-key: Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ
       short-id: aba7bc9a
     client-fingerprint: chrome
+  - type: vmess
+    name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    network: tcp
+    cipher: auto
+    servername: v36.hdacd.com
   - type: ss
     name: 🇮🇷_IR_伊朗
     server: 217.60.249.112
@@ -353,6 +362,7 @@ proxy-groups:
       - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_1
       - 🇬🇧_GB_英国_1
+      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
       - 🇮🇷_IR_伊朗
       - 🇲🇩_MD_摩尔多瓦
       - 🇺🇸_US_美国_3
@@ -383,6 +393,7 @@ proxy-groups:
       - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_1
       - 🇬🇧_GB_英国_1
+      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
       - 🇮🇷_IR_伊朗
       - 🇲🇩_MD_摩尔多瓦
       - 🇺🇸_US_美国_3
@@ -429,6 +440,7 @@ proxy-groups:
       - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_1
       - 🇬🇧_GB_英国_1
+      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
       - 🇮🇷_IR_伊朗
       - 🇲🇩_MD_摩尔多瓦
       - 🇺🇸_US_美国_3
