@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2026-01-17 11:11:20.380185
+# 更新时间：2026-01-18 11:11:17.238091
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -49,87 +49,144 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇳🇱_NL_荷兰
-    type: vless
-    server: 45.139.26.152
-    port: 7443
-    uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-    servername: eh.vk.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: random
-    reality-opts:
-      public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-      short-id: fd88bd27db4cc661
-  - name: 🇬🇷_GR_希腊
-    type: vless
-    server: 185.234.57.207
+  - name: 🇰🇷_KR_韩国
+    type: ss
+    server: 221.150.109.89
+    port: 43231
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_1
+    type: ss
+    server: 168.126.234.233
+    port: 28860
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇺🇸_US_美国_2
+    type: trojan
+    server: kfjdi.pages.dev
     port: 443
-    uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
-    servername: teamdocs.su
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
-      short-id: b5e0cd9ca194c0a5
-  - name: 🇻🇪_VE_委内瑞拉
-    type: vless
-    server: 158.160.53.57
-    port: 443
-    uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
-    servername: api-maps.yandex.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-      short-id: 15affa0af66dfc79
-  - name: 🇩🇪_DE_德国
-    type: vless
-    server: api.dark-coffe.com
-    port: 443
-    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    password: er668
+    skip-cert-verify: false
+    tls: false
+    ws-opts:
+      path: 🔒
+  - name: 🇰🇷_KR_韩国_2
+    type: ss
+    server: 218.38.103.150
+    port: 39502
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_3
+    type: ss
+    server: 121.170.203.147
+    port: 61417
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_4
+    type: ss
+    server: 211.201.169.70
+    port: 19307
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇰🇷_KR_韩国_5
+    type: ss
+    server: 218.234.149.9
+    port: 4483
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇨🇳_CN_中国
+    type: ss
+    server: 156.244.36.105
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 34bafa5f59fc339f
+  - name: 🇳🇱_NL_荷兰_1
+    type: ss
+    server: fl3.cowjuice.me
+    port: 9443
+    cipher: chacha20-ietf-poly1305
+    password: X36TIi4C3NH6Oln3TdGyjg
+  - name: 🇭🇺_HU_匈牙利
+    type: ss
+    server: 109.61.39.150
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 01dc0d7cbb650bc3
+  - name: 🇯🇴_JO_约旦
+    type: ss
+    server: 91.106.109.74
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 11bf054dcc0342cd
+  - name: 🇨🇳_CN_中国_1
+    type: ss
+    server: 154.205.147.237
+    port: 11201
+    cipher: chacha20-ietf-poly1305
+    password: 2272de48c53e0a57
+  - name: 中国 - 香港 - PCCW IMS Limited - 45
+    type: vmess
+    server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+    port: 80
+    uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+    alterId: 2
+    tls: false
+    skip-cert-verify: false
     network: ws
-    servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-    tls: true
-    client-fingerprint: chrome
     ws-opts:
       path: /
       headers:
-        Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-  - name: 🇩🇪_DE_德国_1
-    type: vless
-    server: api.dark-coffe.com
-    port: 2096
-    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+        Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+  - name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+    type: vmess
+    server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    port: 80
+    uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    alterId: 2
+    tls: false
+    skip-cert-verify: false
     network: ws
-    servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-    tls: true
-    client-fingerprint: chrome
     ws-opts:
       path: /
       headers:
-        Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+        Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰
-      - 🇬🇷_GR_希腊
-      - 🇻🇪_VE_委内瑞拉
-      - 🇩🇪_DE_德国
-      - 🇩🇪_DE_德国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇳🇱_NL_荷兰
-      - 🇬🇷_GR_希腊
-      - 🇻🇪_VE_委内瑞拉
-      - 🇩🇪_DE_德国
-      - 🇩🇪_DE_德国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -139,41 +196,77 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰
-      - 🇬🇷_GR_希腊
-      - 🇻🇪_VE_委内瑞拉
-      - 🇩🇪_DE_德国
-      - 🇩🇪_DE_德国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰
-      - 🇬🇷_GR_希腊
-      - 🇻🇪_VE_委内瑞拉
-      - 🇩🇪_DE_德国
-      - 🇩🇪_DE_德国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰
-      - 🇬🇷_GR_希腊
-      - 🇻🇪_VE_委内瑞拉
-      - 🇩🇪_DE_德国
-      - 🇩🇪_DE_德国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰
-      - 🇬🇷_GR_希腊
-      - 🇻🇪_VE_委内瑞拉
-      - 🇩🇪_DE_德国
-      - 🇩🇪_DE_德国_1
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,84 +289,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰
-      - 🇬🇷_GR_希腊
-      - 🇻🇪_VE_委内瑞拉
-      - 🇩🇪_DE_德国
-      - 🇩🇪_DE_德国_1
-rule-providers:
-  LocalAreaNetwork:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list
-    path: ./rules/LocalAreaNetwork.yaml
-  BanAD:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
-    path: ./rules/BanAD.yaml
-  BanProgramAD:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanProgramAD.list
-    path: ./rules/BanProgramAD.yaml
-  GoogleCN:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/GoogleCN.list
-    path: ./rules/GoogleCN.yaml
-  SteamCN:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/SteamCN.list
-    path: ./rules/SteamCN.yaml
-  Microsoft:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Microsoft.list
-    path: ./rules/Microsoft.yaml
-  Apple:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Apple.list
-    path: ./rules/Apple.yaml
-  ProxyMedia:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyMedia.list
-    path: ./rules/ProxyMedia.yaml
-  Telegram:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Telegram.list
-    path: ./rules/Telegram.yaml
-  ProxyLite:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyLite.list
-    path: ./rules/ProxyLite.yaml
-  ChinaDomain:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list
-    path: ./rules/ChinaDomain.yaml
-  ChinaCompanyIp:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaCompanyIp.list
-    path: ./rules/ChinaCompanyIp.yaml
-rules:
-  - RULE-SET,LocalAreaNetwork,🎯 全球直连
-  - RULE-SET,BanAD,🛑 全球拦截
-  - RULE-SET,BanProgramAD,🍃 应用净化
-  - RULE-SET,GoogleCN,🎯 全球直连
-  - RULE-SET,SteamCN,🎯 全球直连
-  - RULE-SET,Microsoft,Ⓜ️ 微软服务
-  - RULE-SET,Apple,🍎 苹果服务
-  - RULE-SET,ProxyMedia,🌍 国外媒体
-  - RULE-SET,Telegram,📲 电报信息
-  - RULE-SET,ProxyLite,🚀 节点选择
-  - RULE-SET,ChinaDomain,🎯 全球直连
-  - RULE-SET,ChinaCompanyIp,🎯 全球直连
-  - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
+      - 🇰🇷_KR_韩国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_2
+      - 🇰🇷_KR_韩国_2
+      - 🇰🇷_KR_韩国_3
+      - 🇰🇷_KR_韩国_4
+      - 🇰🇷_KR_韩国_5
+      - 🇨🇳_CN_中国
+      - 🇳🇱_NL_荷兰_1
+      - 🇭🇺_HU_匈牙利
+      - 🇯🇴_JO_约旦
+      - 🇨🇳_CN_中国_1
+      - 中国 - 香港 - PCCW IMS Limited - 45
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
