@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2026-01-20 09:40:09.060425
+# 更新时间：2026-01-22 09:40:08.672521
 ####################################
 port: 7890
 socks-port: 7891
@@ -19,21 +19,25 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇺🇸 _US_美国, server: vip1.kaixincloud.top, port: 2096, type: vless, uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c, tls: true, servername: sni.meibidi.pp.ua, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.meibidi.pp.ua}}}
-  - {name: 🇺🇸 _US_美国 2, server: v2.dabache.top, port: 443, type: vless, uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c, tls: true, servername: sni.meibidi.pp.ua, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.meibidi.pp.ua}}}
-  - {name: 🇺🇸 _US_美国 3, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 4, server: 162.159.16.63, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 5, server: vip2.kaixincloud.top, port: 443, type: vless, uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c, tls: true, servername: sni.meibidi.pp.ua, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sni.meibidi.pp.ua}}}
-  - {name: 🇬🇧 _GB_英国, server: 25.129.197.138, port: 2053, type: vless, uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33, tls: true, servername: khamenei.dpdns.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119, headers: {Host: khamenei.dpdns.org}}}
-  - {name: 🇺🇸 _US_美国 6, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 7, server: 104.16.250.22, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇺🇸 _US_美国, server: store.ubi.com, port: 443, type: vless, uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d, tls: true, servername: kb.as129394.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.as129394.me}}}
+  - {name: 🇺🇸 _US_美国 2, server: vip2.kaixincloud.top, port: 443, type: vless, uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d, tls: true, servername: kb.as129394.me, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.as129394.me}}}
+  - {name: 🇺🇸 _US_美国 3, server: 172.64.157.136, port: 8443, type: vless, uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d, tls: true, servername: kb.as129394.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.as129394.me}}}
+  - {name: 🇺🇸 _US_美国 4, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇺🇸 _US_美国 5, server: 162.159.16.63, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇺🇸 _US_美国 6, server: staticdelivery.nexusmods.com, port: 443, type: vless, uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d, tls: true, servername: kb.as129394.me, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.as129394.me}}}
+  - {name: _CN_中国, server: 45.192.222.112, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: store.timimi.dpdns.org}}}
+  - {name: 🇺🇸 _US_美国 7, server: 104.21.224.5, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
   - {name: 🇺🇸 _US_美国 8, server: 104.21.227.134, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 9, server: 104.21.224.5, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 10, server: 104.18.185.26, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇬🇧 _GB_英国 2, server: clean.photoggenic.ir, port: 8880, type: vless, uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153, tls: false, network: ws, ws-opts: {path: /, headers: {Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir}}}
-  - {name: 🇩🇰 _DK_丹麦, server: 159.195.26.28, port: 443, type: vless, uuid: 84f66368-8a37-468e-ae95-5622255fd4db, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw}, servername: live.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇳🇱 _NL_荷兰, server: 45.139.26.152, port: 7443, type: vless, uuid: 7fc953d6-ae75-46fb-a970-10b57d513487, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA, short-id: "fd88bd27db4cc661" }, servername: eh.vk.com, client-fingerprint: random, network: tcp}
-  - {name: 🇷🇺 _RU_俄罗斯, server: 176.109.104.107, port: 443, type: vless, uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw, short-id: "c7e42004e5f024be" }, servername: sun6-21.userapi.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 _US_美国 9, server: 104.18.185.26, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇩🇪 _DE_德国, server: octopusss5.info, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
+  - {name: 🇬🇧 _GB_英国, server: 25.129.197.138, port: 2096, type: vless, uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a, tls: true, servername: speed1.best-cloud.ir, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speed1.best-cloud.ir}}}
+  - {name: _CN_中国 2, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇺🇸 _US_美国 10, server: www.digitalocean.com, port: 443, type: trojan, password: trojan, sni: azadnet-9ya.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: azadnet-9ya.pages.dev}}}
+  - {name: 🇺🇸 _US_美国 11, server: 45.82.255.32, port: 4443, type: vless, uuid: 3f688b2a-373a-4be1-846d-b159404b73b2, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE, short-id: "aa7e96542880027a" }, servername: github.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 _US_美国 12, server: plcdn20.suio.me, port: 443, type: vless, uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f, tls: true, servername: plcdn20.suio.me, client-fingerprint: chrome, network: tcp}
+  - {name: _IQ_伊拉克, server: 178.17.53.28, port: 47539, type: vless, uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741, tls: true, reality-opts: {public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U, short-id: "82a55f31981ea6be" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp}
+  - {name: _CN_中国 3, server: 213.176.73.206, port: 2083, type: vless, uuid: 95abaefc-7861-417a-81b7-166cb788ce1a, tls: true, reality-opts: {public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ, short-id: "6da16b1335651b38" }, servername: apple.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: UpdateService}}
+  - {name: 🇷🇺 _RU_俄罗斯, server: 62.182.192.232, port: 8080, type: vless, uuid: d44175ee-d3e2-45d3-b16a-ea2705cbfe7b, tls: false, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: max.ru}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -45,15 +49,19 @@ proxy-groups:
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 6
+      - _CN_中国
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
+      - 🇩🇪 _DE_德国
+      - 🇬🇧 _GB_英国
+      - _CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇬🇧 _GB_英国 2
-      - 🇩🇰 _DK_丹麦
-      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - _IQ_伊拉克
+      - _CN_中国 3
       - 🇷🇺 _RU_俄罗斯
   - name: ♻️ 自动选择
     type: url-test
@@ -65,15 +73,19 @@ proxy-groups:
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 6
+      - _CN_中国
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
+      - 🇩🇪 _DE_德国
+      - 🇬🇧 _GB_英国
+      - _CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇬🇧 _GB_英国 2
-      - 🇩🇰 _DK_丹麦
-      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - _IQ_伊拉克
+      - _CN_中国 3
       - 🇷🇺 _RU_俄罗斯
   - name: 🌍 国外媒体
     type: select
@@ -86,15 +98,19 @@ proxy-groups:
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 6
+      - _CN_中国
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
+      - 🇩🇪 _DE_德国
+      - 🇬🇧 _GB_英国
+      - _CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇬🇧 _GB_英国 2
-      - 🇩🇰 _DK_丹麦
-      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - _IQ_伊拉克
+      - _CN_中国 3
       - 🇷🇺 _RU_俄罗斯
   - name: 🌏 国内媒体
     type: select
@@ -111,15 +127,19 @@ proxy-groups:
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 6
+      - _CN_中国
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
+      - 🇩🇪 _DE_德国
+      - 🇬🇧 _GB_英国
+      - _CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇬🇧 _GB_英国 2
-      - 🇩🇰 _DK_丹麦
-      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - _IQ_伊拉克
+      - _CN_中国 3
       - 🇷🇺 _RU_俄罗斯
   - name: 📲 电报信息
     type: select
@@ -131,15 +151,19 @@ proxy-groups:
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 6
+      - _CN_中国
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
+      - 🇩🇪 _DE_德国
+      - 🇬🇧 _GB_英国
+      - _CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇬🇧 _GB_英国 2
-      - 🇩🇰 _DK_丹麦
-      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - _IQ_伊拉克
+      - _CN_中国 3
       - 🇷🇺 _RU_俄罗斯
   - name: 🍎 苹果服务
     type: select
@@ -152,15 +176,19 @@ proxy-groups:
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 6
+      - _CN_中国
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
+      - 🇩🇪 _DE_德国
+      - 🇬🇧 _GB_英国
+      - _CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇬🇧 _GB_英国 2
-      - 🇩🇰 _DK_丹麦
-      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - _IQ_伊拉克
+      - _CN_中国 3
       - 🇷🇺 _RU_俄罗斯
   - name: 🎯 全球直连
     type: select
@@ -182,15 +210,19 @@ proxy-groups:
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇬🇧 _GB_英国
       - 🇺🇸 _US_美国 6
+      - _CN_中国
       - 🇺🇸 _US_美国 7
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
+      - 🇩🇪 _DE_德国
+      - 🇬🇧 _GB_英国
+      - _CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇬🇧 _GB_英国 2
-      - 🇩🇰 _DK_丹麦
-      - 🇳🇱 _NL_荷兰
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - _IQ_伊拉克
+      - _CN_中国 3
       - 🇷🇺 _RU_俄罗斯
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
