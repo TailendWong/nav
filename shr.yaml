@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2026-01-23 18:31:35.001447
+# 更新时间：2026-01-24 09:40:08.275541
 ####################################
 port: 7890
 socks-port: 7891
@@ -19,33 +19,30 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: _CN_中国, server: 58.152.18.124, port: 443, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国, server: 162.159.16.63, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 2, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇺🇸 _US_美国, server: v1.dabache.top, port: 443, type: vless, uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d, tls: true, servername: snip.zrfs.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snip.zrfs.indevs.in}}}
+  - {name: 🇺🇸 _US_美国 2, server: 162.159.16.63, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
   - {name: 🇺🇸 _US_美国 3, server: 104.16.250.22, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 4, server: 104.21.224.5, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇺🇸 _US_美国 4, server: cloudflare.182682.xyz, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
   - {name: 🇺🇸 _US_美国 5, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
   - {name: 🇺🇸 _US_美国 6, server: 104.21.227.134, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
   - {name: 🇺🇸 _US_美国 7, server: 104.18.185.26, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
-  - {name: 🇺🇸 _US_美国 8, server: 8.6.112.0, port: 8443, type: vless, uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d, tls: true, servername: streamchat.ikoochi.ir., client-fingerprint: chrome, network: ws, ws-opts: {path: "/api?ed=2560", headers: {Host: streamchat.ikoochi.ir.}}}
-  - {name: 🇺🇸 _US_美国 9, server: 162.159.152.4, port: 2096, type: vless, uuid: 1d819aab-2593-40e0-a537-f1b48a6fd069, tls: true, alpn: [http%2F1.1], servername: rb11.fasst11.shop, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: rb11.fasst11.shop}}}
-  - {name: 🇺🇸 _US_美国 10, server: 104.18.32.47, port: 2053, type: vless, uuid: 4d5be192-7420-4a34-a316-ac727c678286, tls: true, alpn: [http%2F1.1], servername: saveyoudear.ecoping2.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: saveyoudear.ecoping2.org}}}
-  - {name: 🇺🇸 _US_美国 11, server: www.multiplydose.com, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}}
-  - {name: 🇮🇹 _IT_意大利, server: 151.101.241.242, port: 80, type: vless, uuid: c82e1b65-8d23-4d2b-9b2d-e1458160466b, tls: false, network: ws, ws-opts: {path: /Upload, headers: {Host: hamrahfor2.global.ssl.fastly.net}}}
-  - {name: 🇺🇸 _US_美国 12, server: 162.159.152.4, port: 8443, type: vless, uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d, tls: true, servername: streamchat.ikoochi.ir., client-fingerprint: chrome, network: ws, ws-opts: {path: "/api?ed=2560", headers: {Host: streamchat.ikoochi.ir.}}}
-  - {name: 🇺🇸 _US_美国 13, server: 8.6.112.0, port: 2096, type: vless, uuid: f0693080-e004-4baf-a1e9-258025a134a7, tls: true, alpn: [http%2F1.1], servername: rb11.fasst11.shop, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: rb11.fasst11.shop}}}
-  - {name: 🇷🇺 _RU_俄罗斯, server: 178.20.42.9, port: 8443, type: vless, uuid: 35520d38-0cc1-4612-94fd-fb6e347849de, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 2566-27FWlgHXfhcbxCIZ2RTD_rqHzLhWfcvNuNpuGc, short-id: "baa01fe9c8c418fc" }, servername: sun6-21.userapi.com, client-fingerprint: chrome, network: tcp}
-  - {name: 🇨🇦 _CA_加拿大, server: tuntro006.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: torontorm1.686911.xyz}
-  - {name: 🇺🇸 _US_美国 14, server: plcdn20.suio.me, port: 443, type: vless, uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f, tls: true, servername: plcdn20.suio.me, network: tcp}
-  - {name: _CN_中国 2, server: 213.176.73.206, port: 2083, type: vless, uuid: 95abaefc-7861-417a-81b7-166cb788ce1a, tls: true, reality-opts: {public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ, short-id: "6da16b1335651b38" }, servername: apple.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: UpdateService}}
-  - {name: 🇩🇪 _DE_德国, server: dfg.octopusss.net, port: 22955, type: vless, uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad, tls: true, reality-opts: {public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms, short-id: "6ba85179e30d4fc2" }, servername: one-piece.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
+  - {name: _CN_中国, server: 27.50.49.104, port: 443, type: vless, uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d, tls: true, servername: snip.zrfs.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snip.zrfs.indevs.in}}}
+  - {name: 🇺🇸 _US_美国 8, server: 104.21.224.5, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}}
+  - {name: 🇩🇪 机场推荐:dafei.de 德国 09, server: 104.21.69.44, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}}
+  - {name: 🇺🇸 _US_美国 9, server: 162.159.152.4, port: 443, type: vless, uuid: 72f175f6-e2e4-4bb7-9165-8de10dd6c463, tls: true, alpn: [h2], servername: starping.starpingshop.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: starping.starpingshop.org}}}
+  - {name: 🇺🇸 _US_美国 10, server: 8.6.112.0, port: 443, type: vless, uuid: d2c48106-5d26-419f-906c-7e01d63cb81c, tls: true, servername: ab.nationalldt.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /CVD, headers: {Host: ab.nationalldt.com}}}
+  - {name: 🇺🇸 _US_美国 11, server: sakuraxx.bestcurt.ir, port: 2083, type: vless, uuid: d34d3c68-a241-4429-b1c0-85b2f4778fcb, tls: true, alpn: [h2%2Chttp%2F1.1], servername: sakurai.bestcurt.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sakurai.bestcurt.ir}}}
+  - {name: _IQ_伊拉克, server: 178.17.53.28, port: 47539, type: vless, uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741, tls: true, reality-opts: {public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U, short-id: "82a55f31981ea6be" }, servername: yandex.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 _US_美国 12, server: iran.zone-server-irani.ir, port: 2053, type: vless, uuid: 0524840c-b9c9-4994-82db-129ac8caeac5, tls: true, servername: wizwiz.vidboxco.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: wizwiz.vidboxco.ir}}}
+  - {name: 🇷🇺 _RU_俄罗斯, server: 193.43.146.34, port: 8443, type: vless, uuid: d0dea598-9047-4567-a934-84c2797c0978, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0, short-id: "f1071c148a5aefc4" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 _US_美国 13, server: 172.93.100.151, port: 443, type: vless, uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg, short-id: "8453e5fd9af927" }, servername: hls-svod.itunes.apple.com, client-fingerprint: chrome, network: tcp}
+  - {name: 🇺🇸 _US_美国 14, server: 64.188.91.193, port: 2053, type: vless, uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8, tls: true, reality-opts: {public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA}, servername: eh.vk.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
@@ -53,24 +50,22 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - _CN_中国
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 机场推荐:dafei.de 德国 09
       - 🇺🇸 _US_美国 9
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
-      - 🇮🇹 _IT_意大利
+      - _IQ_伊拉克
       - 🇺🇸 _US_美国 12
-      - 🇺🇸 _US_美国 13
       - 🇷🇺 _RU_俄罗斯
-      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - _CN_中国 2
-      - 🇩🇪 _DE_德国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
@@ -78,25 +73,23 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - _CN_中国
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 机场推荐:dafei.de 德国 09
       - 🇺🇸 _US_美国 9
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
-      - 🇮🇹 _IT_意大利
+      - _IQ_伊拉克
       - 🇺🇸 _US_美国 12
-      - 🇺🇸 _US_美国 13
       - 🇷🇺 _RU_俄罗斯
-      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - _CN_中国 2
-      - 🇩🇪 _DE_德国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
@@ -104,18 +97,17 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - _CN_中国
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 机场推荐:dafei.de 德国 09
       - 🇺🇸 _US_美国 9
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
-      - 🇮🇹 _IT_意大利
+      - _IQ_伊拉克
       - 🇺🇸 _US_美国 12
-      - 🇺🇸 _US_美国 13
       - 🇷🇺 _RU_俄罗斯
-      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - _CN_中国 2
-      - 🇩🇪 _DE_德国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -126,7 +118,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
@@ -134,24 +125,22 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - _CN_中国
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 机场推荐:dafei.de 德国 09
       - 🇺🇸 _US_美国 9
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
-      - 🇮🇹 _IT_意大利
+      - _IQ_伊拉克
       - 🇺🇸 _US_美国 12
-      - 🇺🇸 _US_美国 13
       - 🇷🇺 _RU_俄罗斯
-      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - _CN_中国 2
-      - 🇩🇪 _DE_德国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
@@ -159,25 +148,23 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - _CN_中国
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 机场推荐:dafei.de 德国 09
       - 🇺🇸 _US_美国 9
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
-      - 🇮🇹 _IT_意大利
+      - _IQ_伊拉克
       - 🇺🇸 _US_美国 12
-      - 🇺🇸 _US_美国 13
       - 🇷🇺 _RU_俄罗斯
-      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - _CN_中国 2
-      - 🇩🇪 _DE_德国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
@@ -185,18 +172,17 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - _CN_中国
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 机场推荐:dafei.de 德国 09
       - 🇺🇸 _US_美国 9
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
-      - 🇮🇹 _IT_意大利
+      - _IQ_伊拉克
       - 🇺🇸 _US_美国 12
-      - 🇺🇸 _US_美国 13
       - 🇷🇺 _RU_俄罗斯
-      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - _CN_中国 2
-      - 🇩🇪 _DE_德国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -212,7 +198,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
@@ -220,18 +205,17 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - _CN_中国
       - 🇺🇸 _US_美国 8
+      - 🇩🇪 机场推荐:dafei.de 德国 09
       - 🇺🇸 _US_美国 9
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
-      - 🇮🇹 _IT_意大利
+      - _IQ_伊拉克
       - 🇺🇸 _US_美国 12
-      - 🇺🇸 _US_美国 13
       - 🇷🇺 _RU_俄罗斯
-      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - _CN_中国 2
-      - 🇩🇪 _DE_德国
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
