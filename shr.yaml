@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2026-01-30 15:06:32.239913
+# 更新时间：2026-02-02 15:06:32.239913
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -49,467 +49,438 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇸🇬 新加坡 | SGP_15
+  - name: 🇻🇪_VE_委内瑞拉
     type: vless
-    server: zrf.cf.090227.xyz
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
+    server: 158.160.221.132
+    port: 51102
+    uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+    servername: yandex.ru
     tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: "Channel id: @ShadowProxy66 🇬🇧"
-    type: vless
-    server: nodec.azurka.org
-    port: 443
-    uuid: 0d12578e-50da-41b9-a913-6c1d8c0dd713
-    network: grpc
-    servername: nodec.azurka.org
-    tls: true
+    flow: xtls-rprx-vision
     client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: api
-  - name: 🇰🇷 韩国 | KOR
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+  - name: 🇺🇸_US_美国
     type: vless
-    server: 119.195.168.105
-    port: 12417
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    server: 172.67.160.192
+    port: 443
+    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
     network: ws
-    servername: l.ayovo.netlib.re
+    servername: nuclear.us.kg
     tls: true
     ws-opts:
-      path: /?ed=2560
+      path: /free/103.101.153.32:443
       headers:
-        Host: l.ayovo.netlib.re
-  - name: 🇭🇰HK-203.198.28.145-4994
+        Host: nuclear.us.kg
+  - name: 🇺🇸_US_美国_1
+    type: vless
+    server: 144.31.111.182
+    port: 8443
+    uuid: 9f4ffa56-6813-430c-8cac-159cc469086a
+    servername: cloudlane.xyz
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: nGpFJVvSeovPXUN32QWht5nxg16Mwus--TLdY0JBHjY
+      short-id: 5a53bd202e47bab8
+  - name: 🇨🇳_CN_中国
     type: vmess
-    server: aflzzul.meiquankongjian.com
-    port: 52512
-    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-    alterId: 0
+    server: a97f4a24-t9w4g0-tn57fp-5ifr.hkt.gotochinatown.net
+    port: 80
+    uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+    alterId: 2
     cipher: auto
     tls: false
     skip-cert-verify: false
     network: ws
-    ws-opts:
-      path: /564dfa20/
-      headers:
-        Host: aflzzul.meiquankongjian.com
-  - name: ⚡ b2n.ir/v2ray-configs | 81
-    type: vless
-    server: nodejs.org
-    port: 80
-    uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
-  - name: 🇭🇰 香港 | HKG_15
-    type: trojan
-    server: 219.76.135.98
-    port: 443
-    password: BxceQaOe
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-    tls: false
-  - name: https://t.me/vaslbemonn
-    type: vless
-    server: 192.200.160.13
-    port: 443
-    uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-    network: ws
-    servername: temp2.ali.lat
-    tls: true
     ws-opts:
       path: /
       headers:
-        Host: temp2.ali.lat
-  - name: RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇺🇸_US_美国_2
+    type: vless
+    server: 141.101.123.40
+    port: 443
+    uuid: 8388434b-bbc8-4e00-b497-69a7f56f6e24
+    network: ws
+    servername: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /ws
+      headers:
+        Host: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+  - name: 🇨🇳_CN_中国_1
     type: vmess
-    server: vvVBgHyu.922922.SHoP
+    server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
     port: 80
-    uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-    alterId: 0
+    uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
+    alterId: 2
     cipher: auto
     tls: false
     skip-cert-verify: false
+    servername: broadcastlv.chat.bilibili.com
     network: ws
-    ws-opts:
-      path: /RkUUbqhA9GJZBROjL3Q5vTymr
-      headers:
-        Host: vvVBgHyu.922922.SHoP
-  - name: 🇯🇵 日本 | JPN
-    type: vless
-    server: 108.162.198.38
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: 🇯🇵 日本 | JPN_1
-    type: vless
-    server: 172.64.52.201
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: 🇸🇬 新加坡 | SGP_6
-    type: vless
-    server: 198.41.223.110
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: 🇫🇮[By EbraSha] vless-FI 🔒
-    type: vless
-    server: 45.144.52.229
-    port: 443
-    uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-    servername: ficdn2.suio.me
-    tls: true
-    client-fingerprint: chrome
-  - name: 🇯🇵 日本 | JPN_7
-    type: vless
-    server: 162.159.45.68
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: HK50｜原生/疑似家宽｜非常安全
-    type: vmess
-    server: oss-4.qqa678.com
-    port: 47081
-    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇩🇪 德国 | DEU_5
-    type: vless
-    server: ip.ali.lat
-    port: 2096
-    uuid: 4ac793c2-34d6-4774-946d-88680601f5b4
-    network: ws
-    servername: temporary.ali.lat
-    tls: true
-    client-fingerprint: chrome
     ws-opts:
       path: /
       headers:
-        Host: temporary.ali.lat
-  - name: ⚡Telegram = @SOSkeyNET_11
-    type: trojan
-    server: 58.152.110.210
-    port: 443
-    password: 869e9086806483ca4744a4cb0f3d6e16
-    sni: www.nintendogames.net
+        Host: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
+  - name: 🇨🇳_CN_中国_2
+    type: vmess
+    server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+    port: 80
+    uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    tls: false
     skip-cert-verify: false
-    tls: false
-  - name: 🇸🇬 新加坡 | SGP_7
-    type: vless
-    server: 104.18.33.181
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+    servername: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
     network: ws
-    servername: snip.ere.de5.net
-    tls: true
-    client-fingerprint: random
     ws-opts:
-      path: /?ed=2560
+      path: /
       headers:
-        Host: snip.ere.de5.net
-  - name: 🇸🇬 新加坡 | SGP_2
+        Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  - name: 🇺🇸_US_美国_3
     type: vless
-    server: bestcf.030101.xyz
+    server: 173.245.59.121
     port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+    uuid: 979b6822-d65a-400d-89f8-30391903ac20
     network: ws
-    servername: snip.ere.de5.net
+    servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
     tls: true
-    client-fingerprint: random
+    client-fingerprint: chrome
     ws-opts:
-      path: /?ed=2560
+      path: /ws
       headers:
-        Host: snip.ere.de5.net
-  - name: 🇭🇰 香港 | HKG_13
-    type: trojan
-    server: green2.cdntencentmusic.com
-    port: 31101
-    password: b2e4b979-b198-47e5-8c6c-f4b919e34eb4
-    sni: green2.cdntencentmusic.com
-    skip-cert-verify: true
+        Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+  - name: 🇧🇷_BR_巴西->🇺🇸_US_美国
+    type: vless
+    server: cdn.halazzon.ir
+    port: 443
+    uuid: a75cf6f3-10fb-461b-a5a5-a934f6039cce
+    network: ws
+    servername: afrcloud4.c01.kr
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /36.95.152.58=12137
+      headers:
+        Host: afrcloud4.c01.kr
+  - name: 🇨🇳_CN_中国_3
+    type: vmess
+    server: 92c73b3e-t9w4g0-thd0h1-1rz5s.hkt.gotochinatown.net
+    port: 80
+    uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    alterId: 2
+    cipher: auto
     tls: false
-  - name: ⚡ b2n.ir/v2ray-configs | 863
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇷🇺_RU_俄罗斯
+    type: vless
+    server: russia7.yourbot.me
+    port: 443
+    uuid: 15d5ef21-f4cd-4812-bb30-f998051c5dc1
+    servername: ftp.debian.org
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 6EHTqOektSiQ8OMDU-5I1RWpFWw22N_N1aJCJdymXCA
+      short-id: 199939d7
+  - name: 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+    type: vless
+    server: 83.166.238.183
+    port: 8443
+    uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+    servername: m.vk.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+    type: vless
+    server: 89.169.162.214
+    port: 8443
+    uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+    servername: yandex.ru
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+  - name: 未知
     type: ss
-    server: 38.165.233.93
-    port: 989
+    server: 103.186.155.127
+    port: 38388
     cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: Telegram+@fnetpro+🇬🇧`
-    type: vless
-    server: usa1.lalash.sbs
-    port: 52554
-    uuid: ad39e228-35a9-4629-a16a-d66a97654225
-    servername: yahoo.com
-    tls: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: DCnaVqwxfGF3d7LDHqFKYtlyGw2l6LsbxPvphK776Gc
-      short-id: 6b4bdb32
-  - name: 🇯🇵 日本 | JPN_2
-    type: vless
-    server: 162.159.45.232
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇺🇸_US_美国_4
+    type: ss
+    server: admin.c2.havij.co
     port: 443
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    network: ws
-    servername: l.ayovo.netlib.re
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: l.ayovo.netlib.re
-  - name: 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
+    cipher: chacha20-ietf-poly1305
+    password: kaQH3hGdcP80XEDI
+  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
     type: vless
-    server: vip3.kaixincloud.top
-    port: 443
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    server: cloud2.turkserver.ir
+    port: 2096
+    uuid: 77cb6e9e-f83f-40e5-b4da-90e25d75123e
     network: ws
-    servername: l.ayovo.netlib.re
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /x-aniu/?ed=2560
-      headers:
-        Host: l.ayovo.netlib.re
-  - name: ⚡Telegram
-    type: vless
-    server: ip.ali.lat
-    port: 2053
-    uuid: 1d48559c-10fc-427d-94e1-c8b7552964a7
-    network: ws
-    servername: temp.ali.lat
+    servername: javani-nol.ip-venzo.com.
     tls: true
     ws-opts:
       path: /
       headers:
-        Host: temp.ali.lat
-  - name: 🇳🇱[By EbraSha] vless-NL 🔒_3
+        Host: javani-nol.ip-venzo.com.
+  - name: 🇧🇷_BR_巴西->🇩🇪_DE_德国
     type: vless
-    server: 192.200.160.9
-    port: 2083
-    uuid: 517c776e-afbf-4749-9643-73c3ea26b905
+    server: my.montago-shop.ir
+    port: 443
+    uuid: 929c6e27-4c24-4775-bc51-0e6117dabd4b
     network: ws
-    servername: xiz20.wizard2shop.org
+    servername: mx.mahoshid.ir
     tls: true
     client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: mx.mahoshid.ir
+  - name: 🇷🇺_RU_俄罗斯_1
+    type: vless
+    server: 0ru84.tcpdoor.net
+    port: 443
+    uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+    servername: 0ru84.tcpdoor.net
+    tls: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
+      short-id: 740d6f2e
+  - name: 🇨🇳_CN_中国_4
+    type: vmess
+    server: 51f142c0-t9w4g0-tart0c-g3b3.hkt.gotochinatown.net
+    port: 80
+    uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
     ws-opts:
       path: /
       headers:
-        Host: xiz20.wizard2shop.org
-  - name: REALITY|IL🇮🇱
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
     type: vless
-    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+    server: 104.24.69.114
     port: 443
-    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-    servername: i2pd.website
+    uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+    network: ws
+    servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /ws
+      headers:
+        Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+    type: vless
+    server: nx.cloud1.hosting-ip.zulagaming.icu
+    port: 2052
+    uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
+    network: ws
+    tls: false
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+  - name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
+    type: vless
+    server: FASTLY.COM
+    port: 80
+    uuid: c805b05e-339d-40e0-8787-432d97a27345
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: mihan-germar2.global.ssl.fastly.net
+  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+    type: vless
+    server: rus-0001-xr.packet-drop-society.net
+    port: 443
+    uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
+    servername: hls-svod.itunes.apple.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-      short-id: 55e6af1a35e64a98
-  - name: 🇺🇸 美国 | USA_22
+      public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
+      short-id: 8453e5fd9af927
+  - name: 🇬🇧_GB_英国
     type: vless
-    server: 104.19.118.83
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
+    server: 5.188.142.230
+    port: 8081
+    uuid: 148fcfad-46d5-40c1-8045-52c4f626fc8a
+    servername: eh.vk.com
     tls: true
-    client-fingerprint: random
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+      short-id: 425ba80cd1a821a8
+  - name: 🇨🇳_CN_中国_5
+    type: vmess
+    server: c3d192c0-t9w4g0-tb5nzx-1mqag.hkt.gotochinatown.net
+    port: 80
+    uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
     ws-opts:
-      path: /?ed=2560
+      path: /
       headers:
-        Host: snip.ere.de5.net
-  - name: 🇺🇸 美国 | USA_29
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇩🇪_DE_德国
     type: vless
-    server: 141.101.114.227
+    server: secdn17.suio.me
     port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
+    uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+    servername: secdn17.suio.me
     tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: 🇭🇰 香港 | HKG_10
+  - name: 🇺🇸_US_美国_5
     type: vless
-    server: 83.229.120.141
-    port: 30050
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    server: 190.93.245.102
+    port: 443
+    uuid: f521fa2c-835e-43e7-b4dc-a1fd6f2ed1dd
     network: ws
-    servername: l.ayovo.netlib.re
+    servername: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
     tls: true
     client-fingerprint: chrome
     ws-opts:
-      path: /?ed=2560
+      path: /ws
       headers:
-        Host: l.ayovo.netlib.re
-  - name: 🇺🇸 美国 | USA_19
+        Host: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
+  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
     type: vless
-    server: 154.218.15.1
+    server: 217.16.25.173
     port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: 🇺🇸 美国 | USA_16
-    type: vless
-    server: 198.62.62.241
-    port: 443
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    network: ws
-    servername: l.ayovo.netlib.re
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: l.ayovo.netlib.re
-  - name: 🇺🇸 美国 | USA_23
-    type: vless
-    server: 162.159.153.160
-    port: 443
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    network: ws
-    servername: snip.ere.de5.net
-    tls: true
-    client-fingerprint: random
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: snip.ere.de5.net
-  - name: 🇩🇪 德国 | DEU
-    type: vless
-    server: 159.195.26.28
-    port: 443
-    uuid: 84f66368-8a37-468e-ae95-5622255fd4db
-    servername: live.com
+    uuid: 0bdf406a-84a5-46a0-baf8-c1d85ad30d6b
+    servername: eh.vk.ru
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+      public-key: mhS5tgy6bzzFw_sOpdAGuKVS5MF1e0FjzimA92KnPUE
+  - name: 🇨🇳_CN_中国_6
+    type: vmess
+    server: 967d835d-t9w4g0-tysu9z-1nq4g.hkt.gotochinatown.net
+    port: 80
+    uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇨🇳_CN_中国_7
+    type: vmess
+    server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+    port: 80
+    uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: broadcastlv.chat.bilibili.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡 | SGP_15
-      - "Channel id: @ShadowProxy66 🇬🇧"
-      - 🇰🇷 韩国 | KOR
-      - 🇭🇰HK-203.198.28.145-4994
-      - ⚡ b2n.ir/v2ray-configs | 81
-      - 🇭🇰 香港 | HKG_15
-      - https://t.me/vaslbemonn
-      - RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇸🇬 新加坡 | SGP_6
-      - 🇫🇮[By EbraSha] vless-FI 🔒
-      - 🇯🇵 日本 | JPN_7
-      - HK50｜原生/疑似家宽｜非常安全
-      - 🇩🇪 德国 | DEU_5
-      - ⚡Telegram = @SOSkeyNET_11
-      - 🇸🇬 新加坡 | SGP_7
-      - 🇸🇬 新加坡 | SGP_2
-      - 🇭🇰 香港 | HKG_13
-      - ⚡ b2n.ir/v2ray-configs | 863
-      - Telegram+@fnetpro+🇬🇧`
-      - 🇯🇵 日本 | JPN_2
-      - 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
-      - ⚡Telegram
-      - 🇳🇱[By EbraSha] vless-NL 🔒_3
-      - REALITY|IL🇮🇱
-      - 🇺🇸 美国 | USA_22
-      - 🇺🇸 美国 | USA_29
-      - 🇭🇰 香港 | HKG_10
-      - 🇺🇸 美国 | USA_19
-      - 🇺🇸 美国 | USA_16
-      - 🇺🇸 美国 | USA_23
-      - 🇩🇪 德国 | DEU
+      - 🇻🇪_VE_委内瑞拉
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国_3
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国
+      - 🇨🇳_CN_中国_3
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 未知
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国_5
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_6
+      - 🇨🇳_CN_中国_7
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇸🇬 新加坡 | SGP_15
-      - "Channel id: @ShadowProxy66 🇬🇧"
-      - 🇰🇷 韩国 | KOR
-      - 🇭🇰HK-203.198.28.145-4994
-      - ⚡ b2n.ir/v2ray-configs | 81
-      - 🇭🇰 香港 | HKG_15
-      - https://t.me/vaslbemonn
-      - RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇸🇬 新加坡 | SGP_6
-      - 🇫🇮[By EbraSha] vless-FI 🔒
-      - 🇯🇵 日本 | JPN_7
-      - HK50｜原生/疑似家宽｜非常安全
-      - 🇩🇪 德国 | DEU_5
-      - ⚡Telegram = @SOSkeyNET_11
-      - 🇸🇬 新加坡 | SGP_7
-      - 🇸🇬 新加坡 | SGP_2
-      - 🇭🇰 香港 | HKG_13
-      - ⚡ b2n.ir/v2ray-configs | 863
-      - Telegram+@fnetpro+🇬🇧`
-      - 🇯🇵 日本 | JPN_2
-      - 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
-      - ⚡Telegram
-      - 🇳🇱[By EbraSha] vless-NL 🔒_3
-      - REALITY|IL🇮🇱
-      - 🇺🇸 美国 | USA_22
-      - 🇺🇸 美国 | USA_29
-      - 🇭🇰 香港 | HKG_10
-      - 🇺🇸 美国 | USA_19
-      - 🇺🇸 美国 | USA_16
-      - 🇺🇸 美国 | USA_23
-      - 🇩🇪 德国 | DEU
+      - 🇻🇪_VE_委内瑞拉
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国_3
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国
+      - 🇨🇳_CN_中国_3
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 未知
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国_5
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_6
+      - 🇨🇳_CN_中国_7
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -519,153 +490,141 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 | SGP_15
-      - "Channel id: @ShadowProxy66 🇬🇧"
-      - 🇰🇷 韩国 | KOR
-      - 🇭🇰HK-203.198.28.145-4994
-      - ⚡ b2n.ir/v2ray-configs | 81
-      - 🇭🇰 香港 | HKG_15
-      - https://t.me/vaslbemonn
-      - RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇸🇬 新加坡 | SGP_6
-      - 🇫🇮[By EbraSha] vless-FI 🔒
-      - 🇯🇵 日本 | JPN_7
-      - HK50｜原生/疑似家宽｜非常安全
-      - 🇩🇪 德国 | DEU_5
-      - ⚡Telegram = @SOSkeyNET_11
-      - 🇸🇬 新加坡 | SGP_7
-      - 🇸🇬 新加坡 | SGP_2
-      - 🇭🇰 香港 | HKG_13
-      - ⚡ b2n.ir/v2ray-configs | 863
-      - Telegram+@fnetpro+🇬🇧`
-      - 🇯🇵 日本 | JPN_2
-      - 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
-      - ⚡Telegram
-      - 🇳🇱[By EbraSha] vless-NL 🔒_3
-      - REALITY|IL🇮🇱
-      - 🇺🇸 美国 | USA_22
-      - 🇺🇸 美国 | USA_29
-      - 🇭🇰 香港 | HKG_10
-      - 🇺🇸 美国 | USA_19
-      - 🇺🇸 美国 | USA_16
-      - 🇺🇸 美国 | USA_23
-      - 🇩🇪 德国 | DEU
+      - 🇻🇪_VE_委内瑞拉
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国_3
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国
+      - 🇨🇳_CN_中国_3
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 未知
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国_5
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_6
+      - 🇨🇳_CN_中国_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 | SGP_15
-      - "Channel id: @ShadowProxy66 🇬🇧"
-      - 🇰🇷 韩国 | KOR
-      - 🇭🇰HK-203.198.28.145-4994
-      - ⚡ b2n.ir/v2ray-configs | 81
-      - 🇭🇰 香港 | HKG_15
-      - https://t.me/vaslbemonn
-      - RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇸🇬 新加坡 | SGP_6
-      - 🇫🇮[By EbraSha] vless-FI 🔒
-      - 🇯🇵 日本 | JPN_7
-      - HK50｜原生/疑似家宽｜非常安全
-      - 🇩🇪 德国 | DEU_5
-      - ⚡Telegram = @SOSkeyNET_11
-      - 🇸🇬 新加坡 | SGP_7
-      - 🇸🇬 新加坡 | SGP_2
-      - 🇭🇰 香港 | HKG_13
-      - ⚡ b2n.ir/v2ray-configs | 863
-      - Telegram+@fnetpro+🇬🇧`
-      - 🇯🇵 日本 | JPN_2
-      - 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
-      - ⚡Telegram
-      - 🇳🇱[By EbraSha] vless-NL 🔒_3
-      - REALITY|IL🇮🇱
-      - 🇺🇸 美国 | USA_22
-      - 🇺🇸 美国 | USA_29
-      - 🇭🇰 香港 | HKG_10
-      - 🇺🇸 美国 | USA_19
-      - 🇺🇸 美国 | USA_16
-      - 🇺🇸 美国 | USA_23
-      - 🇩🇪 德国 | DEU
+      - 🇻🇪_VE_委内瑞拉
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国_3
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国
+      - 🇨🇳_CN_中国_3
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 未知
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国_5
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_6
+      - 🇨🇳_CN_中国_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡 | SGP_15
-      - "Channel id: @ShadowProxy66 🇬🇧"
-      - 🇰🇷 韩国 | KOR
-      - 🇭🇰HK-203.198.28.145-4994
-      - ⚡ b2n.ir/v2ray-configs | 81
-      - 🇭🇰 香港 | HKG_15
-      - https://t.me/vaslbemonn
-      - RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇸🇬 新加坡 | SGP_6
-      - 🇫🇮[By EbraSha] vless-FI 🔒
-      - 🇯🇵 日本 | JPN_7
-      - HK50｜原生/疑似家宽｜非常安全
-      - 🇩🇪 德国 | DEU_5
-      - ⚡Telegram = @SOSkeyNET_11
-      - 🇸🇬 新加坡 | SGP_7
-      - 🇸🇬 新加坡 | SGP_2
-      - 🇭🇰 香港 | HKG_13
-      - ⚡ b2n.ir/v2ray-configs | 863
-      - Telegram+@fnetpro+🇬🇧`
-      - 🇯🇵 日本 | JPN_2
-      - 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
-      - ⚡Telegram
-      - 🇳🇱[By EbraSha] vless-NL 🔒_3
-      - REALITY|IL🇮🇱
-      - 🇺🇸 美国 | USA_22
-      - 🇺🇸 美国 | USA_29
-      - 🇭🇰 香港 | HKG_10
-      - 🇺🇸 美国 | USA_19
-      - 🇺🇸 美国 | USA_16
-      - 🇺🇸 美国 | USA_23
-      - 🇩🇪 德国 | DEU
+      - 🇻🇪_VE_委内瑞拉
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国_3
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国
+      - 🇨🇳_CN_中国_3
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 未知
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国_5
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_6
+      - 🇨🇳_CN_中国_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡 | SGP_15
-      - "Channel id: @ShadowProxy66 🇬🇧"
-      - 🇰🇷 韩国 | KOR
-      - 🇭🇰HK-203.198.28.145-4994
-      - ⚡ b2n.ir/v2ray-configs | 81
-      - 🇭🇰 香港 | HKG_15
-      - https://t.me/vaslbemonn
-      - RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇸🇬 新加坡 | SGP_6
-      - 🇫🇮[By EbraSha] vless-FI 🔒
-      - 🇯🇵 日本 | JPN_7
-      - HK50｜原生/疑似家宽｜非常安全
-      - 🇩🇪 德国 | DEU_5
-      - ⚡Telegram = @SOSkeyNET_11
-      - 🇸🇬 新加坡 | SGP_7
-      - 🇸🇬 新加坡 | SGP_2
-      - 🇭🇰 香港 | HKG_13
-      - ⚡ b2n.ir/v2ray-configs | 863
-      - Telegram+@fnetpro+🇬🇧`
-      - 🇯🇵 日本 | JPN_2
-      - 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
-      - ⚡Telegram
-      - 🇳🇱[By EbraSha] vless-NL 🔒_3
-      - REALITY|IL🇮🇱
-      - 🇺🇸 美国 | USA_22
-      - 🇺🇸 美国 | USA_29
-      - 🇭🇰 香港 | HKG_10
-      - 🇺🇸 美国 | USA_19
-      - 🇺🇸 美国 | USA_16
-      - 🇺🇸 美国 | USA_23
-      - 🇩🇪 德国 | DEU
+      - 🇻🇪_VE_委内瑞拉
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国_3
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国
+      - 🇨🇳_CN_中国_3
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 未知
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国_5
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_6
+      - 🇨🇳_CN_中国_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -688,39 +647,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡 | SGP_15
-      - "Channel id: @ShadowProxy66 🇬🇧"
-      - 🇰🇷 韩国 | KOR
-      - 🇭🇰HK-203.198.28.145-4994
-      - ⚡ b2n.ir/v2ray-configs | 81
-      - 🇭🇰 香港 | HKG_15
-      - https://t.me/vaslbemonn
-      - RELAY🚩 | vvVBgHyu.922922.SHoP-80 | 33.58ms
-      - 🇯🇵 日本 | JPN
-      - 🇯🇵 日本 | JPN_1
-      - 🇸🇬 新加坡 | SGP_6
-      - 🇫🇮[By EbraSha] vless-FI 🔒
-      - 🇯🇵 日本 | JPN_7
-      - HK50｜原生/疑似家宽｜非常安全
-      - 🇩🇪 德国 | DEU_5
-      - ⚡Telegram = @SOSkeyNET_11
-      - 🇸🇬 新加坡 | SGP_7
-      - 🇸🇬 新加坡 | SGP_2
-      - 🇭🇰 香港 | HKG_13
-      - ⚡ b2n.ir/v2ray-configs | 863
-      - Telegram+@fnetpro+🇬🇧`
-      - 🇯🇵 日本 | JPN_2
-      - 👉🆔 @v2ray_configs_pool 📡 🇩🇪DE 🧭 2.5MB/s_6
-      - ⚡Telegram
-      - 🇳🇱[By EbraSha] vless-NL 🔒_3
-      - REALITY|IL🇮🇱
-      - 🇺🇸 美国 | USA_22
-      - 🇺🇸 美国 | USA_29
-      - 🇭🇰 香港 | HKG_10
-      - 🇺🇸 美国 | USA_19
-      - 🇺🇸 美国 | USA_16
-      - 🇺🇸 美国 | USA_23
-      - 🇩🇪 德国 | DEU
+      - 🇻🇪_VE_委内瑞拉
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国_3
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国
+      - 🇨🇳_CN_中国_3
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 未知
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇨🇳_CN_中国_5
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国_6
+      - 🇨🇳_CN_中国_7
 rule-providers:
   LocalAreaNetwork:
     type: http
