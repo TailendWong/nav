@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2026-02-02 15:54:38.531253
+# 更新时间：2026-02-03 11:11:17.703163
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -49,7 +49,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇻🇪_VE_委内瑞拉
+  - name: рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
     type: vless
     server: 158.160.221.132
     port: 51102
@@ -61,7 +61,7 @@ proxies:
     reality-opts:
       public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
       short-id: 887c0d72e771a934
-  - name: 🇺🇸_US_美国
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң
     type: vless
     server: 172.67.160.192
     port: 443
@@ -73,7 +73,7 @@ proxies:
       path: /free/103.101.153.32:443
       headers:
         Host: nuclear.us.kg
-  - name: 🇺🇸_US_美国_1
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң_1
     type: vless
     server: 144.31.111.182
     port: 8443
@@ -85,7 +85,7 @@ proxies:
     reality-opts:
       public-key: nGpFJVvSeovPXUN32QWht5nxg16Mwus--TLdY0JBHjY
       short-id: 5a53bd202e47bab8
-  - name: 🇨🇳_CN_中国
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң
     type: vmess
     server: a97f4a24-t9w4g0-tn57fp-5ifr.hkt.gotochinatown.net
     port: 80
@@ -99,7 +99,7 @@ proxies:
       path: /
       headers:
         Host: broadcastlv.chat.bilibili.com
-  - name: 🇺🇸_US_美国_2
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң_2
     type: vless
     server: 141.101.123.40
     port: 443
@@ -112,7 +112,7 @@ proxies:
       path: /ws
       headers:
         Host: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
-  - name: 🇨🇳_CN_中国_1
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң_1
     type: vmess
     server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
     port: 80
@@ -127,7 +127,7 @@ proxies:
       path: /
       headers:
         Host: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
-  - name: 🇨🇳_CN_中国_2
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң_2
     type: vmess
     server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
     port: 80
@@ -142,7 +142,7 @@ proxies:
       path: /
       headers:
         Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-  - name: 🇺🇸_US_美国_3
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң_3
     type: vless
     server: 173.245.59.121
     port: 443
@@ -155,7 +155,7 @@ proxies:
       path: /ws
       headers:
         Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-  - name: 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - name: рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
     type: vless
     server: cdn.halazzon.ir
     port: 443
@@ -168,7 +168,7 @@ proxies:
       path: /36.95.152.58=12137
       headers:
         Host: afrcloud4.c01.kr
-  - name: 🇨🇳_CN_中国_3
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң_3
     type: vmess
     server: 92c73b3e-t9w4g0-thd0h1-1rz5s.hkt.gotochinatown.net
     port: 80
@@ -182,7 +182,7 @@ proxies:
       path: /
       headers:
         Host: broadcastlv.chat.bilibili.com
-  - name: 🇷🇺_RU_俄罗斯
+  - name: рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
     type: vless
     server: russia7.yourbot.me
     port: 443
@@ -194,7 +194,7 @@ proxies:
     reality-opts:
       public-key: 6EHTqOektSiQ8OMDU-5I1RWpFWw22N_N1aJCJdymXCA
       short-id: 199939d7
-  - name: 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - name: рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
     type: vless
     server: 83.166.238.183
     port: 8443
@@ -206,7 +206,7 @@ proxies:
     reality-opts:
       public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
       short-id: 887c0d72e771a934
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - name: рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
     type: vless
     server: 89.169.162.214
     port: 8443
@@ -218,19 +218,19 @@ proxies:
     reality-opts:
       public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
       short-id: 205748bc0f24a747
-  - name: 未知
+  - name: жњҒзџӨ
     type: ss
     server: 103.186.155.127
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇺🇸_US_美国_4
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң_4
     type: ss
     server: admin.c2.havij.co
     port: 443
     cipher: chacha20-ietf-poly1305
     password: kaQH3hGdcP80XEDI
-  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
     type: vless
     server: cloud2.turkserver.ir
     port: 2096
@@ -242,7 +242,7 @@ proxies:
       path: /
       headers:
         Host: javani-nol.ip-venzo.com.
-  - name: 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - name: рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
     type: vless
     server: my.montago-shop.ir
     port: 443
@@ -255,7 +255,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: mx.mahoshid.ir
-  - name: 🇷🇺_RU_俄罗斯_1
+  - name: рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
     type: vless
     server: 0ru84.tcpdoor.net
     port: 443
@@ -266,7 +266,7 @@ proxies:
     reality-opts:
       public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
       short-id: 740d6f2e
-  - name: 🇨🇳_CN_中国_4
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң_4
     type: vmess
     server: 51f142c0-t9w4g0-tart0c-g3b3.hkt.gotochinatown.net
     port: 80
@@ -280,7 +280,7 @@ proxies:
       path: /
       headers:
         Host: broadcastlv.chat.bilibili.com
-  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
     type: vless
     server: 104.24.69.114
     port: 443
@@ -293,7 +293,7 @@ proxies:
       path: /ws
       headers:
         Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
-  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
     type: vless
     server: nx.cloud1.hosting-ip.zulagaming.icu
     port: 2052
@@ -304,7 +304,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
-  - name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
     type: vless
     server: FASTLY.COM
     port: 80
@@ -315,7 +315,7 @@ proxies:
       path: /
       headers:
         Host: mihan-germar2.global.ssl.fastly.net
-  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
     type: vless
     server: rus-0001-xr.packet-drop-society.net
     port: 443
@@ -327,7 +327,7 @@ proxies:
     reality-opts:
       public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
       short-id: 8453e5fd9af927
-  - name: 🇬🇧_GB_英国
+  - name: рџ‡¬рџ‡§_GB_и‹±е›Ң
     type: vless
     server: 5.188.142.230
     port: 8081
@@ -338,7 +338,7 @@ proxies:
     reality-opts:
       public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
       short-id: 425ba80cd1a821a8
-  - name: 🇨🇳_CN_中国_5
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң_5
     type: vmess
     server: c3d192c0-t9w4g0-tb5nzx-1mqag.hkt.gotochinatown.net
     port: 80
@@ -352,14 +352,14 @@ proxies:
       path: /
       headers:
         Host: broadcastlv.chat.bilibili.com
-  - name: 🇩🇪_DE_德国
+  - name: рџ‡©рџ‡Ғ_DE_ең·е›Ң
     type: vless
     server: secdn17.suio.me
     port: 443
     uuid: a7a9f670-44c0-45a9-8047-69db0203c142
     servername: secdn17.suio.me
     tls: true
-  - name: 🇺🇸_US_美国_5
+  - name: рџ‡ғрџ‡ё_US_зңҺе›Ң_5
     type: vless
     server: 190.93.245.102
     port: 443
@@ -372,7 +372,7 @@ proxies:
       path: /ws
       headers:
         Host: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - name: рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
     type: vless
     server: 217.16.25.173
     port: 443
@@ -383,7 +383,7 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: mhS5tgy6bzzFw_sOpdAGuKVS5MF1e0FjzimA92KnPUE
-  - name: 🇨🇳_CN_中国_6
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң_6
     type: vmess
     server: 967d835d-t9w4g0-tysu9z-1nq4g.hkt.gotochinatown.net
     port: 80
@@ -397,7 +397,7 @@ proxies:
       path: /
       headers:
         Host: broadcastlv.chat.bilibili.com
-  - name: 🇨🇳_CN_中国_7
+  - name: рџ‡Ёрџ‡і_CN_дё­е›Ң_7
     type: vmess
     server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
     port: 80
@@ -413,267 +413,343 @@ proxies:
       headers:
         Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
 proxy-groups:
-  - name: 🚀 节点选择
+  - name: рџљЂ иЉ‚з‚№йЂ‰ж‹©
     type: select
     proxies:
-      - ♻️ 自动选择
+      - в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
       - DIRECT
-      - 🇻🇪_VE_委内瑞拉
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 未知
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-      - 🇬🇧_GB_英国
-      - 🇨🇳_CN_中国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_6
-      - 🇨🇳_CN_中国_7
-  - name: ♻️ 自动选择
+      - рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_2
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_3
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_3
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - жњҒзџӨ
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
+      - рџ‡¬рџ‡§_GB_и‹±е›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_5
+      - рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_5
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_6
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_7
+  - name: в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
     type: url-test
     proxies:
-      - 🇻🇪_VE_委内瑞拉
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 未知
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-      - 🇬🇧_GB_英国
-      - 🇨🇳_CN_中国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_6
-      - 🇨🇳_CN_中国_7
+      - рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_2
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_3
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_3
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - жњҒзџӨ
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
+      - рџ‡¬рџ‡§_GB_и‹±е›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_5
+      - рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_5
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_6
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_7
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-  - name: 🌍 国外媒体
+  - name: рџЊҚ е›Ңе¤–еҒ’дҢ“
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 🇻🇪_VE_委内瑞拉
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 未知
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-      - 🇬🇧_GB_英国
-      - 🇨🇳_CN_中国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_6
-      - 🇨🇳_CN_中国_7
-  - name: 📲 电报信息
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
+      - рџҺҮ е…Ёзђѓз›өиүһ
+      - рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_2
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_3
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_3
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - жњҒзџӨ
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
+      - рџ‡¬рџ‡§_GB_и‹±е›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_5
+      - рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_5
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_6
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_7
+  - name: рџ“І з”µжЉӨдүҰжЃҮ
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - 🇻🇪_VE_委内瑞拉
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 未知
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-      - 🇬🇧_GB_英国
-      - 🇨🇳_CN_中国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_6
-      - 🇨🇳_CN_中国_7
-  - name: Ⓜ️ 微软服务
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - рџҺҮ е…Ёзђѓз›өиүһ
+      - рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_2
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_3
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_3
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - жњҒзџӨ
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
+      - рџ‡¬рџ‡§_GB_и‹±е›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_5
+      - рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_5
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_6
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_7
+  - name: в“‚пёЏ ең®иҢҮжњҚеЉҰ
     type: select
     proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-      - 🇻🇪_VE_委内瑞拉
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 未知
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-      - 🇬🇧_GB_英国
-      - 🇨🇳_CN_中国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_6
-      - 🇨🇳_CN_中国_7
-  - name: 🍎 苹果服务
+      - рџҺҮ е…Ёзђѓз›өиүһ
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_2
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_3
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_3
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - жњҒзџӨ
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
+      - рџ‡¬рџ‡§_GB_и‹±е›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_5
+      - рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_5
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_6
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_7
+  - name: рџҚҺ и‹№жһњжњҚеЉҰ
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - 🇻🇪_VE_委内瑞拉
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 未知
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-      - 🇬🇧_GB_英国
-      - 🇨🇳_CN_中国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_6
-      - 🇨🇳_CN_中国_7
-  - name: 🎯 全球直连
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - рџҺҮ е…Ёзђѓз›өиүһ
+      - рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_2
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_3
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_3
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - жњҒзџӨ
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
+      - рџ‡¬рџ‡§_GB_и‹±е›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_5
+      - рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_5
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_6
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_7
+  - name: рџҺҮ е…Ёзђѓз›өиүһ
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-  - name: 🛑 全球拦截
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
+  - name: рџ›‘ е…Ёзђѓж‹¦ж€Ғ
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: 🍃 应用净化
+  - name: рџҚѓ еғ”з”Ёе‡ЂеЊ–
     type: select
     proxies:
       - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: рџђџ жәЏзҢ‘д№‹й±ә
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🇻🇪_VE_委内瑞拉
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国_1
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国_3
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 未知
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇧🇷_BR_巴西->🇩🇪_DE_德国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国_4
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸_US_美国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国->🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
-      - 🇬🇧_GB_英国
-      - 🇨🇳_CN_中国_5
-      - 🇩🇪_DE_德国
-      - 🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_6
-      - 🇨🇳_CN_中国_7
+      - рџљЂ иЉ‚з‚№йЂ‰ж‹©
+      - рџҺҮ е…Ёзђѓз›өиүһ
+      - в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
+      - рџ‡»рџ‡Ғ_VE_е§”е†…з‘һж‹‰
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_2
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_2
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_3
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_3
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡µрџ‡±_PL_жіұе…°
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң
+      - жњҒзџӨ
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+      - рџ‡§рџ‡·_BR_е·өиӨү->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_4
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡«рџ‡®_FI_иЉ¬е…°
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡ірџ‡±_NL_иҚ·е…°_1
+      - рџ‡¬рџ‡§_GB_и‹±е›Ң
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_5
+      - рџ‡©рџ‡Ғ_DE_ең·е›Ң
+      - рџ‡ғрџ‡ё_US_зңҺе›Ң_5
+      - рџ‡·рџ‡ғ_RU_дү„зҢ—ж–Ү->рџ‡ғрџ‡ё_US_зңҺе›Ң_1
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_6
+      - рџ‡Ёрџ‡і_CN_дё­е›Ң_7
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list
+    path: ./rules/LocalAreaNetwork.yaml
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
+    path: ./rules/BanAD.yaml
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanProgramAD.list
+    path: ./rules/BanProgramAD.yaml
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/GoogleCN.list
+    path: ./rules/GoogleCN.yaml
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/SteamCN.list
+    path: ./rules/SteamCN.yaml
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Microsoft.list
+    path: ./rules/Microsoft.yaml
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Apple.list
+    path: ./rules/Apple.yaml
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyMedia.list
+    path: ./rules/ProxyMedia.yaml
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Telegram.list
+    path: ./rules/Telegram.yaml
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyLite.list
+    path: ./rules/ProxyLite.yaml
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list
+    path: ./rules/ChinaDomain.yaml
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaCompanyIp.list
+    path: ./rules/ChinaCompanyIp.yaml
+rules:
+  - RULE-SET,LocalAreaNetwork,рџҺҮ е…Ёзђѓз›өиүһ
+  - RULE-SET,BanAD,рџ›‘ е…Ёзђѓж‹¦ж€Ғ
+  - RULE-SET,BanProgramAD,рџҚѓ еғ”з”Ёе‡ЂеЊ–
+  - RULE-SET,GoogleCN,рџҺҮ е…Ёзђѓз›өиүһ
+  - RULE-SET,SteamCN,рџҺҮ е…Ёзђѓз›өиүһ
+  - RULE-SET,Microsoft,в“‚пёЏ ең®иҢҮжњҚеЉҰ
+  - RULE-SET,Apple,рџҚҺ и‹№жһњжњҚеЉҰ
+  - RULE-SET,ProxyMedia,рџЊҚ е›Ңе¤–еҒ’дҢ“
+  - RULE-SET,Telegram,рџ“І з”µжЉӨдүҰжЃҮ
+  - RULE-SET,ProxyLite,рџљЂ иЉ‚з‚№йЂ‰ж‹©
+  - RULE-SET,ChinaDomain,рџҺҮ е…Ёзђѓз›өиүһ
+  - RULE-SET,ChinaCompanyIp,рџҺҮ е…Ёзђѓз›өиүһ
+  - GEOIP,CN,рџҺҮ е…Ёзђѓз›өиүһ
+  - MATCH,рџђџ жәЏзҢ‘д№‹й±ә
