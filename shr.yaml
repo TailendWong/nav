@@ -1,408 +1,325 @@
 ####################################
-# 更新时间：2026-04-20 13:50:23.586812
+# 更新时间：2026-04-22 13:50:18.733728
 ####################################
 mixed-port: 7890
 allow-lan: true
 mode: rule
 log-level: info
-ipv6: false
-external-controller: 0.0.0.0:9090
+ipv6: true
+external-controller: 127.0.0.1:9090
 dns:
   enable: true
-  listen: 0.0.0.0:53
-  ipv6: false
-  default-nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-  nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-    - 119.29.29.29
-    - 180.76.76.76
+  listen: 0.0.0.0:1053
+  ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
-    - router.asus.com
-    - localhost.sec.qq.com
-    - localhost.ptlogin2.qq.com
-    - +.msftconnecttest.com
-tun:
-  enable: true
-  stack: system
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - 114.114.114.114
-    - 180.76.76.76
-    - 119.29.29.29
+  default-nameserver:
     - 223.5.5.5
-    - 8.8.8.8
-    - 8.8.4.4
-    - 1.1.1.1
-    - 1.0.0.1
+    - 119.29.29.29
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
 proxies:
-  - name: 🇺🇸_US_美国
-    type: vless
-    server: ae2.suio.me
-    port: 443
-    uuid: 6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a
-    servername: ae2.suio.me
-    tls: true
-  - name: 🇩🇪_DE_德国
-    type: vless
-    server: best4.pineappled.org
-    port: 443
-    uuid: 71322f86-f37a-4929-ada0-05e6a2688145
-    servername: www.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-      short-id: "23"
-  - name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-    type: vless
-    server: 218.150.33.69
-    port: 15050
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇰🇷_KR_韩国
-    type: vless
-    server: 119.192.158.53
-    port: 25095
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇳🇱_NL_荷兰
-    type: vless
-    server: nl4.pineappled.org
-    port: 443
-    uuid: 71322f86-f37a-4929-ada0-05e6a2688145
-    servername: www.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-      short-id: "23"
-  - name: 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-    type: vless
-    server: 43.160.248.66
-    port: 8443
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-    type: vless
-    server: est.top.subtrust.ru
-    port: 443
-    uuid: 3130fccb-e72e-468d-b2ce-0721bb3058c8
-    servername: www.apple.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: pOdL1l8cGGg7qnOPAbDcAIVOgA7O8f75XevxeYyaYCg
-      short-id: cd11af
-  - name: 🇰🇷_KR_韩国_1
-    type: vless
-    server: 218.155.23.9
-    port: 12184
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇸🇦_SA_沙特阿拉伯
-    type: vless
-    server: dee1.shubnechkin.online
-    port: 443
-    uuid: 7a1f4deb-0ea9-427e-bc9d-9297a08afa12
-    servername: vk.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: nBxkzpHPJpW3AXzEZSQc8V00RuPj1zrxe-hYSgNtzUY
-      short-id: b7
-  - name: 未知
-    type: vless
-    server: dns.dressforida.monster
-    port: 443
-    uuid: 79149019-5abe-46f9-91ae-e1e7d1d2c408
-    servername: www.techradar.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
-      short-id: 174c6cf22e22
-  - name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-    type: vless
-    server: 116.93.199.28
-    port: 21510
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇳🇱_NL_荷兰_1
-    type: vless
-    server: nll.scroogethebest.com
-    port: 443
-    uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
-    servername: nll.scroogethebest.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-      short-id: 4fa44664f6a566d3
-  - name: 🇺🇸_US_美国_1
-    type: ss
-    server: admin.c1.webramz.co
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-  - name: 🇪🇸_ES_西班牙
-    type: vless
-    server: es.fasti.win
-    port: 443
-    uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-    servername: es.fasti.win
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-      short-id: feedbacc
-  - name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-    type: vless
-    server: 121.157.190.209
-    port: 11717
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇺🇸_US_美国_2
-    type: vless
-    server: 104.18.32.47
-    port: 2052
-    uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
-    network: ws
+  - name: 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+    type: trojan
+    server: 13.192.183.245
+    port: 1783
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
     tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
-  - name: 未知_1
+  - name: 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
     type: ss
-    server: 103.186.155.23
+    server: 194.87.69.143
+    port: 12091
+    cipher: aes-256-gcm
+    password: 83acf69edb4e5453
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+    type: vless
+    server: freeyx.cloudflare88.eu.org
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.dynv6.net
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /?ed=2560&proxyip=ip.111000.de5.net:443
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+    type: ss
+    server: 103.186.155.225
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇰🇷_KR_韩国_2
-    type: vless
-    server: 211.33.238.198
-    port: 15380
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 未知_2
+  - name: 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
     type: ss
-    server: 103.186.154.64
+    server: 103.186.155.230
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - name: 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
     type: vless
-    server: 45.145.42.170
-    port: 8005
-    uuid: 00000000-0000-4000-8000-000000000000
+    server: 185.18.250.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sub.mot.ip-ddns.com
+    servername: sni.jpmj.dev
     tls: true
-    client-fingerprint: chrome
     ws-opts:
       path: /
       headers:
-        Host: sub.mot.ip-ddns.com
-  - name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-    type: vless
-    server: 59.29.89.197
-    port: 18765
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇩🇪_DE_德国_1
-    type: vless
-    server: 5.254.85.151
-    port: 443
-    uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-    servername: germany.scroogethebest.com
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-      short-id: 4fa44664f6a566d3
-  - name: 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-    type: vless
-    server: 116.93.199.28
-    port: 25524
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    network: ws
-    servername: ylnhh.cc.cd
-    tls: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /Telegram🇨🇳@WangCai2
-      headers:
-        Host: ylnhh.cc.cd
-  - name: 🇺🇸_US_美国_3
+        Host: sni.jpmj.dev
+  - name: 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
     type: ss
-    server: series-a1.samanehha.co
-    port: 443
+    server: 82.38.31.191
+    port: 8080
     cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+    type: ss
+    server: 103.186.154.35
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇭🇰_HK_中国香港 · proxy_check
     type: vless
-    server: 89.208.113.120
-    port: 8082
-    uuid: 00000000-0000-4000-8000-000000000000
+    server: 43.132.244.52
+    port: 21415
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sub.mot.ip-ddns.com
+    servername: sni.jpmj.dev
     tls: true
-    client-fingerprint: chrome
     ws-opts:
-      path: /
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
       headers:
-        Host: sub.mot.ip-ddns.com
-  - name: 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+        Host: sni.jpmj.dev
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+    type: ss
+    server: 103.186.155.137
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+    type: trojan
+    server: 18.183.182.241
+    port: 49534
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: true
+    tls: false
+  - name: 🇺🇸_US_美国 · proxy_check
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+    type: ss
+    server: 103.186.154.204
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
     type: vless
-    server: 45.144.51.136
-    port: 443
-    uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-    servername: pl.fasti.win
+    server: 85.209.153.60
+    port: 52335
+    uuid: 6ec3c298-1058-43bd-81e3-54b155c4ae21
+    servername: www.deepl.com
     tls: true
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-      short-id: feedbacc
+      public-key: lwhFlU5V70GDf5OKTFeIAPC5uMKfvlGb3Y6nE-MmRmI
+      short-id: "72"
+  - name: 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+    type: ss
+    server: 51.15.17.169
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+    type: ss
+    server: 103.186.155.28
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇻🇳_VN_越南 · proxy_check
+    type: ss
+    server: 103.186.155.183
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+    type: ss
+    server: 103.186.154.250
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇻🇳_VN_越南 · proxy_check_1
+    type: ss
+    server: 103.186.154.69
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+    type: vless
+    server: 162.159.38.147
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    network: ws
+    servername: snippet.fgfw.loc.cc
+    tls: true
+    ws-opts:
+      path: /danfeng?ed=2560
+      headers:
+        Host: snippet.fgfw.loc.cc
+  - name: 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+    type: vmess
+    server: 213.156.141.52
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+    type: ss
+    server: 103.186.154.144
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+    type: vmess
+    server: planb.mojcn.com
+    port: 16617
+    uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
+  - name: 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+    type: vmess
+    server: 23.162.200.198
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+    type: vless
+    server: 43.167.157.65
+    port: 12345
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    network: ws
+    servername: snippet.fgfw.loc.cc
+    tls: true
+    ws-opts:
+      path: /danfeng?ed=2560
+      headers:
+        Host: snippet.fgfw.loc.cc
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国
-      - 🇩🇪_DE_德国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-      - 🇰🇷_KR_韩国
-      - 🇳🇱_NL_荷兰
-      - 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-      - 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-      - 🇰🇷_KR_韩国_1
-      - 🇸🇦_SA_沙特阿拉伯
-      - 未知
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇰🇷_KR_韩国_2
-      - 未知_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-      - 🇩🇪_DE_德国_1
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+      - 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+      - 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
+      - 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+      - 🇭🇰_HK_中国香港 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+      - 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+      - 🇻🇳_VN_越南 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+      - 🇻🇳_VN_越南 · proxy_check_1
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+      - 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇺🇸_US_美国
-      - 🇩🇪_DE_德国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-      - 🇰🇷_KR_韩国
-      - 🇳🇱_NL_荷兰
-      - 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-      - 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-      - 🇰🇷_KR_韩国_1
-      - 🇸🇦_SA_沙特阿拉伯
-      - 未知
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇰🇷_KR_韩国_2
-      - 未知_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-      - 🇩🇪_DE_德国_1
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+      - 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+      - 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
+      - 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+      - 🇭🇰_HK_中国香港 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+      - 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+      - 🇻🇳_VN_越南 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+      - 🇻🇳_VN_越南 · proxy_check_1
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+      - 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -412,125 +329,133 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇩🇪_DE_德国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-      - 🇰🇷_KR_韩国
-      - 🇳🇱_NL_荷兰
-      - 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-      - 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-      - 🇰🇷_KR_韩国_1
-      - 🇸🇦_SA_沙特阿拉伯
-      - 未知
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇰🇷_KR_韩国_2
-      - 未知_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-      - 🇩🇪_DE_德国_1
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+      - 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+      - 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
+      - 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+      - 🇭🇰_HK_中国香港 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+      - 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+      - 🇻🇳_VN_越南 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+      - 🇻🇳_VN_越南 · proxy_check_1
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+      - 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇩🇪_DE_德国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-      - 🇰🇷_KR_韩国
-      - 🇳🇱_NL_荷兰
-      - 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-      - 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-      - 🇰🇷_KR_韩国_1
-      - 🇸🇦_SA_沙特阿拉伯
-      - 未知
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇰🇷_KR_韩国_2
-      - 未知_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-      - 🇩🇪_DE_德国_1
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+      - 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+      - 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
+      - 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+      - 🇭🇰_HK_中国香港 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+      - 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+      - 🇻🇳_VN_越南 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+      - 🇻🇳_VN_越南 · proxy_check_1
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+      - 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国
-      - 🇩🇪_DE_德国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-      - 🇰🇷_KR_韩国
-      - 🇳🇱_NL_荷兰
-      - 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-      - 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-      - 🇰🇷_KR_韩国_1
-      - 🇸🇦_SA_沙特阿拉伯
-      - 未知
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇰🇷_KR_韩国_2
-      - 未知_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-      - 🇩🇪_DE_德国_1
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+      - 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+      - 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
+      - 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+      - 🇭🇰_HK_中国香港 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+      - 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+      - 🇻🇳_VN_越南 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+      - 🇻🇳_VN_越南 · proxy_check_1
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+      - 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇩🇪_DE_德国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-      - 🇰🇷_KR_韩国
-      - 🇳🇱_NL_荷兰
-      - 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-      - 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-      - 🇰🇷_KR_韩国_1
-      - 🇸🇦_SA_沙特阿拉伯
-      - 未知
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇰🇷_KR_韩国_2
-      - 未知_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-      - 🇩🇪_DE_德国_1
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+      - 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+      - 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
+      - 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+      - 🇭🇰_HK_中国香港 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+      - 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+      - 🇻🇳_VN_越南 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+      - 🇻🇳_VN_越南 · proxy_check_1
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+      - 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -553,32 +478,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国
-      - 🇩🇪_DE_德国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜
-      - 🇰🇷_KR_韩国
-      - 🇳🇱_NL_荷兰
-      - 🇦🇺_AU_澳大利亚->🇸🇬_SG_新加坡
-      - 🇨🇿_CZ_捷克->🇧🇬_BG_保加利亚
-      - 🇰🇷_KR_韩国_1
-      - 🇸🇦_SA_沙特阿拉伯
-      - 未知
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_1
-      - 🇳🇱_NL_荷兰_1
-      - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_2
-      - 🇺🇸_US_美国_2
-      - 未知_1
-      - 🇰🇷_KR_韩国_2
-      - 未知_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_3
-      - 🇩🇪_DE_德国_1
-      - 🇰🇷_KR_韩国->🇰🇵_KP_朝鲜_4
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
-      - 🇳🇱_NL_荷兰->🇵🇱_PL_波兰
+      - 🇯🇵_JP_日本 · proxy_pool:peasoft/NoMoreWalls
+      - 🇷🇺_RU_俄罗斯 · proxy_pool:snakem982/proxypool
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_pool:V2RayAutoConfig
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator
+      - 🇨🇭_CH_瑞士 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_1
+      - 🇭🇰_HK_中国香港 · proxy_check
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 · proxy_pool:peasoft/NoMoreWalls
+      - 🇺🇸_US_美国 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_2
+      - 🇳🇱_NL_荷兰 · proxy_pool:V2RayAutoConfig
+      - 🇳🇱_NL_荷兰 · proxy_pool:MatinGhanbari/v2ray-configs_1
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_2
+      - 🇻🇳_VN_越南 · proxy_check
+      - 🇻🇳_VN_越南 · proxy_pool:MatinGhanbari/v2ray-configs_3
+      - 🇻🇳_VN_越南 · proxy_check_1
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_2
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2
+      - 🇻🇳_VN_越南 · proxy_pool:mahdibland/V2RayAggregator_3
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig
+      - 🇯🇵_JP_日本 · proxy_pool:V2RayAutoConfig
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig_3
 rule-providers:
   LocalAreaNetwork:
     type: http
