@@ -148,6 +148,5 @@ https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea
 [好网站不私藏](good_sites.html)  
 [国内镜像站点1](cn_mirror_sites.html)  
 [国内镜像站点2](https://github.com/eryajf/Thanks-Mirror)  
-[JDK各版本安装包1](http://www.codebaoku.com/jdk/jdk-index.html)  
-[JDK各版本安装包2](https://injdk.cn/)  
-[JDK各版本安装包3](https://jdk.java.net/java-se-ri/17-MR1)  
+[JDK各版本安装包1](https://injdk.cn/)  
+[JDK各版本安装包2](https://jdk.java.net/java-se-ri/17-MR1)  
