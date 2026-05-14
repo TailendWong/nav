@@ -2,14 +2,14 @@
 
 ## 追剧
 ### 浏览器观看
-[可可影视](https://www.keke1.app/)备用[[http://www.kekys.com/](http://www.kekys.com/)]   
+[可可影视](https://www.keke1.app/)备用[[http://www.kkys05.com/](http://www.kkys05.com/)]   
 [7080影视](https://7080.wang/)  
 [555影视](https://www.55dy9.com/)  
 [影视导航](https://jiafangbb.com/tv)  
 [HDmoli](https://www.hdmoli.com/)  
 
 ### 手机软件(安卓)
-[AH视频](https://ahsp.app/)  
+[免费视频APP](http://fs.of.linkpc.net/share/index.html)  
 [蛋播星球](https://wwpv.lanzoue.com/if1XL0nhc0oh)  
 [大师兄（勿升级）](https://feixue.lanzouy.com/igDLH0jwi5te/)  
 
