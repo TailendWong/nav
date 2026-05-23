@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2026-05-17 13:50:48.541736
+# 更新时间：2026-05-23 13:50:20.880160
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -20,142 +20,225 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 proxies:
-  - name: 🇺🇸_US_美国
-    type: vless
-    server: 172.64.147.255
-    port: 80
-    uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: tt.andishehparenting.com
-    udp: true
-  - name: 🇺🇸_US_美国_1
-    type: vless
-    server: 45.40.154.139
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.dynv6.net
-    tls: true
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-    udp: true
-  - name: 🇺🇸_US_美国->🇬🇧_GB_英国
-    type: ss
-    server: chengbai02.ascwt179.com
-    port: 13223
-    cipher: aes-128-gcm
-    password: JVrsLLN1tkN8oXZO
-    udp: true
-  - name: 🇭🇰_HK_中国香港
-    type: vmess
-    server: 47.239.69.43
-    port: 56698
-    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
   - name: 🇻🇳_VN_越南
     type: ss
-    server: 103.186.154.198
+    server: 103.186.154.181
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
-  - name: 🇺🇸_US_美国_2
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
     type: vless
-    server: 104.20.6.134
-    port: 8443
+    server: 188.42.88.238
+    port: 2096
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.111000.dynv6.net
+    servername: sni.jpmj.dev
     tls: true
     ws-opts:
-      path: /?Telegram @v2rayngzendegimamad
       headers:
-        Host: sni.111000.dynv6.net
+        Host: sni.jpmj.dev
     udp: true
-  - name: 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - name: 🇧🇿_BZ_伯利兹
     type: vless
-    server: 119.246.150.50
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    network: ws
-    servername: gogo.wknm.dpdns.org
-    tls: true
-    client-fingerprint: ios
-    ws-opts:
-      path: /
-      headers:
-        Host: gogo.wknm.dpdns.org
-    udp: true
-  - name: 🇯🇵_JP_日本
-    type: hysteria2
-    server: vpn-jp-002.fastervpn.world
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-jp-002.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: 🇸🇪_SE_瑞典
-    type: vless
-    server: 5.178.109.158
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    servername: sni.111000.dns.army
-    tls: true
-    ws-opts:
-      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
-      headers:
-        Host: sni.111000.dns.army
-    udp: true
-  - name: 🇺🇸_US_美国_3
-    type: vless
-    server: 167.68.42.191
+    server: 45.131.6.191
     port: 2096
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.my111000.tech
     tls: true
-    client-fingerprint: chrome
     ws-opts:
-      path: /
+      path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
       headers:
         Host: sni.my111000.tech
     udp: true
-  - name: 🇬🇧_GB_英国
-    type: hysteria2
-    server: vpn-uk-002.fastervpn.world
+  - name: 🇺🇸_US_美国
+    type: vless
+    server: 135.84.73.245
     port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-uk-002.fastervpn.world
-    skip-cert-verify: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.dynv6.net
+    tls: true
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+    udp: true
+  - name: 🇪🇸_ES_西班牙
+    type: ss
+    server: 5.188.181.201
+    port: 9029
+    cipher: aes-256-cfb
+    password: dU3DSNS8wYPXzEKw
+    udp: true
+  - name: 🇧🇿_BZ_伯利兹_1
+    type: vless
+    server: 45.131.4.192
+    port: 80
+    uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: silent-paper-fa57.fipiyag989.workers.dev
     udp: true
   - name: 🇻🇳_VN_越南_1
     type: ss
-    server: 103.186.154.210
+    server: 103.186.154.166
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
-  - name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
+  - name: 🇫🇮_FI_芬兰
+    type: vless
+    server: 144.31.82.47
+    port: 18038
+    uuid: a42c8b66-d0a7-4b49-9143-b98f1c84edba
+    servername: www.microsoft.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8
+      short-id: ce9f790791426d83
     udp: true
-  - name: 🇺🇸_US_美国_4
+  - name: 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+    type: vless
+    server: 216.23.108.4
+    port: 55309
+    uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+    servername: download.windowsupdate.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+      short-id: 4bcbc85d
+    udp: true
+  - name: 🇯🇵_JP_日本
+    type: vless
+    server: 216.23.108.4
+    port: 55305
+    uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+    servername: download.windowsupdate.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+      short-id: 4bcbc85d
+    udp: true
+  - name: 🇬🇧_GB_英国
+    type: vless
+    server: london1.ap221.com
+    port: 443
+    uuid: 3a1d7c1d-09c6-4c81-8e11-75dd4ab1ac07
+    servername: london.ap221.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: 🇰🇷_KR_韩国
+    type: vless
+    server: 59.4.161.71
+    port: 38241
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.v6.army
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.v6.army
+    udp: true
+  - name: 🇻🇳_VN_越南_2
+    type: ss
+    server: 103.186.154.174
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+    type: vless
+    server: 216.23.108.4
+    port: 55313
+    uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+    servername: download.windowsupdate.com
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: safari
+    reality-opts:
+      public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+      short-id: 4bcbc85d
+    udp: true
+  - name: 🇻🇳_VN_越南_3
+    type: ss
+    server: 103.186.154.40
+    port: 38388
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇹🇭_TH_泰国
+    type: vless
+    server: 47.81.36.237
+    port: 443
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    servername: api.digital-help-prd.autodesk.com
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    udp: true
+  - name: 🇰🇷_KR_韩国_1
+    type: vless
+    server: 121.175.77.73
+    port: 10333
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.v6.army
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.v6.army
+    udp: true
+  - name: 🇺🇸_US_美国_1
+    type: vless
+    server: 104.18.12.149
+    port: 443
+    uuid: b60e5c32-3d4e-425c-a785-a36cd0621a72
+    network: ws
+    servername: S4-f45.pAGeS.DeV
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: S4-f45.pAGeS.DeV
+    udp: true
+  - name: 🇺🇸_US_美国_2
+    type: vless
+    server: 104.250.239.8
+    port: 17195
+    uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+    servername: usvless.yydzx.xyz
+    tls: true
+    flow: xtls-rprx-vision
+    udp: true
+  - name: 🇯🇵_JP_日本_1
+    type: vless
+    server: 158.51.110.12
+    port: 443
+    uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+    network: ws
+    servername: pagescm.freen5.cc.cd
+    tls: true
+    ws-opts:
+      path: /showfp=chrome
+      headers:
+        Host: pagescm.freen5.cc.cd
+    udp: true
+  - name: 🇺🇸_US_美国_3
     type: vless
     server: 104.17.101.139
     port: 443
@@ -168,88 +251,96 @@ proxies:
       headers:
         Host: sni.111000.dynv6.net
     udp: true
-  - name: 🇻🇳_VN_越南_2
+  - name: 🇭🇰_HK_中国香港
     type: ss
-    server: 103.186.155.27
-    port: 38388
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    server: 103.149.182.105
+    port: 8388
+    cipher: chacha20-ietf
+    password: asd123456
+    udp: true
+  - name: 🇰🇿_KZ_哈萨克斯坦
+    type: vless
+    server: 31.43.179.238
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.jpmj.dev
+    tls: true
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+    udp: true
+  - name: 🇺🇸_US_美国_4
+    type: vless
+    server: 139.64.235.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.jpmj.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.jpmj.dev
     udp: true
   - name: 🇺🇸_US_美国_5
     type: vless
-    server: 8.34.146.191
+    server: 45.153.7.191
     port: 2096
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
     servername: sni.my111000.tech
     tls: true
     ws-opts:
-      path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
       headers:
         Host: sni.my111000.tech
     udp: true
   - name: 🇺🇸_US_美国_6
-    type: trojan
-    server: us200m.jiasu.asia
-    port: 50000
-    password: acf3f32e-2b46-4535-a068-4bcb6dcb86f8
-    sni: us200m.jiasu.asia
-    skip-cert-verify: false
-    tls: false
-    udp: true
-  - name: 🇻🇳_VN_越南_3
-    type: ss
-    server: 103.186.155.64
-    port: 38388
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    udp: true
-  - name: 🇯🇵_JP_日本_1
-    type: hysteria2
-    server: vpn-jp-001.fastervpn.world
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-jp-001.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: 🇦🇹_AT_奥地利
     type: vless
-    server: 212.183.88.238
-    port: 2096
+    server: 162.159.17.207
+    port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.jpmj.dev
+    servername: sni.111000.v6.army
     tls: true
     ws-opts:
-      path: /?ed=2560&Telegram🇨🇳+@WangCai2
+      path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
-        Host: sni.jpmj.dev
+        Host: sni.111000.v6.army
     udp: true
   - name: 🇻🇳_VN_越南_4
     type: ss
-    server: 103.186.154.209
+    server: 103.186.155.114
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
   - name: 🇻🇳_VN_越南_5
     type: ss
-    server: 103.186.154.195
+    server: 103.186.154.234
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
-  - name: 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+  - name: 🇨🇾_CY_塞浦路斯
     type: vless
-    server: 212.87.223.196
-    port: 443
+    server: 77.37.33.40
+    port: 8880
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     network: ws
-    servername: sni.111000.dns.army
-    tls: true
+    tls: false
     ws-opts:
+      path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
       headers:
-        Host: sni.111000.dns.army
+        Host: vms.lifetime57.workers.dev
+    udp: true
+  - name: 🇷🇺_RU_俄罗斯
+    type: ss
+    server: ru.safepass.click
+    port: 442
+    cipher: aes-128-gcm
+    password: 6784aee2-0dfe-474f-8446-480259ff9918
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
@@ -257,55 +348,69 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇭🇰_HK_中国香港
       - 🇻🇳_VN_越南
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-      - 🇯🇵_JP_日本
-      - 🇸🇪_SE_瑞典
-      - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇧🇿_BZ_伯利兹
+      - 🇺🇸_US_美国
+      - 🇪🇸_ES_西班牙
+      - 🇧🇿_BZ_伯利兹_1
       - 🇻🇳_VN_越南_1
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-      - 🇺🇸_US_美国_4
+      - 🇫🇮_FI_芬兰
+      - 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+      - 🇯🇵_JP_日本
+      - 🇬🇧_GB_英国
+      - 🇰🇷_KR_韩国
       - 🇻🇳_VN_越南_2
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+      - 🇻🇳_VN_越南_3
+      - 🇹🇭_TH_泰国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_中国香港
+      - 🇰🇿_KZ_哈萨克斯坦
+      - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇻🇳_VN_越南_3
-      - 🇯🇵_JP_日本_1
-      - 🇦🇹_AT_奥地利
       - 🇻🇳_VN_越南_4
       - 🇻🇳_VN_越南_5
-      - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+      - 🇨🇾_CY_塞浦路斯
+      - 🇷🇺_RU_俄罗斯
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇭🇰_HK_中国香港
       - 🇻🇳_VN_越南
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-      - 🇯🇵_JP_日本
-      - 🇸🇪_SE_瑞典
-      - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇧🇿_BZ_伯利兹
+      - 🇺🇸_US_美国
+      - 🇪🇸_ES_西班牙
+      - 🇧🇿_BZ_伯利兹_1
       - 🇻🇳_VN_越南_1
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-      - 🇺🇸_US_美国_4
+      - 🇫🇮_FI_芬兰
+      - 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+      - 🇯🇵_JP_日本
+      - 🇬🇧_GB_英国
+      - 🇰🇷_KR_韩国
       - 🇻🇳_VN_越南_2
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+      - 🇻🇳_VN_越南_3
+      - 🇹🇭_TH_泰国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_中国香港
+      - 🇰🇿_KZ_哈萨克斯坦
+      - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇻🇳_VN_越南_3
-      - 🇯🇵_JP_日本_1
-      - 🇦🇹_AT_奥地利
       - 🇻🇳_VN_越南_4
       - 🇻🇳_VN_越南_5
-      - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+      - 🇨🇾_CY_塞浦路斯
+      - 🇷🇺_RU_俄罗斯
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -315,113 +420,141 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇭🇰_HK_中国香港
       - 🇻🇳_VN_越南
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-      - 🇯🇵_JP_日本
-      - 🇸🇪_SE_瑞典
-      - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇧🇿_BZ_伯利兹
+      - 🇺🇸_US_美国
+      - 🇪🇸_ES_西班牙
+      - 🇧🇿_BZ_伯利兹_1
       - 🇻🇳_VN_越南_1
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-      - 🇺🇸_US_美国_4
+      - 🇫🇮_FI_芬兰
+      - 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+      - 🇯🇵_JP_日本
+      - 🇬🇧_GB_英国
+      - 🇰🇷_KR_韩国
       - 🇻🇳_VN_越南_2
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+      - 🇻🇳_VN_越南_3
+      - 🇹🇭_TH_泰国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_中国香港
+      - 🇰🇿_KZ_哈萨克斯坦
+      - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇻🇳_VN_越南_3
-      - 🇯🇵_JP_日本_1
-      - 🇦🇹_AT_奥地利
       - 🇻🇳_VN_越南_4
       - 🇻🇳_VN_越南_5
-      - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+      - 🇨🇾_CY_塞浦路斯
+      - 🇷🇺_RU_俄罗斯
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇭🇰_HK_中国香港
       - 🇻🇳_VN_越南
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-      - 🇯🇵_JP_日本
-      - 🇸🇪_SE_瑞典
-      - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇧🇿_BZ_伯利兹
+      - 🇺🇸_US_美国
+      - 🇪🇸_ES_西班牙
+      - 🇧🇿_BZ_伯利兹_1
       - 🇻🇳_VN_越南_1
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-      - 🇺🇸_US_美国_4
+      - 🇫🇮_FI_芬兰
+      - 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+      - 🇯🇵_JP_日本
+      - 🇬🇧_GB_英国
+      - 🇰🇷_KR_韩国
       - 🇻🇳_VN_越南_2
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+      - 🇻🇳_VN_越南_3
+      - 🇹🇭_TH_泰国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_中国香港
+      - 🇰🇿_KZ_哈萨克斯坦
+      - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇻🇳_VN_越南_3
-      - 🇯🇵_JP_日本_1
-      - 🇦🇹_AT_奥地利
       - 🇻🇳_VN_越南_4
       - 🇻🇳_VN_越南_5
-      - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+      - 🇨🇾_CY_塞浦路斯
+      - 🇷🇺_RU_俄罗斯
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇭🇰_HK_中国香港
       - 🇻🇳_VN_越南
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-      - 🇯🇵_JP_日本
-      - 🇸🇪_SE_瑞典
-      - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇧🇿_BZ_伯利兹
+      - 🇺🇸_US_美国
+      - 🇪🇸_ES_西班牙
+      - 🇧🇿_BZ_伯利兹_1
       - 🇻🇳_VN_越南_1
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-      - 🇺🇸_US_美国_4
+      - 🇫🇮_FI_芬兰
+      - 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+      - 🇯🇵_JP_日本
+      - 🇬🇧_GB_英国
+      - 🇰🇷_KR_韩国
       - 🇻🇳_VN_越南_2
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+      - 🇻🇳_VN_越南_3
+      - 🇹🇭_TH_泰国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_中国香港
+      - 🇰🇿_KZ_哈萨克斯坦
+      - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇻🇳_VN_越南_3
-      - 🇯🇵_JP_日本_1
-      - 🇦🇹_AT_奥地利
       - 🇻🇳_VN_越南_4
       - 🇻🇳_VN_越南_5
-      - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+      - 🇨🇾_CY_塞浦路斯
+      - 🇷🇺_RU_俄罗斯
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇭🇰_HK_中国香港
       - 🇻🇳_VN_越南
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-      - 🇯🇵_JP_日本
-      - 🇸🇪_SE_瑞典
-      - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇧🇿_BZ_伯利兹
+      - 🇺🇸_US_美国
+      - 🇪🇸_ES_西班牙
+      - 🇧🇿_BZ_伯利兹_1
       - 🇻🇳_VN_越南_1
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-      - 🇺🇸_US_美国_4
+      - 🇫🇮_FI_芬兰
+      - 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+      - 🇯🇵_JP_日本
+      - 🇬🇧_GB_英国
+      - 🇰🇷_KR_韩国
       - 🇻🇳_VN_越南_2
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+      - 🇻🇳_VN_越南_3
+      - 🇹🇭_TH_泰国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_中国香港
+      - 🇰🇿_KZ_哈萨克斯坦
+      - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇻🇳_VN_越南_3
-      - 🇯🇵_JP_日本_1
-      - 🇦🇹_AT_奥地利
       - 🇻🇳_VN_越南_4
       - 🇻🇳_VN_越南_5
-      - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+      - 🇨🇾_CY_塞浦路斯
+      - 🇷🇺_RU_俄罗斯
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -444,29 +577,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
-      - 🇭🇰_HK_中国香港
       - 🇻🇳_VN_越南
-      - 🇺🇸_US_美国_2
-      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
-      - 🇯🇵_JP_日本
-      - 🇸🇪_SE_瑞典
-      - 🇺🇸_US_美国_3
-      - 🇬🇧_GB_英国
+      - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+      - 🇧🇿_BZ_伯利兹
+      - 🇺🇸_US_美国
+      - 🇪🇸_ES_西班牙
+      - 🇧🇿_BZ_伯利兹_1
       - 🇻🇳_VN_越南_1
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
-      - 🇺🇸_US_美国_4
+      - 🇫🇮_FI_芬兰
+      - 🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+      - 🇯🇵_JP_日本
+      - 🇬🇧_GB_英国
+      - 🇰🇷_KR_韩国
       - 🇻🇳_VN_越南_2
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+      - 🇻🇳_VN_越南_3
+      - 🇹🇭_TH_泰国
+      - 🇰🇷_KR_韩国_1
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本_1
+      - 🇺🇸_US_美国_3
+      - 🇭🇰_HK_中国香港
+      - 🇰🇿_KZ_哈萨克斯坦
+      - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇻🇳_VN_越南_3
-      - 🇯🇵_JP_日本_1
-      - 🇦🇹_AT_奥地利
       - 🇻🇳_VN_越南_4
       - 🇻🇳_VN_越南_5
-      - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+      - 🇨🇾_CY_塞浦路斯
+      - 🇷🇺_RU_俄罗斯
 rule-providers:
   LocalAreaNetwork:
     type: http
