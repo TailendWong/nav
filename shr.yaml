@@ -1,5 +1,5 @@
 ####################################
-# 更新时间：2026-07-20 13:50:18.614374
+# 更新时间：2026-07-21 13:50:16.876080
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -20,142 +20,252 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 proxies:
-  - name: 🇫🇷_FR_法国
+  - name: 🇺🇸_US_美国
+    type: trojan
+    server: 23.149.28.8.sslip.io
+    port: 8443
+    password: 78c6cf8f30399bad3f63f15a9600a8ef
+    sni: 23.149.28.8.sslip.io
+    skip-cert-verify: true
+    tls: false
+    udp: true
+  - name: 🇹🇷_TR_土耳其
     type: vless
-    server: fr.noooo.win
+    server: 169.150.215.77
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇵🇱_PL_波兰->🇺🇸_US_美国
+    type: vless
+    server: 185.158.133.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vms.lifetime58.workers.dev
+    skip-cert-verify: true
+    udp: true
+  - name: 🇷🇴_RO_罗马尼亚
+    type: vless
+    server: 95.173.199.118
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱_NL_荷兰
+    type: vless
+    server: 185.229.191.69
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇷🇴_RO_罗马尼亚_1
+    type: vless
+    server: 95.173.199.78
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱_NL_荷兰_1
+    type: vless
+    server: 185.229.191.42
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇰🇷_KR_韩国
+    type: vless
+    server: 211.49.57.175
     port: 443
-    uuid: 7b241232-208d-4d36-857e-913f91b044f4
+    uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+    network: ws
+    servername: s5.868001.xyz
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /proxyipfp=chrome
+      headers:
+        Host: s5.868001.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱_NL_荷兰_2
+    type: vless
+    server: 185.229.191.68
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+    type: vless
+    server: 1.sdwan.realm-sync.com
+    port: 55567
+    uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+    servername: www.discoverasr.com
     tls: true
     flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 0soGDTguByd3I9e2nLuzkw5BOHELZ_AHHDkA0Zx3JRA
+      short-id: f3f70ca767
     skip-cert-verify: true
+    udp: true
+  - name: 🇸🇪_SE_瑞典
+    type: vless
+    server: 79.127.249.221
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇩🇪_DE_德国
+    type: vless
+    server: tor.spectrumproxy.shop
+    port: 443
+    uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+    servername: tor.spectrumproxy.shop
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: EyzTSZxq5qlUT2xW0l7VP-DzIh2ucabMan9ekEv9Owo
+      short-id: 143627f1
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱_NL_荷兰_3
+    type: vless
+    server: 185.229.191.93
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱_NL_荷兰_4
+    type: vless
+    server: 185.229.191.184
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: 🇷🇴_RO_罗马尼亚_2
+    type: vless
+    server: 95.173.199.85
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱_NL_荷兰_5
+    type: vless
+    server: 185.229.191.13
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇷_TR_土耳其_1
+    type: vless
+    server: 169.150.215.80
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇷_TR_土耳其_2
+    type: vless
+    server: 87.249.139.244
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: 🇮🇪_IE_爱尔兰
+    type: trojan
+    server: 146.70.90.198
+    port: 57452
+    password: t1k169n5zmvvwn96r9ft
+    sni: 146.70.90.198
+    skip-cert-verify: true
+    tls: false
     udp: true
   - name: 🇭🇰_HK_中国香港
-    type: vless
-    server: 47.86.55.200
-    port: 19321
-    uuid: 394086c4-d8a4-4298-9b62-f70fa711082d
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸_US_美国
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 🇭🇰_HK_中国香港_1
-    type: vmess
-    server: 154.37.223.19
-    port: 56972
-    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: http
-    udp: true
-  - name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-    type: vless
-    server: 85.234.114.53
-    port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 🇭🇰_HK_中国香港_2
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸_US_美国_1
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-    type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    servername: r1.mizulina.top
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: edge
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
     type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 41943
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: az.01.naiun.bilibili.com
+    server: 43.198.84.209
+    port: 11035
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
     skip-cert-verify: true
     tls: false
     udp: true
-  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸_US_美国_2
+  - name: 🇳🇱_NL_荷兰_6
     type: vless
-    server: 47.77.214.201
-    port: 10035
-    uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-    tls: false
+    server: 185.229.191.14
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸_US_美国_3
-    type: trojan
-    server: 90081bb25c.node.tro.cac.cab
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
+  - name: 🇳🇱_NL_荷兰_7
+    type: vless
+    server: 185.229.191.111
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+    tls: true
+    client-fingerprint: chrome
     skip-cert-verify: true
-    tls: false
+    udp: true
+  - name: 🇺🇸_US_美国->🇩🇪_DE_德国
+    type: vless
+    server: 192.0.63.61
+    port: 2083
+    uuid: "@V2ConfigPro"
+    encryption: mlkem768x25519plus.native.0rtt.OB4yhTV2iFBBbdkBvMkVFLCcTlAdXKnTdm6NGlvt_wA
+    network: ws
+    servername: twotwoirvz.dpdns.org
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: twotwoirvz.dpdns.org
+    skip-cert-verify: true
     udp: true
 proxy-groups:
   - name: 🚀 节点选择
@@ -163,37 +273,55 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港
       - 🇺🇸_US_美国
-      - 🇭🇰_HK_中国香港_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港_2
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇹🇷_TR_土耳其
+      - 🇵🇱_PL_波兰->🇺🇸_US_美国
+      - 🇷🇴_RO_罗马尼亚
+      - 🇳🇱_NL_荷兰
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇳🇱_NL_荷兰_1
+      - 🇰🇷_KR_韩国
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+      - 🇸🇪_SE_瑞典
+      - 🇩🇪_DE_德国
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇳🇱_NL_荷兰_5
+      - 🇹🇷_TR_土耳其_1
+      - 🇹🇷_TR_土耳其_2
+      - 🇮🇪_IE_爱尔兰
+      - 🇭🇰_HK_中国香港
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
   - name: ♻️ 自动选择
     type: url-test
     proxies:
-      - 🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港
       - 🇺🇸_US_美国
-      - 🇭🇰_HK_中国香港_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港_2
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇹🇷_TR_土耳其
+      - 🇵🇱_PL_波兰->🇺🇸_US_美国
+      - 🇷🇴_RO_罗马尼亚
+      - 🇳🇱_NL_荷兰
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇳🇱_NL_荷兰_1
+      - 🇰🇷_KR_韩国
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+      - 🇸🇪_SE_瑞典
+      - 🇩🇪_DE_德国
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇳🇱_NL_荷兰_5
+      - 🇹🇷_TR_土耳其_1
+      - 🇹🇷_TR_土耳其_2
+      - 🇮🇪_IE_爱尔兰
+      - 🇭🇰_HK_中国香港
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -203,77 +331,113 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港
       - 🇺🇸_US_美国
-      - 🇭🇰_HK_中国香港_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港_2
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇹🇷_TR_土耳其
+      - 🇵🇱_PL_波兰->🇺🇸_US_美国
+      - 🇷🇴_RO_罗马尼亚
+      - 🇳🇱_NL_荷兰
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇳🇱_NL_荷兰_1
+      - 🇰🇷_KR_韩国
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+      - 🇸🇪_SE_瑞典
+      - 🇩🇪_DE_德国
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇳🇱_NL_荷兰_5
+      - 🇹🇷_TR_土耳其_1
+      - 🇹🇷_TR_土耳其_2
+      - 🇮🇪_IE_爱尔兰
+      - 🇭🇰_HK_中国香港
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港
       - 🇺🇸_US_美国
-      - 🇭🇰_HK_中国香港_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港_2
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇹🇷_TR_土耳其
+      - 🇵🇱_PL_波兰->🇺🇸_US_美国
+      - 🇷🇴_RO_罗马尼亚
+      - 🇳🇱_NL_荷兰
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇳🇱_NL_荷兰_1
+      - 🇰🇷_KR_韩国
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+      - 🇸🇪_SE_瑞典
+      - 🇩🇪_DE_德国
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇳🇱_NL_荷兰_5
+      - 🇹🇷_TR_土耳其_1
+      - 🇹🇷_TR_土耳其_2
+      - 🇮🇪_IE_爱尔兰
+      - 🇭🇰_HK_中国香港
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港
       - 🇺🇸_US_美国
-      - 🇭🇰_HK_中国香港_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港_2
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇹🇷_TR_土耳其
+      - 🇵🇱_PL_波兰->🇺🇸_US_美国
+      - 🇷🇴_RO_罗马尼亚
+      - 🇳🇱_NL_荷兰
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇳🇱_NL_荷兰_1
+      - 🇰🇷_KR_韩国
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+      - 🇸🇪_SE_瑞典
+      - 🇩🇪_DE_德国
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇳🇱_NL_荷兰_5
+      - 🇹🇷_TR_土耳其_1
+      - 🇹🇷_TR_土耳其_2
+      - 🇮🇪_IE_爱尔兰
+      - 🇭🇰_HK_中国香港
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港
       - 🇺🇸_US_美国
-      - 🇭🇰_HK_中国香港_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港_2
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇹🇷_TR_土耳其
+      - 🇵🇱_PL_波兰->🇺🇸_US_美国
+      - 🇷🇴_RO_罗马尼亚
+      - 🇳🇱_NL_荷兰
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇳🇱_NL_荷兰_1
+      - 🇰🇷_KR_韩国
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+      - 🇸🇪_SE_瑞典
+      - 🇩🇪_DE_德国
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇳🇱_NL_荷兰_5
+      - 🇹🇷_TR_土耳其_1
+      - 🇹🇷_TR_土耳其_2
+      - 🇮🇪_IE_爱尔兰
+      - 🇭🇰_HK_中国香港
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -296,20 +460,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港
       - 🇺🇸_US_美国
-      - 🇭🇰_HK_中国香港_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国
-      - 🇭🇰_HK_中国香港_2
-      - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
-      - 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
+      - 🇹🇷_TR_土耳其
+      - 🇵🇱_PL_波兰->🇺🇸_US_美国
+      - 🇷🇴_RO_罗马尼亚
+      - 🇳🇱_NL_荷兰
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇳🇱_NL_荷兰_1
+      - 🇰🇷_KR_韩国
+      - 🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+      - 🇸🇪_SE_瑞典
+      - 🇩🇪_DE_德国
+      - 🇳🇱_NL_荷兰_3
+      - 🇳🇱_NL_荷兰_4
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇳🇱_NL_荷兰_5
+      - 🇹🇷_TR_土耳其_1
+      - 🇹🇷_TR_土耳其_2
+      - 🇮🇪_IE_爱尔兰
+      - 🇭🇰_HK_中国香港
+      - 🇳🇱_NL_荷兰_6
+      - 🇳🇱_NL_荷兰_7
+      - 🇺🇸_US_美国->🇩🇪_DE_德国
 rule-providers:
   LocalAreaNetwork:
     type: http
